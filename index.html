@@ -155,9 +155,7 @@ iframe {-webkit-user-select: text;}
   margin: 6px;
   overflow: hidden; }
 .DLG1_LIST2_2 .card-content {
-  padding: 18px; }
-.DLG1_LIST2_2 .card-image > img {
-  width: 100%; }
+  padding: 8px; }
 .DLG1_LIST2_2 .card-buttons {
   display: flex;
   flex-direction: row;
@@ -174,15 +172,17 @@ iframe {-webkit-user-select: text;}
   margin-right: 1px; }
 .DLG1_LIST2_2 .card-buttons > button:hover {
   background: #00a0ea; }
+.DLG1_LIST2_2 .card-image > img {
+  width: 100%; }
 .DLG1_LIST2_2 .card-image-bubble-left {
   display: inline-flex;
   flex-wrap: wrap; }
 .DLG1_LIST2_2 .card-image-bubble-left .card-image {
   position: relative;
-  width: 300px;
-  height: 160px;
+  width: 190px;
+  height: 100px;
   border: 4px solid #7a31cc;
-  border-radius: 30%;
+  border-radius: 0%;
   padding: 4px;
   margin: 8px;
   overflow: hidden;
@@ -199,6 +199,61 @@ iframe {-webkit-user-select: text;}
 .DLG1_LIST2_2 .card-image-bubble-left .card-content {
   flex: 1; }
 .DLG1_LIST2_2 .card-image-bubble-left .card-buttons {
+  width: 100%;
+  flex: none; }
+.DLG1_LIST2_1_2 .card {
+  display: inline-block;
+  background: #fff;
+  color: #333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  margin: 6px;
+  overflow: hidden; }
+.DLG1_LIST2_1_2 .card-content {
+  padding: 8px; }
+.DLG1_LIST2_1_2 .card-buttons {
+  display: flex;
+  flex-direction: row;
+  background: #4fc0f3; }
+.DLG1_LIST2_1_2 .card-buttons > button {
+  flex: 1 auto;
+  font-size: 12pt;
+  line-height: 40px;
+  border: none;
+  outline: none;
+  background: #03a9f4;
+  color: #fff; }
+.DLG1_LIST2_1_2 .card-buttons > button:not(:last-child) {
+  margin-right: 1px; }
+.DLG1_LIST2_1_2 .card-buttons > button:hover {
+  background: #00a0ea; }
+.DLG1_LIST2_1_2 .card-image > img {
+  width: 100%; }
+.DLG1_LIST2_1_2 .card-image-bubble-left {
+  display: inline-flex;
+  flex-wrap: wrap; }
+.DLG1_LIST2_1_2 .card-image-bubble-left .card-image {
+  position: relative;
+  width: 190px;
+  height: 100px;
+  border: 4px solid #7a31cc;
+  border-radius: 0%;
+  padding: 4px;
+  margin: 8px;
+  overflow: hidden;
+  box-sizing: border-box; }
+.DLG1_LIST2_1_2 .card-image-bubble-left .card-image:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 2px solid #fff;
+  border-radius: 100%; }
+.DLG1_LIST2_1_2 .card-image-bubble-left .card-content {
+  flex: 1; }
+.DLG1_LIST2_1_2 .card-image-bubble-left .card-buttons {
   width: 100%;
   flex: none; }
 ._DLG1_LIST1_dirtyRow {
@@ -333,12 +388,14 @@ if(!ele2) {
 	
 }
 </script>
+<script type="text/javascript" src="vivus.min.js?crc_4294942088"></script>
 
 <title></title></head>
 <body class="page  pulse">
 <iframe style="display:none;" id="DLG1.__IFRAME1"></iframe>
 <input type="hidden" value="" id="DLG1.PARAMETERBUCKET"/>
 <input type="file" style="position:absolute; top:-1000px;visibility:hidden;" capture accept="image/*" id="DLG1._GETPHOTO"/><input type="file" style="position:absolute; top:-1000px;visibility:hidden;" name="files[]" multiple = "" id="DLG1._GETFILEMULTI"/><input type="file" style="position:absolute; top:-1000px;visibility:hidden;" name="files[]" id="DLG1._GETFILE"/><input type="hidden" id="DLG1.V.R1.LIST2" name="V.R1.LIST2" />
+<input type="hidden" id="DLG1.V.R1.LIST2_1" name="V.R1.LIST2_1" />
 <input type="hidden" id="DLG1.V.R1.LIST1" name="V.R1.LIST1" />
 
 <script type="text/javascript" language="javascript">
@@ -529,7 +586,7 @@ if(typeof DLG1_DlgObj == 'object') {
 	body: {
 		content: {
 			type: 'html',
-			src: '<div  id="DLG1.V.R1.CONTAINER_3"   \r\n   A5-containerType="none"\r\n   class="A5CWLayout "  style="height: screen.height/6*3; "  >\r\n<div style="display:none;font: 0pt arial;clear:both;"></div>\r\n  </div>\r\n <br  id="DLG1.V.R1.CONTAINER_3.BREAK"  style="clear:both; " />\r\n<div  id="DLG1.V.R1.CONTAINER_2"   \r\n   A5-containerType="none"\r\n   class="A5CWLayout contained"  style="margin-left: 5%; height: screen.height/6*4; "  >\r\n<div class="A5CWLayout" style="width: 10%" >\r\n <div id="SPACER_1" style="width: 100%; height: 1px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; font: 0pt Arial;">&nbsp;</div>\r\n</div>\r\n \r\n<div class="A5CWLayout" style="width: 80%" >\r\n <label id="DLG1.LBL.R1.USER_NAME" for="DLG1.V.R1.USER_NAME" title="" class="label" style="color: #fff; display: block; ">User Name</label>\r\n\r\n <input type="text" id="DLG1.V.R1.USER_NAME" title=""     class="edit " style="color: #000; background-color: #787878; width: 100%; border-radius: 10px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onchange="var tfunc = function() {onChange_User_Name_9c27779f2b3d4674b0d40a071670bfe9.call(this,DLG1_DlgObj);;}; var tscope = this; setTimeout(function() { if(tscope) { tfunc.call(tscope);} delete tscope;},1 );"   name="V.R1.USER_NAME"    value=""    />\r\n\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: 10%" >\r\n <div id="SPACER_2" style="width: 100%; height: 1px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; font: 0pt Arial;">&nbsp;</div>\r\n</div>\r\n \r\n<div class="A5CWLayout" style="width: 80%" >\r\n <label id="DLG1.LBL.R1.PASSWORD" for="DLG1.V.R1.PASSWORD" title="" class="label" style="color: #fff; display: block; ">User Name</label>\r\n\r\n <input type="text" id="DLG1.V.R1.PASSWORD" title=""     class="edit " style="color: #000; background-color: #787878; width: 100%; border-radius: 10px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onchange="var tfunc = function() {onChange_Password_0635a179889343aeb43f6f965f7a8763.call(this,DLG1_DlgObj);;}; var tscope = this; setTimeout(function() { if(tscope) { tfunc.call(tscope);} delete tscope;},1 );"   name="V.R1.PASSWORD"    value=""    />\r\n\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: 10%" >\r\n <div id="SPACER_2_1" style="width: 100%; height: 5px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; font: 0pt Arial;">&nbsp;</div>\r\n</div>\r\n \r\n<div class="A5CWLayout" style="width: " >\r\n <div id="DLG1.V.R1.STATICTEXT_4" title=""  class="" style="text-decoration: underline; color: #1fea12; font-size: 8pt; font-style: italic; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   >Forgot Password?</div>\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: 10%" >\r\n <div id="SPACER_2_2" style="width: 100%; height: 15px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; font: 0pt Arial;">&nbsp;</div>\r\n</div>\r\n \r\n<div class="A5CWLayout" style="width: 80%" >\r\n <button type="button" id="DLG1.V.R1.BUTTON_4_1"    ></button>\r\n</div><br  style="clear:both; " />\r\n<div style="display:none;font: 0pt arial;clear:both;"></div>\r\n  </div>\r\n <br  id="DLG1.V.R1.CONTAINER_2.BREAK"  style="clear:both; " />\r\n<div class="A5floatClear"></div>'
+			src: '<div  id="DLG1.V.R1.CONTAINER_3"   \r\n   A5-containerType="none"\r\n   class="A5CWLayout "  style="height: screen.height/6*3; "  >\r\n<div style="display:none;font: 0pt arial;clear:both;"></div>\r\n  </div>\r\n <br  id="DLG1.V.R1.CONTAINER_3.BREAK"  style="clear:both; " />\r\n<div  id="DLG1.V.R1.CONTAINER_2"   \r\n   A5-containerType="none"\r\n   class="A5CWLayout contained"  style="margin-left: 5%; height: screen.height/6*4; "  >\r\n<div class="A5CWLayout" style="width: 10%" >\r\n <div id="SPACER_1" style="width: 100%; height: 1px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; font: 0pt Arial;">&nbsp;</div>\r\n</div>\r\n \r\n<div class="A5CWLayout" style="width: 80%" >\r\n <label id="DLG1.LBL.R1.USER_NAME" for="DLG1.V.R1.USER_NAME" title="" class="label" style="color: #fff; display: block; ">User Name</label>\r\n\r\n <input type="text" id="DLG1.V.R1.USER_NAME" title=""     class="edit " style="color: #000; background-color: #787878; width: 100%; border-radius: 10px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onchange="var tfunc = function() {onChange_User_Name_9c27779f2b3d4674b0d40a071670bfe9.call(this,DLG1_DlgObj);;}; var tscope = this; setTimeout(function() { if(tscope) { tfunc.call(tscope);} delete tscope;},1 );"   name="V.R1.USER_NAME"    value=""    />\r\n\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: 10%" >\r\n <div id="SPACER_2" style="width: 100%; height: 1px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; font: 0pt Arial;">&nbsp;</div>\r\n</div>\r\n \r\n<form onsubmit="__preventDefault(event);"><div class="A5CWLayout" style="width: 80%" >\r\n <label id="DLG1.LBL.R1.PASSWORD" for="DLG1.V.R1.PASSWORD" title="" class="label" style="color: #fff; display: block; ">Pssword</label>\r\n\r\n <table id="DLG1.V.R1.PASSWORD.CONTAINER" cellspacing="0" cellpadding="0" class="editBG" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; display: inline-table; white-space:normal; ">\r\n<tr>\r\n<td style="width:100%">\r\n <input  type="password"   id="DLG1.V.R1.PASSWORD" name="V.R1.PASSWORD"  value=""  autocomplete="off"   size="200" class="editBGEdit" style="color: #000; background-color: #787878; width: 100%; border-radius: 10px; ; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" />\r\n \r\n</td>\r\n  <td class="" >&nbsp;</td>\r\n  <td id="DLG1.V.R1.PASSWORD.CUSTOMBUTTON.0"  class="editBGButton" style="width: 0%;"><span title="Show/hide password"><svg    title = "Show/hide password" style = "vertical-align: middle; " width="24" height="24" class="icon"><use x="0" y="0" width="100%" height="100%" xlink:href="#alpha-icon-eye"  pointer-events="none" /></svg></span></td>\r\n </tr>\r\n</table>\r\n\r\n</div><br  style="clear:both; " /></form>\r\n<div class="A5CWLayout" style="width: 10%" >\r\n <div id="SPACER_2_1" style="width: 100%; height: 5px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; font: 0pt Arial;">&nbsp;</div>\r\n</div>\r\n \r\n<div class="A5CWLayout" style="width: " >\r\n <div id="DLG1.V.R1.STATICTEXT_4" title=""  class="" style="text-decoration: underline; color: #1fea12; font-size: 8pt; font-style: italic; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   >Forgot Password?</div>\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: 10%" >\r\n <div id="SPACER_2_2" style="width: 100%; height: 15px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;; font: 0pt Arial;">&nbsp;</div>\r\n</div>\r\n \r\n<div class="A5CWLayout" style="width: 80%" >\r\n <button type="button" id="DLG1.V.R1.BUTTON_4_1"    ></button>\r\n</div><br  style="clear:both; " />\r\n<div style="display:none;font: 0pt arial;clear:both;"></div>\r\n  </div>\r\n <br  id="DLG1.V.R1.CONTAINER_2.BREAK"  style="clear:both; " />\r\n<div class="A5floatClear"></div>'
 		},
 		scroll: {
 			axis: 'both',
@@ -594,7 +651,7 @@ if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj != null && typeof DLG1_DlgOb
 	body: {
 		content: {
 			type: 'html',
-			src: '<div class="A5CWLayout" style="width: 100%" >\r\n <div id="DLG1.V.R1.STATICTEXT_6" title=""  class="" style="text-align: center; text-decoration: blink; color: #1bff00; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   >PROMOTIONS</div>\r\n</div><br  style="clear:both; " />\r\n<div  id="DLG1.V.R1.CONTAINER_5"   \r\n   A5-containerType="none"\r\n   class=""  style="background-color: #333; padding: 20px; margin-top: 3px; margin-left: 3px; margin-right: 3px; margin-bottom: 3px; height: 350px; border-radius: 15px; optional: adjust height as needed */; "  >\r\n<div class="A5CWLayout" style="width: 100%" >\r\n <label id="DLG1.LBL.R1.LIST2" for="DLG1.V.R1.LIST2" title="" class="label" style="display:block;">LIST2</label>\r\n\r\n \r\n<div   style="padding:0px; "  >\r\n <div id="DLG1.V.R1.LIST2.CONTROL"  class="DLG1_LIST2" style="overflow: auto; width: 100%; height: 3in; "></div>\r\n</div>\r\n\r\n</div>\r\n<div style="display:none;font: 0pt arial;clear:both;"></div>\r\n  </div>\r\n \r\n<div class="A5floatClear"></div>'
+			src: '<div class="A5CWLayout" style="width: 100%" >\r\n <div id="DLG1.V.R1.STATICTEXT_6" title=""  class="" style="text-align: center; text-decoration: blink; color: #1bff00; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><svg id="animatedSVG" width="113.592" height="17.928" viewBox="0 0 113.592 17.928" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#35eb10" stroke-width="0.25mm" fill="#000" style="stroke:#35eb10;stroke-width:0.25mm;fill:#000"><path d="M 39.072 17.64 L 36.912 17.64 L 36.912 5.16 L 39 5.16 L 39 7.248 Q 39.672 6.24 40.704 5.556 A 4.129 4.129 0 0 1 42.912 4.874 A 5.006 5.006 0 0 1 43.056 4.872 A 5.038 5.038 0 0 1 44.116 4.978 Q 44.907 5.148 45.492 5.592 A 3.78 3.78 0 0 1 46.799 7.438 A 4.597 4.597 0 0 1 46.824 7.512 Q 47.568 6.408 48.588 5.64 A 3.76 3.76 0 0 1 50.218 4.948 A 5.147 5.147 0 0 1 51.12 4.872 Q 53.16 4.872 54.156 6.156 A 4.558 4.558 0 0 1 54.975 7.901 Q 55.152 8.633 55.152 9.504 L 55.152 17.64 L 52.992 17.64 L 52.992 9.672 Q 52.992 8.581 52.567 7.839 A 2.636 2.636 0 0 0 52.392 7.572 A 1.914 1.914 0 0 0 50.997 6.781 A 2.563 2.563 0 0 0 50.736 6.768 A 2.862 2.862 0 0 0 49.114 7.279 A 3.839 3.839 0 0 0 48.732 7.572 Q 47.808 8.376 47.112 9.456 L 47.112 17.64 L 44.952 17.64 L 44.952 9.672 Q 44.952 8.581 44.527 7.839 A 2.636 2.636 0 0 0 44.352 7.572 A 1.914 1.914 0 0 0 42.957 6.781 A 2.563 2.563 0 0 0 42.696 6.768 A 2.885 2.885 0 0 0 41.18 7.207 A 3.899 3.899 0 0 0 40.704 7.548 Q 39.768 8.328 39.072 9.384 L 39.072 17.64 Z M 105.264 17.64 L 103.104 17.64 L 103.104 5.16 L 105.192 5.16 L 105.192 7.248 Q 105.864 6.24 106.908 5.556 A 4.156 4.156 0 0 1 108.613 4.926 A 5.431 5.431 0 0 1 109.392 4.872 A 5.574 5.574 0 0 1 110.608 4.996 Q 111.41 5.176 111.995 5.614 A 3.182 3.182 0 0 1 112.548 6.144 A 4.417 4.417 0 0 1 113.413 7.915 Q 113.57 8.549 113.589 9.29 A 8.103 8.103 0 0 1 113.592 9.504 L 113.592 17.64 L 111.432 17.64 L 111.432 9.744 A 4.623 4.623 0 0 0 111.35 8.846 Q 111.203 8.107 110.796 7.584 A 2.059 2.059 0 0 0 109.29 6.779 A 2.895 2.895 0 0 0 109.032 6.768 Q 107.928 6.768 106.944 7.548 Q 105.96 8.328 105.264 9.384 L 105.264 17.64 Z M 73.704 13.344 L 73.704 7.488 L 71.544 7.488 L 71.544 5.616 L 73.752 5.616 L 74.208 1.68 L 75.864 1.68 L 75.864 5.616 L 79.32 5.616 L 79.32 7.488 L 75.864 7.488 L 75.864 13.512 A 5.174 5.174 0 0 0 75.904 14.183 Q 76.018 15.049 76.452 15.456 Q 77.04 16.008 77.856 16.008 Q 78.456 16.008 78.996 15.816 A 6.176 6.176 0 0 0 79.759 15.488 A 5.464 5.464 0 0 0 79.992 15.36 L 80.592 17.088 A 4.451 4.451 0 0 1 80.204 17.294 Q 80.011 17.384 79.784 17.474 A 10.408 10.408 0 0 1 79.296 17.652 Q 78.48 17.928 77.592 17.928 A 4.398 4.398 0 0 1 76.348 17.761 A 3.344 3.344 0 0 1 74.748 16.74 Q 73.874 15.745 73.732 14.035 A 8.347 8.347 0 0 1 73.704 13.344 Z M 2.28 17.64 L 0 17.64 L 0 0.888 Q 0.984 0.768 2.172 0.708 A 48.193 48.193 0 0 1 4.315 0.649 A 53.263 53.263 0 0 1 4.632 0.648 Q 6.72 0.648 8.184 1.308 A 5.906 5.906 0 0 1 9.404 2.035 A 4.65 4.65 0 0 1 10.416 3.12 Q 11.184 4.272 11.184 5.76 A 6.062 6.062 0 0 1 11.014 7.23 A 4.624 4.624 0 0 1 10.296 8.808 A 5.355 5.355 0 0 1 8.484 10.399 A 6.736 6.736 0 0 1 7.824 10.716 A 8.346 8.346 0 0 1 5.883 11.25 A 11.327 11.327 0 0 1 4.152 11.376 A 24.966 24.966 0 0 1 3.064 11.353 A 19.903 19.903 0 0 1 2.28 11.304 L 2.28 17.64 Z M 15.864 17.64 L 13.704 17.64 L 13.704 5.16 L 15.792 5.16 L 15.792 7.872 Q 16.104 7.08 16.632 6.396 Q 17.16 5.712 17.952 5.292 Q 18.744 4.872 19.8 4.872 Q 20.16 4.872 20.52 4.908 A 4.553 4.553 0 0 1 20.773 4.94 Q 20.97 4.971 21.12 5.016 L 20.472 7.248 A 2.343 2.343 0 0 0 19.957 7.101 Q 19.719 7.06 19.448 7.057 A 3.982 3.982 0 0 0 19.392 7.056 Q 18.504 7.056 17.7 7.56 A 3.216 3.216 0 0 0 16.867 8.327 Q 16.602 8.669 16.387 9.106 A 5.431 5.431 0 0 0 16.38 9.12 Q 15.957 9.986 15.881 11.239 A 9.381 9.381 0 0 0 15.864 11.808 L 15.864 17.64 Z M 25.743 17.607 A 6.531 6.531 0 0 0 27.816 17.928 A 7.374 7.374 0 0 0 28.362 17.908 A 6.062 6.062 0 0 0 30.996 17.112 Q 32.4 16.296 33.216 14.82 A 6.301 6.301 0 0 0 33.853 13.106 A 8.204 8.204 0 0 0 34.032 11.352 A 8.29 8.29 0 0 0 33.916 9.934 A 6.191 6.191 0 0 0 33.204 7.908 Q 32.376 6.456 30.972 5.664 A 5.964 5.964 0 0 0 29.858 5.178 A 6.657 6.657 0 0 0 27.816 4.872 Q 26.064 4.872 24.648 5.664 Q 23.232 6.456 22.416 7.92 A 6.245 6.245 0 0 0 21.756 9.742 A 8.401 8.401 0 0 0 21.6 11.4 A 8.357 8.357 0 0 0 21.664 12.445 A 6.588 6.588 0 0 0 22.404 14.796 Q 23.208 16.272 24.624 17.1 A 5.894 5.894 0 0 0 25.743 17.607 Z M 62.055 17.607 A 6.531 6.531 0 0 0 64.128 17.928 A 7.374 7.374 0 0 0 64.674 17.908 A 6.062 6.062 0 0 0 67.308 17.112 Q 68.712 16.296 69.528 14.82 A 6.301 6.301 0 0 0 70.165 13.106 A 8.204 8.204 0 0 0 70.344 11.352 A 8.29 8.29 0 0 0 70.228 9.934 A 6.191 6.191 0 0 0 69.516 7.908 Q 68.688 6.456 67.284 5.664 A 5.964 5.964 0 0 0 66.17 5.178 A 6.657 6.657 0 0 0 64.128 4.872 Q 62.376 4.872 60.96 5.664 Q 59.544 6.456 58.728 7.92 A 6.245 6.245 0 0 0 58.068 9.742 A 8.401 8.401 0 0 0 57.912 11.4 A 8.357 8.357 0 0 0 57.976 12.445 A 6.588 6.588 0 0 0 58.716 14.796 Q 59.52 16.272 60.936 17.1 A 5.894 5.894 0 0 0 62.055 17.607 Z M 91.935 17.607 A 6.531 6.531 0 0 0 94.008 17.928 A 7.374 7.374 0 0 0 94.554 17.908 A 6.062 6.062 0 0 0 97.188 17.112 Q 98.592 16.296 99.408 14.82 A 6.301 6.301 0 0 0 100.045 13.106 A 8.204 8.204 0 0 0 100.224 11.352 A 8.29 8.29 0 0 0 100.108 9.934 A 6.191 6.191 0 0 0 99.396 7.908 Q 98.568 6.456 97.164 5.664 A 5.964 5.964 0 0 0 96.05 5.178 A 6.657 6.657 0 0 0 94.008 4.872 Q 92.256 4.872 90.84 5.664 Q 89.424 6.456 88.608 7.92 A 6.245 6.245 0 0 0 87.948 9.742 A 8.401 8.401 0 0 0 87.792 11.4 A 8.357 8.357 0 0 0 87.856 12.445 A 6.588 6.588 0 0 0 88.596 14.796 Q 89.4 16.272 90.816 17.1 A 5.894 5.894 0 0 0 91.935 17.607 Z M 84.912 17.64 L 82.752 17.64 L 82.752 5.16 L 84.912 5.16 L 84.912 17.64 Z M 27.816 16.008 A 4.498 4.498 0 0 0 29.07 15.842 A 3.36 3.36 0 0 0 30.768 14.724 A 4.513 4.513 0 0 0 31.685 12.783 A 6.505 6.505 0 0 0 31.824 11.4 A 5.13 5.13 0 0 0 31.53 9.651 A 4.803 4.803 0 0 0 31.296 9.108 Q 30.768 8.064 29.868 7.428 Q 28.968 6.792 27.816 6.792 A 4.62 4.62 0 0 0 26.562 6.953 A 3.369 3.369 0 0 0 24.864 8.04 A 4.291 4.291 0 0 0 23.982 9.81 Q 23.808 10.514 23.808 11.352 Q 23.808 12.6 24.336 13.668 Q 24.864 14.736 25.764 15.372 Q 26.664 16.008 27.816 16.008 Z M 64.128 16.008 A 4.498 4.498 0 0 0 65.382 15.842 A 3.36 3.36 0 0 0 67.08 14.724 A 4.513 4.513 0 0 0 67.997 12.783 A 6.505 6.505 0 0 0 68.136 11.4 A 5.13 5.13 0 0 0 67.842 9.651 A 4.803 4.803 0 0 0 67.608 9.108 Q 67.08 8.064 66.18 7.428 Q 65.28 6.792 64.128 6.792 A 4.62 4.62 0 0 0 62.874 6.953 A 3.369 3.369 0 0 0 61.176 8.04 A 4.291 4.291 0 0 0 60.294 9.81 Q 60.12 10.514 60.12 11.352 Q 60.12 12.6 60.648 13.668 Q 61.176 14.736 62.076 15.372 Q 62.976 16.008 64.128 16.008 Z M 94.008 16.008 A 4.498 4.498 0 0 0 95.262 15.842 A 3.36 3.36 0 0 0 96.96 14.724 A 4.513 4.513 0 0 0 97.877 12.783 A 6.505 6.505 0 0 0 98.016 11.4 A 5.13 5.13 0 0 0 97.722 9.651 A 4.803 4.803 0 0 0 97.488 9.108 Q 96.96 8.064 96.06 7.428 Q 95.16 6.792 94.008 6.792 A 4.62 4.62 0 0 0 92.754 6.953 A 3.369 3.369 0 0 0 91.056 8.04 A 4.291 4.291 0 0 0 90.174 9.81 Q 90 10.514 90 11.352 Q 90 12.6 90.528 13.668 Q 91.056 14.736 91.956 15.372 Q 92.856 16.008 94.008 16.008 Z M 2.28 2.664 L 2.28 9.36 A 11.512 11.512 0 0 0 2.592 9.394 Q 2.731 9.408 2.887 9.42 A 23.1 23.1 0 0 0 3.216 9.444 Q 3.768 9.48 4.44 9.48 Q 6.576 9.48 7.752 8.52 A 3.095 3.095 0 0 0 8.917 6.254 A 4.157 4.157 0 0 0 8.928 5.952 A 3.468 3.468 0 0 0 8.745 4.802 A 2.913 2.913 0 0 0 7.8 3.48 A 3.711 3.711 0 0 0 6.581 2.841 Q 5.726 2.568 4.584 2.568 Q 3.936 2.568 3.36 2.592 Q 2.784 2.616 2.28 2.664 Z M 82.785 2.589 A 1.433 1.433 0 0 0 83.832 3.024 Q 84.528 3.024 84.936 2.604 A 1.386 1.386 0 0 0 85.278 2.012 A 1.803 1.803 0 0 0 85.344 1.512 A 1.742 1.742 0 0 0 85.344 1.493 A 1.455 1.455 0 0 0 84.9 0.444 A 1.774 1.774 0 0 0 84.886 0.43 A 1.454 1.454 0 0 0 83.832 0 A 1.983 1.983 0 0 0 83.435 0.038 A 1.359 1.359 0 0 0 82.728 0.408 A 1.341 1.341 0 0 0 82.375 1.04 A 1.917 1.917 0 0 0 82.32 1.512 A 1.438 1.438 0 0 0 82.438 2.093 A 1.594 1.594 0 0 0 82.764 2.568 A 1.793 1.793 0 0 0 82.785 2.589 Z" vector-effect="non-scaling-stroke"/></g></svg>\r\n</div>\r\n</div><br  style="clear:both; " />\r\n<div  id="DLG1.V.R1.CONTAINER_5"   \r\n   A5-containerType="none"\r\n   class=""  style="background-color: #333; padding: 20px; margin-top: 3px; margin-left: 3px; margin-right: 3px; margin-bottom: 3px; height: 300px; border-radius: 15px; optional: adjust height as needed */; "  >\r\n<div class="A5CWLayout" style="width: 100%" >\r\n <label id="DLG1.LBL.R1.LIST2" for="DLG1.V.R1.LIST2" title="" class="label" style="display:block;">LIST2</label>\r\n\r\n \r\n<div   style="padding:0px; "  >\r\n <div id="DLG1.V.R1.LIST2.CONTROL"  class="DLG1_LIST2" style="overflow: auto; width: 100%; height: 3in; "></div>\r\n</div>\r\n\r\n</div>\r\n<div style="display:none;font: 0pt arial;clear:both;"></div>\r\n  </div>\r\n \r\n<div class="A5CWLayout" style="width: 100%" >\r\n <div id="DLG1.V.R1.STATICTEXT_6_1" title=""  class="" style="text-align: center; text-decoration: blink; color: #1bff00; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><svg id="animatedSVG2" width="225.648" height="17.376" viewBox="0 0 225.648 17.376" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="nonzero" font-size="9pt" stroke="#35eb10" stroke-width="0.25mm" fill="#000" style="stroke:#35eb10;stroke-width:0.25mm;fill:#000"><path d="M 55.968 17.088 L 53.688 17.088 L 53.688 0.288 L 55.968 0.288 L 55.968 7.464 L 64.248 7.464 L 64.248 0.288 L 66.528 0.288 L 66.528 17.088 L 64.248 17.088 L 64.248 9.432 L 55.968 9.432 L 55.968 17.088 Z M 156.744 17.088 L 146.664 17.088 L 146.664 0.288 L 156.744 0.288 L 156.744 2.256 L 148.944 2.256 L 148.944 7.368 L 155.664 7.368 L 155.664 9.288 L 148.944 9.288 L 148.944 15.12 L 156.744 15.12 L 156.744 17.088 Z M 197.328 17.088 L 187.248 17.088 L 187.248 0.288 L 197.328 0.288 L 197.328 2.256 L 189.528 2.256 L 189.528 7.368 L 196.248 7.368 L 196.248 9.288 L 189.528 9.288 L 189.528 15.12 L 197.328 15.12 L 197.328 17.088 Z M 158.544 15.672 L 159.696 13.752 Q 160.56 14.472 161.64 14.928 A 5.604 5.604 0 0 0 162.929 15.29 A 7.708 7.708 0 0 0 164.16 15.384 A 6.715 6.715 0 0 0 165.251 15.301 Q 166.231 15.139 166.896 14.664 A 2.467 2.467 0 0 0 167.567 13.967 Q 167.904 13.428 167.904 12.72 A 2.866 2.866 0 0 0 167.823 12.026 A 2.356 2.356 0 0 0 167.616 11.484 A 1.943 1.943 0 0 0 167.328 11.087 Q 167.021 10.753 166.5 10.428 A 7.705 7.705 0 0 0 165.906 10.097 Q 165.273 9.777 164.368 9.427 A 28.462 28.462 0 0 0 164.064 9.312 A 21.699 21.699 0 0 1 162.958 8.849 Q 162.416 8.603 161.967 8.355 A 9.479 9.479 0 0 1 161.304 7.956 A 5.264 5.264 0 0 1 160.563 7.369 Q 160.092 6.916 159.828 6.396 A 4 4 0 0 1 159.463 5.275 A 5.503 5.503 0 0 1 159.384 4.32 Q 159.384 3.12 160.044 2.148 A 4.123 4.123 0 0 1 161.113 1.083 A 5.612 5.612 0 0 1 161.988 0.588 A 6.134 6.134 0 0 1 163.404 0.148 Q 164.036 0.028 164.758 0.005 A 10.854 10.854 0 0 1 165.096 0 Q 166.584 0 167.772 0.3 Q 168.96 0.6 170.088 1.152 L 169.248 3.096 Q 168.432 2.616 167.34 2.292 Q 166.248 1.968 165.048 1.968 A 6.525 6.525 0 0 0 164.081 2.035 Q 163.569 2.112 163.152 2.277 A 3.028 3.028 0 0 0 162.552 2.592 A 2.376 2.376 0 0 0 162.033 3.064 A 1.766 1.766 0 0 0 161.64 4.2 A 2.511 2.511 0 0 0 161.71 4.805 A 2.055 2.055 0 0 0 161.904 5.304 A 1.659 1.659 0 0 0 162.16 5.646 Q 162.43 5.929 162.886 6.203 A 5.64 5.64 0 0 0 162.948 6.24 A 7.921 7.921 0 0 0 163.48 6.521 Q 164.024 6.786 164.795 7.086 A 31.203 31.203 0 0 0 165.288 7.272 Q 166.613 7.765 167.547 8.293 A 8.521 8.521 0 0 1 168.252 8.736 Q 169.147 9.365 169.614 10.083 A 3.415 3.415 0 0 1 169.8 10.404 A 4.219 4.219 0 0 1 170.218 11.811 A 5.317 5.317 0 0 1 170.256 12.456 A 5.21 5.21 0 0 1 170.096 13.776 A 4.105 4.105 0 0 1 169.476 15.12 A 4.708 4.708 0 0 1 167.812 16.566 A 5.846 5.846 0 0 1 167.316 16.8 A 7.325 7.325 0 0 1 165.538 17.281 A 9.607 9.607 0 0 1 164.16 17.376 A 11.368 11.368 0 0 1 162.294 17.229 A 9.132 9.132 0 0 1 160.968 16.908 A 9.169 9.169 0 0 1 159.68 16.384 A 6.824 6.824 0 0 1 158.544 15.672 Z M 172.176 15.672 L 173.328 13.752 Q 174.192 14.472 175.272 14.928 A 5.604 5.604 0 0 0 176.561 15.29 A 7.708 7.708 0 0 0 177.792 15.384 A 6.715 6.715 0 0 0 178.883 15.301 Q 179.863 15.139 180.528 14.664 A 2.467 2.467 0 0 0 181.199 13.967 Q 181.536 13.428 181.536 12.72 A 2.866 2.866 0 0 0 181.455 12.026 A 2.356 2.356 0 0 0 181.248 11.484 A 1.943 1.943 0 0 0 180.96 11.087 Q 180.653 10.753 180.132 10.428 A 7.705 7.705 0 0 0 179.538 10.097 Q 178.905 9.777 178 9.427 A 28.462 28.462 0 0 0 177.696 9.312 A 21.699 21.699 0 0 1 176.59 8.849 Q 176.048 8.603 175.599 8.355 A 9.479 9.479 0 0 1 174.936 7.956 A 5.264 5.264 0 0 1 174.195 7.369 Q 173.724 6.916 173.46 6.396 A 4 4 0 0 1 173.095 5.275 A 5.503 5.503 0 0 1 173.016 4.32 Q 173.016 3.12 173.676 2.148 A 4.123 4.123 0 0 1 174.745 1.083 A 5.612 5.612 0 0 1 175.62 0.588 A 6.134 6.134 0 0 1 177.036 0.148 Q 177.668 0.028 178.39 0.005 A 10.854 10.854 0 0 1 178.728 0 Q 180.216 0 181.404 0.3 Q 182.592 0.6 183.72 1.152 L 182.88 3.096 Q 182.064 2.616 180.972 2.292 Q 179.88 1.968 178.68 1.968 A 6.525 6.525 0 0 0 177.713 2.035 Q 177.201 2.112 176.784 2.277 A 3.028 3.028 0 0 0 176.184 2.592 A 2.376 2.376 0 0 0 175.665 3.064 A 1.766 1.766 0 0 0 175.272 4.2 A 2.511 2.511 0 0 0 175.342 4.805 A 2.055 2.055 0 0 0 175.536 5.304 A 1.659 1.659 0 0 0 175.792 5.646 Q 176.062 5.929 176.518 6.203 A 5.64 5.64 0 0 0 176.58 6.24 A 7.921 7.921 0 0 0 177.112 6.521 Q 177.656 6.786 178.427 7.086 A 31.203 31.203 0 0 0 178.92 7.272 Q 180.245 7.765 181.179 8.293 A 8.521 8.521 0 0 1 181.884 8.736 Q 182.779 9.365 183.246 10.083 A 3.415 3.415 0 0 1 183.432 10.404 A 4.219 4.219 0 0 1 183.85 11.811 A 5.317 5.317 0 0 1 183.888 12.456 A 5.21 5.21 0 0 1 183.728 13.776 A 4.105 4.105 0 0 1 183.108 15.12 A 4.708 4.708 0 0 1 181.444 16.566 A 5.846 5.846 0 0 1 180.948 16.8 A 7.325 7.325 0 0 1 179.17 17.281 A 9.607 9.607 0 0 1 177.792 17.376 A 11.368 11.368 0 0 1 175.926 17.229 A 9.132 9.132 0 0 1 174.6 16.908 A 9.169 9.169 0 0 1 173.312 16.384 A 6.824 6.824 0 0 1 172.176 15.672 Z M 213.936 15.672 L 215.088 13.752 Q 215.952 14.472 217.032 14.928 A 5.604 5.604 0 0 0 218.321 15.29 A 7.708 7.708 0 0 0 219.552 15.384 A 6.715 6.715 0 0 0 220.643 15.301 Q 221.623 15.139 222.288 14.664 A 2.467 2.467 0 0 0 222.959 13.967 Q 223.296 13.428 223.296 12.72 A 2.866 2.866 0 0 0 223.215 12.026 A 2.356 2.356 0 0 0 223.008 11.484 A 1.943 1.943 0 0 0 222.72 11.087 Q 222.413 10.753 221.892 10.428 A 7.705 7.705 0 0 0 221.298 10.097 Q 220.665 9.777 219.76 9.427 A 28.462 28.462 0 0 0 219.456 9.312 A 21.699 21.699 0 0 1 218.35 8.849 Q 217.808 8.603 217.359 8.355 A 9.479 9.479 0 0 1 216.696 7.956 A 5.264 5.264 0 0 1 215.955 7.369 Q 215.484 6.916 215.22 6.396 A 4 4 0 0 1 214.855 5.275 A 5.503 5.503 0 0 1 214.776 4.32 Q 214.776 3.12 215.436 2.148 A 4.123 4.123 0 0 1 216.505 1.083 A 5.612 5.612 0 0 1 217.38 0.588 A 6.134 6.134 0 0 1 218.796 0.148 Q 219.428 0.028 220.15 0.005 A 10.854 10.854 0 0 1 220.488 0 Q 221.976 0 223.164 0.3 Q 224.352 0.6 225.48 1.152 L 224.64 3.096 Q 223.824 2.616 222.732 2.292 Q 221.64 1.968 220.44 1.968 A 6.525 6.525 0 0 0 219.473 2.035 Q 218.961 2.112 218.544 2.277 A 3.028 3.028 0 0 0 217.944 2.592 A 2.376 2.376 0 0 0 217.425 3.064 A 1.766 1.766 0 0 0 217.032 4.2 A 2.511 2.511 0 0 0 217.102 4.805 A 2.055 2.055 0 0 0 217.296 5.304 A 1.659 1.659 0 0 0 217.552 5.646 Q 217.822 5.929 218.278 6.203 A 5.64 5.64 0 0 0 218.34 6.24 A 7.921 7.921 0 0 0 218.872 6.521 Q 219.416 6.786 220.187 7.086 A 31.203 31.203 0 0 0 220.68 7.272 Q 222.005 7.765 222.939 8.293 A 8.521 8.521 0 0 1 223.644 8.736 Q 224.539 9.365 225.006 10.083 A 3.415 3.415 0 0 1 225.192 10.404 A 4.219 4.219 0 0 1 225.61 11.811 A 5.317 5.317 0 0 1 225.648 12.456 A 5.21 5.21 0 0 1 225.488 13.776 A 4.105 4.105 0 0 1 224.868 15.12 A 4.708 4.708 0 0 1 223.204 16.566 A 5.846 5.846 0 0 1 222.708 16.8 A 7.325 7.325 0 0 1 220.93 17.281 A 9.607 9.607 0 0 1 219.552 17.376 A 11.368 11.368 0 0 1 217.686 17.229 A 9.132 9.132 0 0 1 216.36 16.908 A 9.169 9.169 0 0 1 215.072 16.384 A 6.824 6.824 0 0 1 213.936 15.672 Z M 105.408 16.368 L 103.272 17.376 L 101.184 12.816 Q 100.558 11.47 99.678 10.738 A 3.891 3.891 0 0 0 99.192 10.392 Q 98.147 9.765 96.591 9.684 A 9.083 9.083 0 0 0 96.12 9.672 L 95.76 9.672 L 95.76 17.088 L 93.48 17.088 L 93.48 0.336 A 59.496 59.496 0 0 1 95.327 0.19 A 51.787 51.787 0 0 1 95.916 0.156 A 45.106 45.106 0 0 1 97.432 0.105 A 54.304 54.304 0 0 1 98.4 0.096 Q 101.472 0.096 103.02 1.344 A 4.179 4.179 0 0 1 104.131 2.672 Q 104.566 3.511 104.568 4.552 A 4.9 4.9 0 0 1 104.568 4.56 A 4.771 4.771 0 0 1 104.412 5.813 A 3.521 3.521 0 0 1 103.524 7.38 A 5.045 5.045 0 0 1 102.342 8.263 Q 101.557 8.696 100.512 8.976 A 5.678 5.678 0 0 1 101.335 9.423 A 4.903 4.903 0 0 1 101.664 9.66 A 4.217 4.217 0 0 1 102.159 10.122 Q 102.371 10.353 102.577 10.635 A 7.032 7.032 0 0 1 102.636 10.716 A 7.467 7.467 0 0 1 102.989 11.267 Q 103.169 11.575 103.35 11.94 A 15.644 15.644 0 0 1 103.584 12.432 L 105.408 16.368 Z M 95.76 2.112 L 95.76 7.752 L 98.4 7.752 A 6.357 6.357 0 0 0 99.582 7.649 Q 100.274 7.518 100.827 7.221 A 3.588 3.588 0 0 0 101.208 6.984 A 2.469 2.469 0 0 0 102.265 5.178 A 3.483 3.483 0 0 0 102.288 4.776 A 2.355 2.355 0 0 0 101.502 2.985 A 3.185 3.185 0 0 0 101.28 2.796 Q 100.502 2.194 99.21 2.057 A 7.667 7.667 0 0 0 98.4 2.016 Q 97.638 2.016 97.023 2.037 A 28.616 28.616 0 0 0 96.936 2.04 Q 96.288 2.064 95.76 2.112 Z M 143.784 16.368 L 141.648 17.376 L 139.56 12.816 Q 138.934 11.47 138.054 10.738 A 3.891 3.891 0 0 0 137.568 10.392 Q 136.523 9.765 134.967 9.684 A 9.083 9.083 0 0 0 134.496 9.672 L 134.136 9.672 L 134.136 17.088 L 131.856 17.088 L 131.856 0.336 A 59.496 59.496 0 0 1 133.703 0.19 A 51.787 51.787 0 0 1 134.292 0.156 A 45.106 45.106 0 0 1 135.808 0.105 A 54.304 54.304 0 0 1 136.776 0.096 Q 139.848 0.096 141.396 1.344 A 4.179 4.179 0 0 1 142.507 2.672 Q 142.942 3.511 142.944 4.552 A 4.9 4.9 0 0 1 142.944 4.56 A 4.771 4.771 0 0 1 142.788 5.813 A 3.521 3.521 0 0 1 141.9 7.38 A 5.045 5.045 0 0 1 140.718 8.263 Q 139.934 8.696 138.888 8.976 A 5.678 5.678 0 0 1 139.711 9.423 A 4.903 4.903 0 0 1 140.04 9.66 A 4.217 4.217 0 0 1 140.535 10.122 Q 140.747 10.353 140.953 10.635 A 7.032 7.032 0 0 1 141.012 10.716 A 7.467 7.467 0 0 1 141.365 11.267 Q 141.545 11.575 141.726 11.94 A 15.644 15.644 0 0 1 141.96 12.432 L 143.784 16.368 Z M 134.136 2.112 L 134.136 7.752 L 136.776 7.752 A 6.357 6.357 0 0 0 137.958 7.649 Q 138.65 7.518 139.203 7.221 A 3.588 3.588 0 0 0 139.584 6.984 A 2.469 2.469 0 0 0 140.641 5.178 A 3.483 3.483 0 0 0 140.664 4.776 A 2.355 2.355 0 0 0 139.878 2.985 A 3.185 3.185 0 0 0 139.656 2.796 Q 138.878 2.194 137.586 2.057 A 7.667 7.667 0 0 0 136.776 2.016 Q 136.014 2.016 135.399 2.037 A 28.616 28.616 0 0 0 135.312 2.04 Q 134.664 2.064 134.136 2.112 Z M 212.496 16.368 L 210.36 17.376 L 208.272 12.816 Q 207.646 11.47 206.766 10.738 A 3.891 3.891 0 0 0 206.28 10.392 Q 205.235 9.765 203.679 9.684 A 9.083 9.083 0 0 0 203.208 9.672 L 202.848 9.672 L 202.848 17.088 L 200.568 17.088 L 200.568 0.336 A 59.496 59.496 0 0 1 202.415 0.19 A 51.787 51.787 0 0 1 203.004 0.156 A 45.106 45.106 0 0 1 204.52 0.105 A 54.304 54.304 0 0 1 205.488 0.096 Q 208.56 0.096 210.108 1.344 A 4.179 4.179 0 0 1 211.219 2.672 Q 211.654 3.511 211.656 4.552 A 4.9 4.9 0 0 1 211.656 4.56 A 4.771 4.771 0 0 1 211.5 5.813 A 3.521 3.521 0 0 1 210.612 7.38 A 5.045 5.045 0 0 1 209.43 8.263 Q 208.646 8.696 207.6 8.976 A 5.678 5.678 0 0 1 208.423 9.423 A 4.903 4.903 0 0 1 208.752 9.66 A 4.217 4.217 0 0 1 209.247 10.122 Q 209.459 10.353 209.665 10.635 A 7.032 7.032 0 0 1 209.724 10.716 A 7.467 7.467 0 0 1 210.077 11.267 Q 210.257 11.575 210.438 11.94 A 15.644 15.644 0 0 1 210.672 12.432 L 212.496 16.368 Z M 202.848 2.112 L 202.848 7.752 L 205.488 7.752 A 6.357 6.357 0 0 0 206.67 7.649 Q 207.362 7.518 207.915 7.221 A 3.588 3.588 0 0 0 208.296 6.984 A 2.469 2.469 0 0 0 209.353 5.178 A 3.483 3.483 0 0 0 209.376 4.776 A 2.355 2.355 0 0 0 208.59 2.985 A 3.185 3.185 0 0 0 208.368 2.796 Q 207.59 2.194 206.298 2.057 A 7.667 7.667 0 0 0 205.488 2.016 Q 204.726 2.016 204.111 2.037 A 28.616 28.616 0 0 0 204.024 2.04 Q 203.376 2.064 202.848 2.112 Z M 84.48 16.488 L 82.392 17.328 L 80.52 12.528 L 72.744 12.528 L 70.872 17.28 L 68.928 16.488 L 75.504 0.288 L 78 0.288 L 84.48 16.488 Z M 76.632 2.544 L 73.464 10.608 L 79.776 10.608 L 76.632 2.544 Z M 7.44 17.088 L 5.16 17.088 L 5.16 2.304 L 0 2.304 L 0 0.288 L 12.6 0.288 L 12.6 2.304 L 7.44 2.304 L 7.44 17.088 Z M 115.488 17.04 Q 116.496 17.136 117.516 17.208 A 24.36 24.36 0 0 0 118.013 17.238 Q 118.857 17.28 119.904 17.28 A 14.446 14.446 0 0 0 120.218 17.277 Q 122.274 17.232 123.78 16.596 A 8.462 8.462 0 0 0 124.463 16.272 A 6.952 6.952 0 0 0 126.444 14.724 Q 127.488 13.536 127.992 11.976 A 10.032 10.032 0 0 0 128.141 11.472 A 10.874 10.874 0 0 0 128.496 8.664 A 12.361 12.361 0 0 0 128.477 7.979 A 10.621 10.621 0 0 0 128.004 5.34 Q 127.512 3.792 126.492 2.616 Q 125.472 1.44 123.9 0.768 A 7.007 7.007 0 0 0 123.674 0.676 Q 122.175 0.096 120.168 0.096 A 61.586 61.586 0 0 0 119.783 0.097 Q 119.214 0.101 118.701 0.115 A 36.314 36.314 0 0 0 117.696 0.156 Q 116.616 0.216 115.488 0.336 L 115.488 17.04 Z M 117.768 2.184 L 117.768 15.168 Q 118.272 15.24 118.824 15.264 Q 119.376 15.288 119.976 15.288 Q 122.136 15.288 123.504 14.448 Q 124.872 13.608 125.52 12.108 A 7.75 7.75 0 0 0 126.061 10.17 A 10.201 10.201 0 0 0 126.168 8.664 Q 126.168 6.936 125.52 5.424 Q 124.872 3.912 123.528 2.988 A 5.015 5.015 0 0 0 121.835 2.254 Q 121.042 2.064 120.096 2.064 Q 119.4 2.064 118.824 2.1 Q 118.248 2.136 117.768 2.184 Z M 19.418 17.194 A 6.994 6.994 0 0 1 17.904 16.692 Q 16.44 16.008 15.42 14.82 A 8.245 8.245 0 0 1 13.965 12.342 A 9.45 9.45 0 0 1 13.86 12.048 A 10.264 10.264 0 0 1 13.328 9.111 A 11.739 11.739 0 0 1 13.32 8.664 A 11.084 11.084 0 0 1 13.588 6.183 A 9.117 9.117 0 0 1 14.268 4.236 Q 15.216 2.28 16.992 1.14 A 7.119 7.119 0 0 1 19.745 0.114 A 9.444 9.444 0 0 1 21.24 0 A 8.741 8.741 0 0 1 23.15 0.201 A 7.182 7.182 0 0 1 24.564 0.672 Q 26.04 1.344 27.072 2.544 Q 28.104 3.744 28.644 5.304 A 9.945 9.945 0 0 1 29.165 7.998 A 11.572 11.572 0 0 1 29.184 8.664 A 10.667 10.667 0 0 1 28.854 11.345 A 9.726 9.726 0 0 1 28.644 12.048 A 8.336 8.336 0 0 1 27.39 14.429 A 7.833 7.833 0 0 1 27.072 14.82 Q 26.04 16.008 24.576 16.692 Q 23.112 17.376 21.24 17.376 A 8.762 8.762 0 0 1 19.418 17.194 Z M 21.24 15.408 Q 23.088 15.408 24.336 14.52 A 5.393 5.393 0 0 0 26.094 12.391 A 6.54 6.54 0 0 0 26.22 12.108 Q 26.856 10.584 26.856 8.664 Q 26.856 7.368 26.472 6.168 A 7.136 7.136 0 0 0 25.478 4.17 A 6.749 6.749 0 0 0 25.368 4.02 Q 24.648 3.072 23.604 2.52 A 4.781 4.781 0 0 0 21.824 1.996 A 5.899 5.899 0 0 0 21.24 1.968 A 5.781 5.781 0 0 0 19.682 2.17 A 4.691 4.691 0 0 0 18.228 2.856 Q 16.968 3.744 16.308 5.256 A 7.87 7.87 0 0 0 15.719 7.461 A 9.902 9.902 0 0 0 15.648 8.664 Q 15.648 9.96 16.02 11.172 A 7.051 7.051 0 0 0 17.023 13.223 A 6.701 6.701 0 0 0 17.112 13.344 Q 17.832 14.304 18.876 14.856 A 4.781 4.781 0 0 0 20.656 15.38 A 5.899 5.899 0 0 0 21.24 15.408 Z M 34.824 17.088 L 32.544 17.088 L 32.544 0.336 Q 33.528 0.216 34.716 0.156 A 48.193 48.193 0 0 1 36.859 0.097 A 53.263 53.263 0 0 1 37.176 0.096 Q 39.264 0.096 40.728 0.756 A 5.906 5.906 0 0 1 41.948 1.483 A 4.65 4.65 0 0 1 42.96 2.568 Q 43.728 3.72 43.728 5.208 A 6.062 6.062 0 0 1 43.558 6.677 A 4.624 4.624 0 0 1 42.84 8.256 A 5.355 5.355 0 0 1 41.028 9.847 A 6.736 6.736 0 0 1 40.368 10.164 A 8.346 8.346 0 0 1 38.427 10.698 A 11.327 11.327 0 0 1 36.696 10.824 A 24.966 24.966 0 0 1 35.608 10.801 A 19.903 19.903 0 0 1 34.824 10.752 L 34.824 17.088 Z M 34.824 2.112 L 34.824 8.808 A 11.512 11.512 0 0 0 35.136 8.842 Q 35.275 8.856 35.431 8.868 A 23.1 23.1 0 0 0 35.76 8.892 Q 36.312 8.928 36.984 8.928 Q 39.12 8.928 40.296 7.968 A 3.095 3.095 0 0 0 41.461 5.702 A 4.157 4.157 0 0 0 41.472 5.4 A 3.468 3.468 0 0 0 41.289 4.25 A 2.913 2.913 0 0 0 40.344 2.928 A 3.711 3.711 0 0 0 39.125 2.289 Q 38.27 2.016 37.128 2.016 Q 36.48 2.016 35.904 2.04 Q 35.328 2.064 34.824 2.112 Z M 89.16 17.088 L 86.88 17.088 L 86.88 0.288 L 89.16 0.288 L 89.16 17.088 Z" vector-effect="non-scaling-stroke"/></g></svg>\r\n</div>\r\n</div><br  style="clear:both; " />\r\n<div  id="DLG1.V.R1.CONTAINER_6"   \r\n   A5-containerType="none"\r\n   class="A5CWLayout "  style="background-color: #333; padding: 20px; width: 100%; height: 150px; border-radius: 15px; optional: adjust height as needed */; "  >\r\n<div class="A5CWLayout" style="width: 100%" >\r\n <label id="DLG1.LBL.R1.LIST2_1" for="DLG1.V.R1.LIST2_1" title="" class="label" style="display:block;">LIST2</label>\r\n\r\n \r\n<div   style="padding:0px; "  >\r\n <div id="DLG1.V.R1.LIST2_1.CONTROL"  class="DLG1_LIST2_1" style="overflow: auto; width: 100%; height: 3in; "></div>\r\n</div>\r\n\r\n</div>\r\n<div style="display:none;font: 0pt arial;clear:both;"></div>\r\n  </div>\r\n <br  id="DLG1.V.R1.CONTAINER_6.BREAK"  style="clear:both; " />\r\n<div class="A5floatClear"></div>'
 		},
 		scroll: false
 	},
@@ -616,12 +673,33 @@ if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj ) {var mObj = DLG1_DlgObj.ge
 			}
 		}
 	}
+if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj ) {var mObj = DLG1_DlgObj.getControl('LIST2_1'); if(mObj) {
+			if(mObj.resize) {
+				mObj.resize();
+			} else { 
+				if(typeof mObj.autoRefreshOnResize == 'undefined' || mObj.autoRefreshOnResize) mObj.refresh()
+			}
+		}
+	}
 if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj && DLG1_DlgObj._pdfViewerResizeToFitPanelCard) DLG1_DlgObj._pdfViewerResizeToFitPanelCard('PANELCARD_1',this);
 if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj != null && typeof DLG1_DlgObj._panelCardResize != 'undefined') { DLG1_DlgObj._panelCardResize('PANELCARD_1'); };;setTimeout(function() { 
 	if(DLG1_DlgObj && DLG1_DlgObj._turnResizeOnForListsOnPanel) DLG1_DlgObj._turnResizeOnForListsOnPanel('PANELCARD_1')
 },0);
 },
-	onView: function() {;
+	onView: function() {setTimeout(function(){
+	new Vivus('animatedSVG', {
+	    type: 'delayed',
+	    duration: 750,
+	    animTimingFunction: Vivus.EASE
+	  });
+	 },800);
+	 setTimeout(function(){
+	new Vivus('animatedSVG2', {
+	    type: 'delayed',
+	    duration: 750,
+	    animTimingFunction: Vivus.EASE
+	  });
+	 },800);;
 ;setTimeout(function() { 
 	if(DLG1_DlgObj && DLG1_DlgObj._turnResizeOnForListsOnPanel) DLG1_DlgObj._turnResizeOnForListsOnPanel('PANELCARD_1')
 },0);
@@ -826,11 +904,8 @@ DLG1_DlgObj.refreshClientSideComputations(true);},
 	onPanelView: function() {
 ;
 },
-	onSize: function() {;if(typeof DLG1_DlgObj != 'undefined') {
- if(typeof DLG1_DlgObj._findActiveLayoutRule != 'undefined') {
-  DLG1_DlgObj._findActiveLayoutRule();
- }
-}},
+	onSize: function() {
+;},
 	onCreate: function() {
 },
 	theme: 'Alpha-Dark-Green',
@@ -839,7 +914,7 @@ DLG1_DlgObj.refreshClientSideComputations(true);},
 	},
 	footer: {
 		show: true,
-		html: '<div  id="DLG1.V.R1.CONTAINER_1"       A5-containerType="none"    class="A5CWLayout "  style="color: #fff; border: 1px solid #fff; margin-top: 10px; margin-left: 5%; margin-right: 5%; margin-bottom: 5px; width: 90%; border-radius: 10px; "  > <div class="A5CWLayout" style="width: 33.33%" >  <button type="button" id="DLG1.V.R1.BUTTON_1"    ></button> </div> <div class="A5CWLayout" style="width: 33.33%" >  <button type="button" id="DLG1.V.R1.BUTTON_2"    ></button> </div> <div class="A5CWLayout" style="width: 33.33%" >  <button type="button" id="DLG1.V.R1.BUTTON_2_1"    ></button> </div> <div class="A5CWLayout" style="width: 33.33%" >  <button type="button" id="DLG1.V.R1.BUTTON_2_2"    ></button> </div> <div style="display:none;font: 0pt arial;clear:both;"></div>   </div> '
+		html: '<div  id="DLG1.V.R1.CONTAINER_1"       A5-containerType="none"    class="A5CWLayout "  style="color: #fff; border: 1px solid #fff; margin-top: 10px; margin-left: 5%; margin-right: 5%; margin-bottom: 5px; width: 90%; border-radius: 10px; "  > <div class="A5CWLayout" style="width: 33.33%" >  <button type="button" id="DLG1.V.R1.BUTTON_1"    ></button> </div> <div class="A5CWLayout" style="width: 33.33%" >  <button type="button" id="DLG1.V.R1.BUTTON_2"    ></button> </div> <div class="A5CWLayout" style="width: 33.33%" >  <button type="button" id="DLG1.V.R1.BUTTON_2_1"    ></button> </div> <div style="display:none;font: 0pt arial;clear:both;"></div>   </div> '
 	},
 	overlay: {
 	},
@@ -998,7 +1073,7 @@ var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
 	_embeddedMode: false,
 	_livePreviewInBuilder: false,
 	componentGUID: 'f5660b6b-5cc8-44b9-8ba0-d8073ef23531',
-	columnInfo: {'USER_NAME': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PASSWORD': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'USERPHOTO': {info: {controlType: 'image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'HAIRDRESSER': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST2': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST1': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }},
+	columnInfo: {'USER_NAME': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PASSWORD': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'USERPHOTO': {info: {controlType: 'image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'HAIRDRESSER': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST2': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST2_1': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST1': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }},
 	originalValues: [{
 	"USER_NAME": "",
 	"PASSWORD": "",
@@ -1006,6 +1081,7 @@ var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
 	"USERPHOTO_HIDDENA5FN": "",
 	"HAIRDRESSER": "",
 	"LIST2": "",
+	"LIST2_1": "",
 	"LIST1": ""
 }],
 	defaultValues: {
@@ -1015,6 +1091,7 @@ var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
 	"USERPHOTO_HIDDENA5FN": "",
 	"HAIRDRESSER": "",
 	"LIST2": "",
+	"LIST2_1": "",
 	"LIST1": ""
 },
 	datePickerMonthNames: ['January','February','March','April','May','June','July','August','September','October','November','December'],
@@ -1080,7 +1157,8 @@ DLG1_DlgObj._findActiveLayoutRule();
 A5.__componentObj = DLG1_DlgObj;
 A5.map._fn='https://maps.googleapis.com/maps/api/js?key=&libraries=geometry,places&callback=A5.map.init';
 DLG1_DlgObj._tabObjects = [];
-A5.loadJavascript('\n\n;\nfunction onChange_User_Name_9c27779f2b3d4674b0d40a071670bfe9(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'USER_NAME\');};\n\nfunction onChange_Password_0635a179889343aeb43f6f965f7a8763(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'PASSWORD\');};\nfunction onChange_userphoto_1d7df1cd27914eef9507ad5c06ff731f(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'USERPHOTO\');};\nfunction onChange_hairdresser_5ce69b1006844b7d8d3cfcbd371e9975(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'HAIRDRESSER\');};\nfunction onChange_LIST2_f0f6570219d444bc90f1506d6109096c(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST2\');};\nfunction onChange_LIST1_5ddad97d6a7e43fe9bfcec8a285b8fd8(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST1\');};\n\n\n;\n');
+A5.loadJavascript('\n\n;\nfunction onChange_User_Name_9c27779f2b3d4674b0d40a071670bfe9(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'USER_NAME\');};\n\nfunction onChange_Password_0635a179889343aeb43f6f965f7a8763(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'PASSWORD\');};\nfunction onChange_userphoto_1d7df1cd27914eef9507ad5c06ff731f(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'USERPHOTO\');};\nfunction onChange_hairdresser_5ce69b1006844b7d8d3cfcbd371e9975(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'HAIRDRESSER\');};\nfunction onChange_LIST2_f0f6570219d444bc90f1506d6109096c(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST2\');};\nfunction onChange_LIST2_1_27808ed4248a4a598b83367bb19bff65(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST2_1\');};\nfunction onChange_LIST1_5ddad97d6a7e43fe9bfcec8a285b8fd8(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST1\');};\n\n\n;\n');
+DLG1_DlgObj.fieldHelpers['PASSWORD'] = new A5.EditButtonGroup({theme: 'Alpha-Dark-Green'});
 DLG1_DlgObj.lookups = {
 };
 DLG1_DlgObj.setStateInfo({
@@ -1102,11 +1180,12 @@ PASSWORD:'PANELCARD_4',
 USERPHOTO:'PANELCARD_1',
 HAIRDRESSER:'PANELCARD_1',
 LIST2:'PANELCARD_1',
+LIST2_1:'PANELCARD_1',
 LIST1:'PANELCARD_5'
 }
 DLG1_DlgObj._controlsOnPanel = {
 	'PANELCARD_4' : {controls: ['USER_NAME','PASSWORD']},
-	'PANELCARD_1' : {controls: ['USERPHOTO','HAIRDRESSER','LIST2']},
+	'PANELCARD_1' : {controls: ['USERPHOTO','HAIRDRESSER','LIST2','LIST2_1']},
 	'PANELCARD_5' : {controls: ['LIST1']}
 }
 DLG1_DlgObj._buttons = {};
@@ -1118,20 +1197,8 @@ DLG1_DlgObj._buttons['BUTTON_4_1'] = new A5.Button({
 },
 	theme: 'Alpha-Dark-Green:outlineConfirm'
 });
-DLG1_DlgObj._buttons['BUTTON_2_2'] = new A5.Button({
-	layout: 'icon',
-	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
-	html: 'Button',
-	icon: 'svgIcon=#alpha-icon-personRemove:icon,24',
-	disabledIcon: 'svgIcon=#alpha-icon-personRemove:icon,24',
-	onClick: function() { 
-},
-	theme: 'Alpha-Dark-Green:outlineConfirm'
-});
 DLG1_DlgObj._buttons['BUTTON_4_1'].bind('DLG1.V.R1.BUTTON_4_1');
-DLG1_DlgObj._buttons['BUTTON_2_2'].bind('DLG1.V.R1.BUTTON_2_2');
 DLG1_DlgObj._buttons['BUTTON_4_1'].bind('DLG1.V.R1.BUTTON_4_1');
-DLG1_DlgObj._buttons['BUTTON_2_2'].bind('DLG1.V.R1.BUTTON_2_2');
 DLG1_DlgObj._listViewSettings['LIST2'] = {
 	__pkisguid: false,
 	_switchInfo: {
@@ -1515,7 +1582,7 @@ this._selectedRow = this.selection[0];
 			},
 			type: 'template-horizontal',
 			item: {
-				width: '300px',
+				width: '200px',
 				height: '',
 				className: '',
 				hoverClassName: '',
@@ -1525,11 +1592,17 @@ this._selectedRow = this.selection[0];
 				separatorClassName: ''
 			},
 			template: [
-			'<div class="card card-image-bubble-left" style="width: 300px;height: 300px;">',
-			'\t<div class="card-image"><img src=<span id="DLG1.LIST2.PHOTO.I.{*dataRow}"><img   id="DLG1.LIST2.PHOTO.IMG.{*dataRow}"   src="{DLG1_DlgObj.addCustomSchemeForAlphaWkWebView(photo)}" /></span> alt="Cat Photo" /></div>',
-			'\t<div class="card-content">',
-			'\t\t<h1><span id="DLG1.LIST2.TITLE.I.{*dataRow}">{title}</span></h1>',
-			'\t\t<p><span id="DLG1.LIST2.DESCR.I.{*dataRow}">{descr}</span></p>',
+			'<div style="display: table; width: 100%;">',
+			'\t<div style="display: table-cell; width: 60px; text-align: left; vertical-align: top;">',
+			'\t\t<span id="DLG1.LIST2.PHOTO.I.{*dataRow}"><img   id="DLG1.LIST2.PHOTO.IMG.{*dataRow}"  style="width: 200px; height: 200px;" src="{DLG1_DlgObj.addCustomSchemeForAlphaWkWebView(photo)}" /></span>',
+			'\t</div>',
+			'\t',
+			'</div>',
+			'',
+			'<div style="display: table; width: 100%;">',
+			'\t<div style="display: table-cell;">',
+			'\t\t<div ><span class="" style="font-family: Gadugi; font-size: 14pt; font-weight: bold;"><span id="DLG1.LIST2.TITLE.I.{*dataRow}">{title}</span></span></div>',
+			'\t\t<div ><span class="" style="white-space:normal;"><span id="DLG1.LIST2.DESCR.I.{*dataRow}">{descr}</span></span></div>',
 			'\t</div>',
 			'\t',
 			'</div>']
@@ -2190,6 +2263,1233 @@ if(this._showHideFetchMoreSpinner) this._showHideFetchMoreSpinner();
 		else ele.setDisabled(false);
 	}
 	ele = $('DLG1.V.R1.A5SYSTEM_LIST_PAGESELECTOR_LIST2');
+	if(ele) {
+		var data = this._recordNavigatorLinks;
+		if(data) {
+			A5.form.populateSelect(ele,'' + this._state.page,data,true);
+			//alert('page: ' + this._state.page);
+			//ele.value = this._state.page;
+		}
+	}
+}
+,
+	header: {
+		html: ''
+	},
+	__flagHasFixedColumnFooters: false,
+	_getRoute: function() { 
+	var mode = typeof arguments[0] != 'undefined' ? arguments[0] : 'rowNumber'; //
+	var obj  = typeof arguments[1] != 'undefined' ? arguments[1] : [];
+	if(typeof this.selection == 'undefined') return false;
+	if(typeof this.selection[0] == 'undefined') return false;
+	if(typeof this.getData(this.selection[0]) == 'undefined') return false;
+	if(mode == '*key') {
+		//leave as *key
+	} else {
+		if(mode != 'rowNumber') {
+			var _d = this.getData(this.selection[0]);
+			if(typeof _d.__primaryKey == 'undefined') {
+				mode = 'rowNumber';
+			}
+		}
+	}
+	var endPoint = typeof arguments[2] != 'undefined' ? arguments[2]: '';
+	if(endPoint != '') {
+		//if you have sibling children _getRoute() is returning wrong route -- it is including the siblings in the route.
+		//route should only include parents
+		//by passing in the listName to the function we get the route from the top parent to the 'endPoint' list (ignoring siblings)
+		var _dlgObj = window[this._hostComponentId + '_DlgObj'];
+		var ra2 = [];
+		var lObj = _dlgObj.getControl(endPoint);
+		var parentList = lObj.parentList;
+		while(typeof parentList != 'undefined' && parentList != '') {
+			var l2 = _dlgObj.getControl(parentList);
+			var row = '';
+			if(mode == 'rowNumber') {
+				row = l2.selection[0]
+			} else {row = l2.getData(l2.selection[0])['*key'] }
+			ra2.push({list: parentList.toUpperCase(), row: row});
+			parentList = l2.parentList;
+		}
+		return ra2.reverse();
+	}
+	if(mode == 'rowNumber' || mode == '*key') {
+		obj.push({list: this.listVariableName.toUpperCase(), row: this.getData(this.selection[0])['*key'], mode: mode});
+	} else {
+		var _d = this.getData(this.selection[0]);
+		var _pk = _d.__primaryKey;
+		if(typeof _d.__primaryKey == 'undefined') {
+			_pk = _d['*rowGUID'];
+		}
+		obj.push({list: this.listVariableName.toUpperCase(), row: _pk, mode: mode});
+	}
+	for(var i = 0; i < this.childLists.length; i++) {
+		var lname = this.childLists[i];
+		var lObj = window[this._hostComponentId + '_DlgObj'].getControl(lname);
+		if(lObj) lObj._getRoute(mode,obj);
+	}
+	return obj;
+}
+,
+	_getRouteOLD: function() { 
+	var obj  = typeof arguments[1] != 'undefined' ? arguments[1] : [];
+	var mode = typeof arguments[0] != 'undefined' ? arguments[0] : 'rowNumber'; //
+	if(typeof this.selection == 'undefined') return false;
+	if(typeof this.selection[0] == 'undefined') return false;
+	if(typeof this.getData(this.selection[0]) == 'undefined') return false;
+	if(mode == 'rowNumber') obj.push({list: this.listVariableName, row: this.getData(this.selection[0])['*key']});
+	else obj.push({list: this.listVariableName, row: this.getData(this.selection[0]).__primaryKey});
+	for(var i = 0; i < this.childLists.length; i++) {
+		var lname = this.childLists[i];
+		var lObj = window[this._hostComponentId + '_DlgObj'].getControl(lname);
+		if(lObj) lObj._getRoute(mode,obj);
+	}
+	return obj;
+}
+,
+	_setRoute: function(route) { 
+if(this.multiple ) return;
+	if(typeof route == 'undefined') {
+		route = this.__currentRoute;
+		if(typeof route == 'undefined') return false;
+	}
+	var mode = typeof arguments[1] != 'undefined' ? arguments[1] : 'rowNumber'; //
+	if(mode == 'primaryKey') {
+		if(typeof this._data != 'undefined') {
+			var _d = this._data;
+			if(typeof _d[0] != 'undefined') {
+				if(typeof _d[0].__primaryKey == 'undefined') {
+					mode = 'rowNumber';
+				}
+			}
+		}
+	}
+	var lObj = '';
+	var row = '';
+	var _pk = '';
+	for(var i = 0; i < route.length; i++) {
+		lObj = window[this._hostComponentId + '_DlgObj'].getControl(route[i].list);
+		row = route[i].row;
+		if(typeof route[i].mode != 'undefined') {
+			mode = route[i].mode
+		}
+		if(mode == 'primaryKey') _pk = row;
+		/*
+		if(mode != 'rowNumber') {
+			var _d = lObj._rData;
+			var _i2 = -1;
+			for(var j = 0; j < _d.length; j++) {
+				if(_d[j].__primaryKey == row) {
+					_i2 = j;
+					break;
+				}
+			}
+			row = _i2
+		}
+		*/
+		var flag = typeof this._restoringList != 'undefined' ? !this._restoringList : true;
+		if(mode == 'rowNumber') {
+			if(typeof row != 'undefined') {
+				var rowFixed = '';
+				if(typeof lObj._dataMap == 'undefined') return false;
+				if(mode != 'rowNumber')  {
+					rowFixed = row;
+					} else {
+				rowFixed = lObj._dataMap.indexOf(route[i].row);
+				}
+				lObj.setValue(rowFixed,flag);
+				if(this._clearServerSideErrors) this._clearServerSideErrors();
+				if(this._showServerSideErrors) this._showServerSideErrors();
+				if(this._showWriteConflictErrors) this._showWriteConflictErrors();
+			}
+		} else {
+			lObj.setValue(''+_pk,flag);
+			if(this._clearServerSideErrors) this._clearServerSideErrors();
+			if(this._showServerSideErrors) this._showServerSideErrors();
+			if(this._showWriteConflictErrors) this._showWriteConflictErrors();
+		}
+	}
+}
+,
+	_useServerSideSyncLog: false,
+	items: {
+},
+	_searchHighlighting: false,
+	view: {
+		navigation: {
+			next: {
+				className: 'listNavButtonNext'
+			},
+			prev: {
+				className: 'listNavButtonPrev'
+			}
+		}
+	},
+	_incrementalRefreshTimestampField: '',
+	_hasNavigationBar: false,
+	_listGUID: 'f2700b4e-ab6d-4160-afa2-58674cac97d2'
+};
+DLG1_DlgObj._listViewSettings['LIST2_1'] = {
+	__pkisguid: false,
+	_switchInfo: {
+},
+	_setupAlphabetSearch: function() { },
+	__parentWindowContainerId: '',
+	getMapObject: function() { 	return this.layouts[this.layout].map;
+}
+,
+	__applyIncrementRefreshUpdates: function(listId) { 	var _dlgObj = window[this._hostComponentId + '_DlgObj'];
+	var lObj = _dlgObj.getControl(listId);
+	var countU = 0;
+	var countA = 0;
+	var newData = lObj.__incrementalRefreshData;
+	var getRowState = function (listObj) {
+		var d = listObj._data;
+		var dObj = {};
+		for(var i = 0; i < d.length; i++) {
+			dObj[d[i].__primaryKey] = {};
+			if(typeof d[i]._isDirty == 'undefined') flag = false
+			else flag = d[i]._isDirty;
+			dObj[d[i].__primaryKey].dirty = flag;
+			//dObj[d[i].__primaryKey].__rowNumber= i;
+			//*renderIndex is not unique after a client side filter has been done
+			//dObj[d[i].__primaryKey].__rowNumber= d[i]['*renderIndex'];
+			dObj[d[i].__primaryKey].__rowNumber= d[i]['*value'];
+		}
+		return dObj;
+	}
+	var dObj = getRowState(lObj);
+	var _obj = {};
+	var __row;
+	var flagDirty;
+	function pkExists(d,pk) { 
+		for(var i = 0; i < d.length; i++) { 
+		if(d[i].__primaryKey == pk) return true;
+	}
+		return false;
+	}
+	for(var i = 0; i < newData.length; i++) {
+		_obj = dObj[newData[i].__primaryKey];
+		if(typeof _obj != 'undefined') {
+			__row = _obj['__rowNumber'];
+			if(typeof __row != 'undefined') {
+				flagDirty = _obj['dirty'];
+				if(!flagDirty) {
+					//clear out all child arrays since the new data has the child arrays in it.
+					var currentData = lObj.getData(__row);
+					for(var n in currentData) { 
+						if(n.indexOf('__LIST__') ==  0) { 
+							currentData[n] = [];
+						}
+					}
+					lObj.updateRow(__row,newData[i]);
+					countU++;
+				} else { 
+					//row is dirty
+					//lObj.appendRows([ newData[i]]);
+					//countA++;
+				}
+			} else {
+				//__row is undefined
+				//alert('__row is undefined');
+				//lObj.appendRows([ newData[i]]);
+				//countA++;
+			}
+		} else {
+			//check to see if the row is already in the list
+			if(!pkExists(lObj._data,newData[i].__primaryKey)) {
+				lObj.appendRows([ newData[i]]);
+				countA++;
+			}
+		}
+	}
+	//delete newData; //user might find this helpful. so keep it
+	var name = this.listVariableName;
+	var _dlgObj = window[this._hostComponentId + '_DlgObj'];
+	//put in timeout to give list time to refresh before the event fires
+	if(lObj._hasDetailView) { 
+		setTimeout(function() { 
+			_dlgObj._list_executeEvent(name,'detailView.afterRefreshListIncremental',{ rowsUpdated: countU, rowsInserted: countA, rowsDeleted: 0, listId: name});
+		},0);
+	} else { 
+		setTimeout(function() { 
+			_dlgObj._list_executeEvent(name,'afterRefreshListIncremental',{ rowsUpdated: countU, rowsInserted: countA, rowsDeleted: 0, listId: name});
+		},100);
+	}
+}
+,
+	_flagAutoFetchMore: false,
+	firestoreLogin: function(uid,pw) { alert('List is not configured to use Firestore as the data source') } ,
+	firestoreLogout: function() { alert('List is not configured to use Firestore as the data source') } ,
+	_persistListLayout: false,
+	_loadPersistedLayout: false,
+	saveLayoutSettings: function() {
+		var s = localStorage.listSettings;
+		if(typeof s == 'undefined' || s == null) s = {};
+		if(typeof s == 'string') {
+			try{s = JSON.parse(s);}catch(err) {return false;}
+		}
+		var sl = s[this._listGUID];
+		if(typeof sl == 'undefined') sl = {};
+		sl.listVariableName = this.listVariableName;
+		sl.layouts = this.layouts;
+		sl.layout = this.layout;
+		s[this._listGUID] = sl ;
+		var str = JSON.stringify(s,'','\t')
+		localStorage.listSettings = str;
+	}
+	,
+	onLayoutUpdate: function(type,args,layoutName) {if(this.saveLayoutSettings) this.saveLayoutSettings();},
+	restoreLayoutSettings: function(dlgObj,mode) { 
+		var str = localStorage.listSettings;
+		if(typeof str == 'undefined' || str == null) {return false;}
+		try{var s = JSON.parse(str);}catch(err) {return false;};
+		var sl = s[this._listGUID];
+		if(typeof sl == 'undefined') {return false;}
+		if(mode == 'delete') {
+			delete s[this._listGUID];
+			var str = JSON.stringify(s,'','\t')
+			localStorage.listSettings = str;
+			return;
+		}
+		if(mode == 'get') {
+			return JSON.stringify(sl);
+		}
+		this.layouts = sl.layouts;
+		this.layout = sl.layout;
+		var listSelector = 'listSelector_' + sl.listVariableName ;
+		var that = this;
+		setTimeout(function() {
+			dlgObj.setValue(listSelector,that.layout);
+			delete that;
+		},0);
+		this.refresh();
+		this._flagRestoringLayoutSettings = true;
+	}
+,
+	_childListsAjax: [],
+	_hasDependentLists: false,
+	_dataSourceType: 'SQL',
+	_listFields: [
+{
+	name: 'hairdresser',
+	defaultValue: 'return this._controlDefaultValueForListField(\'hairdresser\');'
+},
+{
+	name: 'photo',
+	defaultValue: 'return this._controlDefaultValueForListField(\'photo\');',
+	image: {
+		embedded: false,
+		type: 'JPG'
+	}
+},
+{
+	name: 'salon',
+	defaultValue: 'return this._controlDefaultValueForListField(\'salon\');'
+},
+{
+	name: 'totpnt',
+	defaultValue: 'return this._controlDefaultValueForListField(\'totpnt\');'
+}],
+	_delayRenderTillRefresh: false,
+	_searchPartHas: false,
+	_mediaFields: [],
+	_mediaTypes: {
+},
+	_mediaFieldReadOnly: [],
+	_ignoreMediaFieldsInWWWSubFolder: false,
+	_mediaFieldFolderInWWW: '',
+	_phoneGap: {
+		mediaFiles: {
+			mediaFileUploadBatchSize: '-1',
+			fireMediaFileCleanup: false,
+			protectedRead: false,
+			template: '',
+			target: 'server',
+			targetFilenameFunction: 'return \'<DeviceId>_\' +e.object.listFieldName + \'_\' + A5.ts() + \'_\' +e.name',
+			showProgress: false,
+			download: {
+				autodownloadFilesOnPullSynch: false,
+				deleteOrphansAfterSync: false,
+				targetFolder: '_AAFiles',
+				showProgress: false,
+				targetFileSystem: 'persistent'
+			},
+			onErrorFunction: function(e) { }
+		}
+	},
+	_incrementalRefreshAfterLoad: function() { },
+	_dvmode: 'enter',
+	_hasDetailView: false,
+	_optimizeSync: false,
+	deselectAll: function() { 
+	var _dlgObj = window[this._hostComponentId + '_DlgObj'];
+	_dlgObj.setValue(this.listVariableName,'',true);
+	this._deselectAll();
+	if(this.nullOutDetailViewRecord) {
+		this.nullOutDetailViewRecord();
+		for(var i = 0; i < this.childLists.length; i++) {
+			var lname = this.childLists[i];
+			var lobjC = DLG1_DlgObj.getControl(lname);
+			lobjC.nullOutDetailViewRecord();
+		}
+		if(this._noRecordInListIsSelectedSettingForDetailView ==  'disabledetailview') {
+			this.disableDetailView()
+			for(var i = 0; i < this.childLists.length; i++) {
+				var lname = this.childLists[i];
+				var lobjC = DLG1_DlgObj.getControl(lname);
+				lobjC.disableDetailView();
+			}
+		}
+	}
+}
+,
+	showHideColumn: function(columnNumber,flagShow,layoutName,flagSetShowState) { 	if(typeof flagSetShowState == 'undefined') flagSetShowState  = false; //set when this function called from listColumnSelector()
+	if(typeof layoutName == 'undefined') layoutName = this.layout;
+	if(this.layouts[layoutName].columns[columnNumber].show != flagShow) {
+		this.layouts[layoutName].columns[columnNumber].show = flagShow;
+		if(flagSetShowState) this.layouts[layoutName].columns[columnNumber]._showState = flagShow;
+		this.refresh();
+	}
+}
+,
+	showAllColumns: function() { 
+	var l = this.layouts
+	var c = '';
+	var flagRefresh = false;
+	for(var n in l) {
+		c = l[n].columns;
+		if(typeof c != 'undefined') {
+			for(var i = 0; i < c.length; i++) {
+				if(!c[i].initialStateHidden) {
+					var flag = true
+					if(typeof c[i]._showState != 'undefined') {
+						if(!c[i]._showState) flag = false;
+					}
+					if(flag && !c[i].show) {
+						c[i].show = true;
+						flagRefresh = true;
+					}
+				}
+			}
+		}
+	}
+	if(flagRefresh) {
+		this.refresh();
+	}
+}
+,
+	_hideColumns: function() { 
+}
+,
+	theme: 'Alpha-Dark-Green',
+	scroll: {
+		axis: 'both',
+		indicator: {
+			show: true,
+			h: {
+				show: true,
+				location: 'top',
+				offset: '0px',
+				left: '0px',
+				right: '0px'
+			},
+			v: {
+				show: true,
+				location: 'right',
+				offset: '0px',
+				top: '0px',
+				bottom: '0px'
+			}
+		},
+		momentum: {
+			allow: true,
+			friction: 4,
+			duration: 1000
+		},
+		pull: {
+			y: 'auto',
+			x: 'auto'
+		}
+	},
+	layout: 'Default',
+	calculateValue: '',
+	dirtyControlClassName: '',
+	listVariableName: 'LIST2_1',
+	listVariableNameTrueCase: 'LIST2_1',
+	_hostComponentId: 'DLG1',
+	_includeCRC: true,
+	parentList: '',
+	allParentLists: [],
+	_inplaceEditing: {
+		allow: false
+	},
+	__hasEmbeddedDetailView: false,
+	onBeforeListClear: function() {},
+	__flagPersist: false,
+	__flagIncrementalRefreshAfterLoad: false,
+	onBeforePopulate: function(data) {this.__onPopulateHasFired = false;
+},
+	onPopulate: function(data) {if(!this._isInit) {if (typeof window['cordova'] == 'undefined') {
+	DLG1_DlgObj._list_executeEvent(this.listVariableName,'detailView.listReadyToPersist',{listSyncMode: 'fullRefresh' });
+}
+;this._executeEvent('onListReady',{});};},
+	onBeforeUpdateRow: function(index,data){;},
+	onUpdateRow: function(index,data){;},
+	onBeforeAddRows: function(data,info){;},
+	onAddRows: function(data,info){;},
+	onBeforeRemoveRows: function(rows){;},
+	onRemoveRows: function(rows){;},
+	onResize: function(){var l = this.layout;
+if(this.layouts[l].type == 'column') {
+	var flagRefresh = false; //prevent multiple refreshes from being done
+	if(this.layouts[l]._hasRCW) {
+		var w = $(this.contId).offsetWidth;
+		if(typeof this._w == 'undefined') {
+			flagRefresh = true;
+			this._w = w;
+		} else {
+			if(this._w != w) flagRefresh = true;
+			this._w = w;
+		}
+		var _c = this.layouts[l].columns;
+		for(var i = 0; i < _c.length; i++) {
+			if(_c[i].rcw) {
+				if(_c[i].rcw != '' && Number(_c[i].rcw) > 0) {
+					if(typeof _c[i]._show == 'undefined') _c[i]._show = _c[i].show;
+					if(_c[i]._show == _c[i].show) {
+						if(Number(_c[i].rcw) >= w) {
+							_c[i].show = false;
+						} else {
+							_c[i].show = true;
+						}
+						_c[i]._show = _c[i].show;
+					}
+				}
+			}
+		}
+		var that = this;
+		setTimeout(function() {
+			if(flagRefresh) that.refresh();
+			console.log('refresh');
+		},0);
+	}
+}
+;},
+	childLists: [],
+	childListEndpoints: ['LIST2_1'],
+	_populateAllChildLists: function() { },
+	onSelect: function() {DLG1_DlgObj._listRowSelect('LIST2_1',this);
+ this._selectedRow = this.selection[0];if(typeof this._selectedRow != 'undefined') { var that = this; setTimeout(function() { if(typeof DLG1_DlgObj.__listsWithChildLWL != 'undefined') { 
+	if(typeof DLG1_DlgObj.__listsWithChildLWL['LIST2_1'] != 'undefined') {
+		var obj = DLG1_DlgObj.__listsWithChildLWL['LIST2_1'];
+		var lObj = DLG1_DlgObj.getControl('LIST2_1');
+		var r = lObj.selection[0];
+		var _d = lObj._data[r];
+		var linkValue = _d[obj.listPrimaryKey];
+		var id = obj.lwlName;
+		var linkField = obj.listPrimaryKey
+		DLG1_DlgObj.refreshLinkedSpreadsheet(id,linkValue,linkField)
+	}
+}
+},50);};;
+this._selectedRow = this.selection[0];
+;},
+	onFirestoreAuthStatechanged: function(e) {if(e.isLoggedIn) { 
+	var lObj = this.dialogObject.getControl(this.listName)
+	lObj.onFirestoreLogin(e)
+}
+},
+	group: {
+		continued: {
+			wrap: false
+		}
+	},
+	layouts: {
+		Default: {
+			group: {
+				auto: false
+			},
+			type: 'template-horizontal',
+			item: {
+				width: '200px',
+				height: '',
+				className: '',
+				hoverClassName: '',
+				selectedClassName: '',
+				style: '',
+				titleClassName: '',
+				separatorClassName: ''
+			},
+			template: [
+			'<div style="display: table; width: 100%;">',
+			'\t<div style="display: table-cell; width: 60px; text-align: left; vertical-align: top;">',
+			'\t\t<span id="DLG1.LIST2_1.PHOTO.I.{*dataRow}"><img   id="DLG1.LIST2_1.PHOTO.IMG.{*dataRow}"  style="width: 100px; height: 100px;" src="{DLG1_DlgObj.addCustomSchemeForAlphaWkWebView(photo)}" /></span>',
+			'\t</div>',
+			'\t<div style="display: table-cell;">',
+			'\t\t<div class="listItemPartMain"><span id="DLG1.LIST2_1.TOTPNT.I.{*dataRow}">{totpnt}</span></div>',
+			'\t\t<div class="listItemPartSub"><span id="DLG1.LIST2_1.HAIRDRESSER.I.{*dataRow}">{hairdresser}</span></div>',
+			'   \t\t<div class="listItemPartSub"><span id="DLG1.LIST2_1.SALON.I.{*dataRow}">{salon}</span></div>',
+			'\t</div>',
+			'\t',
+			'</div>']
+		}
+	},
+	__checkedImage: 'svgIcon=#alpha-icon-checkCircle:icon,24',
+	__uncheckedImage: 'svgIcon=#alpha-icon-circle:icon,24',
+	onListDraw: function(data,startIndex) {
+this._allrowschecked = true;
+var d = this._rData;
+for(var i = 0; i < d.length; i++) {
+	if(!d[i].__selected) {
+		this._allrowschecked = false;
+		break;
+	}
+}
+if (d.length == 0) this._allrowschecked = false;
+var h ;
+if(this._allrowschecked) {
+	h = A5.u.icon.html(this.__checkedImage);
+} else {
+	h = A5.u.icon.html(this.__uncheckedImage);
+}
+var _id = 'DLG1.' + this.listVariableName + '.CHECKBOXALL';
+var ele = $(_id)
+ele.innerHTML = h
+},
+	captureFocus: true,
+	content: {
+		header: {
+			show: false
+		},
+		footer: {
+			show: false
+		}
+	},
+	systemEvents: {
+		onBeforeDestroy: function(e) {},
+		onTap: function(e) {},
+		afterAjaxCallback: function(e) {},
+		afterClientSideFilter: function(e) {},
+		beforeServerSideSort: function(e) {},
+		afterServerSideSort: function(e) {},
+		onSwipe: function(e) {},
+		onScroll: function(e) {},
+		onPullRelease: function(e) {},
+		onPull: function(e) {},
+		onPullEnd: function(e) {},
+		afterSearchComplete: function(e) {},
+		beforeSearch: function(e) {},
+		onSearchResultTooLarge: function(e) {},
+		onSearchResultTooLargeForLocalStorage: function(e) {},
+		onBeforePersistToLocalStorage: function(e) {},
+		onPersistToLocalStorage: function(e) {},
+		onRestoreFromLocalStorage: function(e) {},
+		onListReady: function(e) {},
+		afterRenderComplete: function(e) {},
+		beforeFetchMore: function(e) {},
+		afterFetchMore: function(e) {},
+		beforePageNavigate: function(e) {},
+		afterPageNavigate: function(e) {},
+		beforeRefreshRow: function(e) {},
+		afterRefreshRow: function(e) {},
+		afterRefreshData: function(e) {},
+		afterServerSideSummaryCompute: function(summary) {},
+		afterRefreshListIncremental: function(e) {},
+		onNamedQuerySelect: function(e) {},
+		onFirestoreLoaded: function(e) {},
+		onFirestoreAuthStateChanged: function(e) {},
+		onFirestoreLogin: function(e) {},
+		onFirestoreLogout: function(e) {},
+		detailView: {
+			_afterRefreshListIncremental: function() { 
+if (typeof window['cordova'] == 'undefined') {
+	DLG1_DlgObj._list_executeEvent(this.listVariableName,'detailView.listReadyToPersist',{listSyncMode: 'incrementalRefresh' });
+}
+}
+		},
+		_afterRenderComplete: function(e) {
+},
+		_afterAjaxCallback: function() {this._refreshStateMessages();}
+	},
+	onBeforeDestroy: function() {if(this._transient) { 
+	this._transient.destroy()
+	delete this._transient;
+}
+},
+	_clientsideSummary: [],
+	computeClientSideSummaryValues: function(e) {},
+	_executeEvent: function(event,obj) { 
+	return DLG1_DlgObj._list_executeEvent('LIST2_1',event,obj);
+}
+,
+	_selectAll: function() {
+	var v = this._values;
+	var v2 = [].concat(v);
+	this.setValue(v2,false);
+}
+,
+	searchList: function() { 
+	if(this._searchPartStyle == 'querybyform') {
+		if(this._dvmode != 'search') return false;
+	}
+	if(typeof this.detailViewIsDirty == 'function') {
+		if(this.detailViewIsDirty()) {
+				if(this._autoCommitDetailView) {
+					//this.updateListFromUXControls(); ?why was this on? it saves the qbf def as a new record
+				}
+		}
+	}
+	var obj = typeof arguments[0] != 'undefined' ? arguments[0] : {};
+	var mode = 'serverSide';
+	if(typeof obj.searchMode != 'undefined') mode = obj.searchMode;
+	mode = mode.toLowerCase();
+	if(mode.indexOf('auto') == 0) {
+		var flagCS = false;
+		if(typeof this.detailViewIsDirty == 'function') {
+			if(this.listIsDirty() || this.detailViewIsDirty()) flagCS = true;
+		} else {
+			if(this.listIsDirty()) flagCS = true;
+		}
+		if(flagCS) mode = 'clientside';
+		else {
+			if(this._dataSourceType.toLowerCase() == 'sql' || this._dataSourceType.toLowerCase() == 'dbf' || this._dataSourceType.toLowerCase() == 'firestore' || this._dataSourceType.toLowerCase() == 'mongodb' ) {
+				mode = 'serverside';
+			} else {
+				mode = 'clientside';
+			}
+		}
+	}
+	if(this._dataSourceType.toLowerCase() == 'static') mode = 'clientside';
+	var parentList = this.parentList;
+	if(typeof parentList != 'undefined') {
+		if(parentList != '') mode = 'clientside';
+	}
+	var flagDirty = false;
+	if(this.listIsDirty) flagDirty = this.listIsDirty();
+	var flagResult = DLG1_DlgObj._list_executeEvent(this.listVariableName,'beforeSearch',{searchMode: 'search', searchWhere: mode, listIsDirty: flagDirty});
+	if(!flagResult) return false;
+	if(mode == 'serverside') {
+		this._searchListServerSide(obj);
+	} else if(mode == 'clientside') {
+		this._searchPartSubmit_clientSideFilter();
+		var rowCount = this._rData.length;
+		DLG1_DlgObj._list_executeEvent(this.listVariableName,'afterSearchComplete',{searchMode: 'search', searchWhere: mode, recordsInQuery: rowCount});
+	}
+}
+,
+	_searchListServerSide: function() { 
+	var obj = typeof arguments[0] != 'undefined' ? arguments[0] : {};
+	var _d={};
+	var flagDirty = false;
+	if(this.listIsDirty) flagDirty = this.listIsDirty();
+	if(flagDirty) {
+		alert('Can\'t execute server-side search because List has edits that have not yet been synchronized.');
+		return false;
+	}
+	_d.listId = this.listVariableName
+	var _data = A5.ajax.buildURLParam('__searchInfo',JSON.stringify(_d));
+	_data = _data + '&' + A5.ajax.buildURLParam('__searchOptions',JSON.stringify(obj));
+	this.filter = false;
+	DLG1_DlgObj.ajaxCallback('','','system:ListSearchPart','',_data);
+}
+,
+	setListSize: function(height,width) {
+	var l = $(this.contId);
+	if(typeof height != 'undefined') l.style.height = ''+ height;
+	if(typeof width != 'undefined') l.style.width = '' + width;
+	this.resize();
+}
+,
+	clearSearchList: function() { 
+	var obj = typeof arguments[0] != 'undefined' ? arguments[0] : {};
+	var mode = 'serverSide';
+	if(typeof obj.searchMode != 'undefined') mode = obj.searchMode;
+	mode = mode.toLowerCase();
+	if(mode.indexOf('auto') == 0) {
+		if(this.listIsDirty()) mode = 'clientside';
+		else mode = 'serverside';
+	}
+	if(this._dataSourceType.toLowerCase() == 'static') mode = 'clientside';
+	var parentList = this.parentList;
+	if(typeof parentList != 'undefined') {
+		if(parentList != '') mode = 'clientside';
+	}
+	var flagResult = DLG1_DlgObj._list_executeEvent(this.listVariableName,'beforeSearch',{searchMode: 'clear', searchWhere: mode});
+	if(!flagResult) return false;
+	if(mode == 'serverside') {
+		this._clearSearchListServerSide();
+	} else if(mode == 'clientside') {
+		this._searchPartSubmit_clientSideFilterClear();
+		var rowCount = this._rData.length;
+		DLG1_DlgObj._list_executeEvent(this.listVariableName,'afterSearchComplete',{searchMode: 'clear', searchWhere: mode, recordsInQuery: rowCount});
+	}
+}
+,
+	_clearSearchListServerSide: function() { 
+	var _d={};
+	_d.listId = this.listVariableName
+	var _data = A5.ajax.buildURLParam('__searchInfo',JSON.stringify(_d));
+	DLG1_DlgObj.ajaxCallback('','','system:ListSearchPartClear','',_data);
+}
+,
+	_str: function(txt) {
+	txt = txt.replace("'","\\'");
+	txt = '\'' + txt + '\'';
+	return txt;
+}
+,
+	_QBF: function(txt) { 
+	var o = {};
+	o.v2 = '';
+	o.v1 = txt;
+	o.flag = false;
+	if(txt.indexOf('>=') >= 0) {
+		o.op = '>=';
+		o.v1 = txt.substr(2);
+		o.flag = true;
+	} else if (txt.indexOf('<=') >= 0 ) {
+		o.op = '<=';
+		o.v1 = txt.substr(2);
+		o.flag = true;
+	} else if (txt.indexOf('>') >= 0 ) {
+		o.op = '>';
+		o.v1 = txt.substr(1);
+		o.flag = true;
+	} else if (txt.indexOf('<') >= 0)  {
+		o.op = '<';
+		o.v1 = txt.substr(1);
+		o.flag = true;
+	} else if (txt.indexOf('..') == 0)  {
+		o.op = '<=';
+		o.v1 = txt.substr(2);
+		o.flag = true;
+	} else if ( txt.indexOf('..', txt.length - '..'.length) !== -1 ) {
+		//ends with ..
+		o.op = '>=';
+		txt = txt.split('..')
+		o.v1 = txt[0];
+		o.flag = true;
+	} else if (txt.indexOf('..') > 0 ) {
+		o.op = 'between'
+		txt = txt.split('..');
+		o.v1 = txt[0];
+		o.v2 = txt[1];
+		o.flag = true;
+	}
+	return o;
+}
+,
+	_match: function(data,field,val,obj) { 
+	if(obj.qbf && obj.type == 'c') val = $u.s.rTrim(val,',');
+	var flagKeyword = false;
+	if(typeof obj.flagKeyword != 'undefined') flagKeyword = obj.flagKeyword;
+	if(flagKeyword) {
+		var _field = field
+		//if(_field.indexOf('.') > -1) _field = _field.split('.')[1]
+		_field = _field.toUpperCase()
+		var obj_i = this._searchFieldOptions[_field];
+		this._setSearchOps(obj,obj_i);
+		field = obj_i.searchField
+		console.log(field)
+	}
+	var _d = '';
+	var _v = val;
+	var flagC = false;
+	if(obj.type == 'c') {
+		flagC = true;
+		if(!obj.caseSensitive) _v = _v.toLowerCase();
+	} else {
+		//non mumeric searches are only mode 1 or -1
+		if(obj.mode > 1) obj.mode = 1;
+		if(obj.mode < -1) obj.mode = -1;
+	}
+	var flag = false;
+	obj.usesQBFOperator = false;
+	if(obj.qbf) {
+		_v = _v.split(',');
+	} else {
+		_v = [_v];
+	}
+	var o = {}
+	var r = '';
+	var _vals = [];
+	for(var i = 0; i < _v.length; i++) {
+		if(obj.qbf) {
+			o = this._QBF(_v[i]);
+		} else {
+			o.flag = false;
+			o.v1 = _v[i];
+			o.v2 = '';
+		}
+		if(typeof data[field] != 'undefined') {
+			if(data[field] != null) {
+				_d = '' + data[field];
+				if(obj.type == 'n') {
+					o.v1 = Number(o.v1);
+					o.v2 = Number(o.v2);
+					_d = Number(_d);
+				} else if (obj.type == 'l') {
+					o.v1 = $u.s.toBool(o.v1);
+					o.v2 = $u.s.toBool(o.v2);
+					_d = $u.s.toBool(_d);
+				} else if (obj.type == 'd') {
+					o.v1 = A5.stringToDate(o.v1,obj.dateFormat);
+					o.v2 = A5.stringToDate(o.v2,obj.dateFormat);
+					if(typeof _d == 'string') _d = A5.stringToDate(_d,obj.dateFormat);
+					if(o.v1 != '' && o.v1 != null ) o.v1 = o.v1.getTime();
+					if(o.v2 != '' && o.v2 != null ) o.v2 = o.v2.getTime();
+					if(_d != '' && _d != null ) _d = _d.getTime();
+				}
+				if(flagC) {if(!obj.caseSensitive && typeof _d == 'string') _d = _d.toLowerCase();}
+				if(o.flag) {
+					//has qbf operators
+					if(o.op == 'between') {
+						if(flagC) {
+							if(_d.substr(0,o.v1.length) >= o.v1 && _d.substr(0,o.v2.length) <= o.v2 ) flag = true;
+						} else {
+							if(_d >= o.v1 && _d <= o.v2 && (typeof _d == typeof o.v1)  ) flag = true;
+						}
+					} else {
+						if(flagC) _d = _d.substr(0,o.v1.length)
+						if(o.op == '>=') if( _d >= o.v1) flag = true;
+						if(o.op == '<=') if( _d <= o.v1) flag = true;
+						if(o.op == '>') if(_d > o.v1) flag = true;
+						if(o.op == '<') if(_d < o.v1) flag = true;
+					}
+				} else {
+					if(obj.mode == 1 || obj.mode == -1 ) {
+						if(obj.mode == 1) if(_d == o.v1) flag = true;; //match
+						if(obj.mode == -1) if(!(_d == o.v1)) flag = true;; //match
+					} else if (obj.mode == 2 || obj.mode == -2) {
+						if(obj.mode == 2) if(_d.indexOf(o.v1) > -1) flag = true; //contains
+						if(obj.mode == -2) if(!(_d.indexOf(o.v1) > -1)) flag = true;
+					} else if (obj.mode == 3 || obj.mode == -3) {
+						if(obj.mode == 3) if(_d.indexOf(o.v1) == 0) flag = true; //starts with
+						if(obj.mode == -3) if(!(_d.indexOf(o.v1) == 0)) flag = true; //starts with
+					}
+				}
+				if(o.v1 != '') {
+					if(_vals.indexOf(o.v1) == -1) {
+						_vals.push(o.v1);
+					}
+				}
+				if(o.v2 != '') {
+					if(_vals.indexOf(o.v2) == -1) {
+						_vals.push(o.v2);
+					}
+				}
+			}
+		}
+	}
+	if(flag) {
+		if(typeof this._state.highlight == 'undefined') this._state.highlight = {};
+		this._state.highlight[field.toUpperCase()] = _vals;
+	} else {
+		//this._state.highlight[field.toUpperCase()] = [];
+	}
+	return flag;
+}
+,
+	_setSearchOps: function(obj,obj_i) { 
+	obj.mode = obj_i.option;
+	obj.qbf = obj_i.qbf;
+	obj.type = obj_i.type;
+	//obj.treatAs = obj_i.treatAs;
+}
+,
+	_searchPartOperator: '&&',
+	_searchPartSubmit_clientSideFilter: function() { 
+	if(!this._searchPartHas) return true;
+	//_searchPartStyle: 'individualcontrols'
+	this._state.highlight = {};
+	if(this._searchPartStyle == 'singlekeywordcontrol') {
+		var searchFor = DLG1_DlgObj.getValue(this._keywordSearchControl);
+		var arr = this._keywordSearchFields;
+		var expn = [];
+		var expn_i = '';
+		var obj = {};
+		//obj.caseSensitive = false;
+		//obj.qbf = true;
+		//obj.mode = 1;
+		obj.flagKeyword = true;
+		var objStr = JSON.stringify(obj)
+		for(var i = 0; i < arr.length; i++) {
+			expn_i = 'this._match(data,' +this._str(arr[i]) + ',' + this._str(searchFor) + ','+objStr+')';
+			expn.push(expn_i);
+		}
+		expn = expn.join('||');
+		//alert(expn);
+	} else if ( this._searchPartStyle == 'individualcontrols' || this._searchPartStyle == 'querybyform'  ) {
+		var map = this._searchPart.fieldMap;
+		var val = '';
+		var expn = [];
+		var expn_i = '';
+		var obj = {};
+		obj.caseSensitive = false;
+		//obj.qbf = true;
+		//obj.mode = 2;
+		//var objStr = JSON.stringify(obj)
+		var ac = [];
+		var aco = {};
+		var _highlight = {};
+		if(this._searchPartStyle == 'individualcontrols') {
+			for(var i = 0; i < map.length; i++) {
+				val = DLG1_DlgObj.getValue(map[i].control);
+				if(val != '') {
+					obj_i = this._searchFieldOptions[map[i].field.toUpperCase()];
+					this._setSearchOps(obj,obj_i);
+					expn_i = 'this._match(data,' +this._str(map[i].field) + ',' + this._str(val) + ','+JSON.stringify(obj)+')';
+					expn.push(expn_i);
+				}
+			}
+		} else if (this._searchPartStyle == 'querybyform' ) {
+			var controlName = '';
+			for(var i = 0; i < this._listFields.length; i++) {
+				controlName = this._getUXDetailViewControlName(this._listFields[i].name);
+				if(controlName != '') {
+					val = DLG1_DlgObj.getValue(controlName);
+					if(val != '') {
+						//obj_i = this._searchFieldOptions[map[i].field.toUpperCase()];
+						obj_i = this._searchFieldOptions[this._listFields[i].name.toUpperCase()];
+						this._setSearchOps(obj,obj_i);
+						expn_i = 'this._match(data,' +this._str(this._listFields[i].name) + ',' + this._str(val) + ','+JSON.stringify(obj)+')';
+						expn.push(expn_i);
+						aco.control = controlName;
+						aco.value = val;
+						ac.push(aco);
+					}
+				}
+			}
+			this.__queryByFormValues = ac;
+			DLG1_DlgObj._setDVClean(this);
+		}
+		var operator = '&&';
+		if(typeof this._searchPartOperator != 'undefined') operator = this._searchPartOperator;
+		expn = expn.join(' '+operator+' ');
+	}
+	if (this._showSearchDebugInfo) {
+		var ele = $('DLG1.V.R1.' + this._searchDebugPH);
+		if(ele) ele.innerHTML = expn;
+	}
+	//user did not fill in any search fields
+	if(expn == '') return true;
+	var fnTxt = 'if(' + expn + ') {return true;} else { return false;}'
+	var searchFunction = new Function('data',fnTxt);
+	this.setFilter(searchFunction);
+	if(this._rData.length > 0) this.setValue(0);
+}
+,
+	_searchPartSubmit_clientSideFilterClear: function() { 
+if(!this._searchPartHas) return true;
+	this._state.highlight = {};
+	this.setFilter(false);
+	var map = this._searchPart.fieldMap;
+	var val = '';
+	var od = DLG1_DlgObj.originalValues[0];
+	for(var i = 0; i < map.length; i++) {
+		var val = od[map[i].control.toUpperCase()];
+		//selwyn 8/6/20 -- used to be false, but then the floating label is not resotred to its initial position when the form is cleared
+		if(typeof val != 'undefined') DLG1_DlgObj.setValue(map[i].control,val,false);
+	}
+	this.setFilter(false);
+	delete this.__queryByFormValues;
+	DLG1_DlgObj._setDVClean(this);
+	if(this._data.length > 0) this.setValue(0);
+	if (this._showSearchDebugInfo) {
+		var ele = $('DLG1.V.R1.' + this._searchDebugPH);
+		if(ele) ele.innerHTML = '';
+	}
+}
+,
+	detailViewIsDirty: function() { return false; },
+	populateUXControls: function() { return true; },
+	listIsDirty: function() { return false; },
+	lookupValue: function(key,name,keyValue) {
+	var _d = this._data;
+	var indx = A5FindPropInArray(_d,key,keyValue);
+	var rv = '';
+	if(indx >=0) {
+		if(name == '__rowData__') return _d[indx];
+		rv =  _d[indx][name];
+	} else {
+		//null out all properties in row
+		var _d2 = {};
+		if(typeof _d[0] == 'undefined') { return {}} ;
+		for(var n in _d[0]) {
+			_d2[n] = '&nbsp;';
+		}
+		rv = _d2;
+	}
+	return rv;
+}
+,
+	allowNullSelection: true,
+	allowTextSelection: false,
+	allowAnyValue: false,
+	allowNullDeselection: false,
+	loopNavigate: false,
+	loopNavigateNullSelection: false,
+	refreshChildLists: function() {DLG1_DlgObj._listRefreshCascadingLists('LIST2_1'); },
+	rowExpander: function(rowNumber) { 
+	var mode = typeof arguments[2] != 'undefined' ? arguments[2] : 'toggle';
+	if(typeof rowNumber === 'undefined' || rowNumber === '' ) {
+		rowNumber = this.selection[0];
+		if(typeof rowNumber == 'undefined') return false;
+	}
+	var animObj = typeof arguments[1] != 'undefined' ? arguments[1] : {};
+	var ele = $(this._hostComponentId + '.' + this.listVariableName + '.ROWEXPANDER.' + rowNumber);
+	if(ele) {
+		if(mode == 'toggle') A5.u.element.toggle(ele,animObj);
+		if(mode == 'show') A5.u.element.show(ele,animObj);
+		if(mode == 'hide') A5.u.element.hide(ele,animObj);
+	}
+}
+,
+	afterClientSideSummaryCompute: function(csSummary) { },
+	selectCurrentLayout: function(name) {
+if(this._flagRestoringLayoutSettings) {
+	this._flagRestoringLayoutSettings = false;
+	return;
+}
+var pl = this.layouts[name];
+if(typeof pl == 'undefined') return false;
+this.setLayout(name);
+if(pl.type == 'column') {
+	this.columnLayout.header.show = this.layouts[name].showColumnTitles;
+	this.refresh();
+}
+var flagPersist = this._persistListLayout;
+if(flagPersist && this.saveLayoutSettings ) this.saveLayoutSettings()
+},
+	onFilter: function() { 	var e = {};
+	e.rowCount = this._values.length;
+	var ele = $('DLG1.__listId__.RECORDCOUNT');
+	if(ele) {ele.innerHTML = e.rowCount;};
+	if(this.persistToStorage) { this.persistToStorage({});}
+	(function(e) {   })(e);
+}
+,
+	serverSideSort: function(column,initialDirection) {
+var e = {};
+this.setOrder(false);
+e.column = column;
+var result = this.systemEvents.beforeServerSideSort(e);
+if(result == false) return false;
+var obj = {};
+obj.cmd = 'sort';
+obj.column = column;
+obj.layoutName = this.layout;
+obj.listState = this._state;
+obj.initialDirection = initialDirection;
+var data = '_listId=LIST2_1&' + A5.ajax.buildURLParam('_cmdObj',$u.o.toJSON(obj));
+DLG1_DlgObj.ajaxCallback('','','system:listServerSideSort','',data);
+},
+	filterListClientSide: function(searchFor) {
+searchFor =  searchFor.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+//var result = this.systemEvents.beforeClientSideFilter();
+//if(result == false) return false;
+if(searchFor != '') {
+	//fixes bug in Chrome when searching on dates strings that use forward slashes
+	searchFor = searchFor.replace(/\//g,'\\/');
+	this.setFilter({'hairdresser': RegExp('' + searchFor,'i'), 'salon': RegExp('' + searchFor,'i'), 'totpnt': RegExp('' + searchFor,'i')});
+} else this.setFilter(false);
+var rowCount = this._values.length;
+//var e = {};
+//e.rowCount = rowCount;
+//this.systemEvents.afterClientSideFilter(e);
+var ele = $('DLG1.LIST2_1.RECORDCOUNT');
+if(ele) ele.innerHTML = rowCount;
+if(this._showHideFetchMoreSpinner) this._showHideFetchMoreSpinner();
+}
+,
+	scrollToClosestValue: function(val) { 
+	if(typeof val != 'string') val = val.join('');
+	var flagCI = typeof arguments[1] != 'undefined' ? arguments[1] : false;
+	var pos = typeof arguments[2] != 'undefined' ? arguments[2] : 'top';
+	var anim = typeof arguments[3] != 'undefined' ? arguments[3] : {}
+	var _d = this._rData;
+	var len = val.length;
+	var _d2;
+	var i2 = -1;
+	if(flagCI) val = val.toLowerCase();
+	for(var i = 0 ; i < _d.length; i++) {
+		i2 = i;
+		_d2 = String(_d[i]['*value']);
+		_d2 = _d2.substr(0,len);
+		_d2 = $u.s.pad(_d2,len,' ','l');
+		if(flagCI) _d2 = _d2.toLowerCase();
+		if(val <= _d2){
+			 break;
+		}
+	}
+	if(i2 > -1) {
+		this.scrollToItem(i2,{mode: pos, animation: anim});
+	}
+}
+,
+	_setPageSize: function(pageSize) {
+	this._state.pageSize = pageSize;
+	var options = {
+		keepFocusOnCurrentSelection: true,
+		preserveCurrentFilterOrder: true,
+	};
+	DLG1_DlgObj._refreshListData(this.listVariableName,options);
+}
+,
+	_refreshStateMessages: function() {
+	if(DLG1_DlgObj._listStateChange) DLG1_DlgObj._listStateChange(this.listVariableName);
+	var ele = '';
+	ele = $('DLG1.LIST2_1.PAGENUMBER');
+	if(ele) ele.innerHTML = this._state.page;
+	ele = $('DLG1.LIST2_1.PAGECOUNT');
+	if(ele) ele.innerHTML = this._state.pageCount;
+	ele = $('DLG1.LIST2_1.PAGECOUNT.PAGESELECTOR');
+	if(ele) ele.innerHTML = this._state.pageCount;
+	ele = $('DLG1.LIST2_1.LISTSTATE');
+	if(ele) {
+		var listState = $u.o.toJSON(this._state);
+		ele.innerHTML = listState;
+	}
+	if(this._hasNavigationBar) {
+		var nObj = this._listNavigator;
+		if(!nObj) {
+			this._listNavigator = DLG1_DlgObj._navigationBar(this._navBarId);
+		}
+		if(nObj) {
+			var obj = nObj.data;
+			obj.settings = this._navigationBar;
+			obj.pageNumber = this._state.page;
+			obj.totalPages = this._state.pageCount;
+			obj.totalRecords = this._state.recordCount;
+			obj.listName = this.listVariableName;
+			nObj.populate(obj);
+			this.refresh();
+			this.resize(); //needed if the list has a fixed size and the style is gr*
+		}
+	}
+	//navigation buttons
+	ele = DLG1_DlgObj._buttons['BUTTON_LISTNAV_NEXT.LIST2_1'];
+	if(ele) {
+		if(this._state.page == this._state.pageCount || this._state.pageCount == 0) ele.setDisabled(true);
+		else ele.setDisabled(false);
+	}
+	ele = DLG1_DlgObj._buttons['BUTTON_LISTNAV_LAST.LIST2_1'];
+	if(ele) {
+		if(this._state.page == this._state.pageCount || this._state.pageCount == 0) ele.setDisabled(true);
+		else ele.setDisabled(false);
+	}
+	ele = DLG1_DlgObj._buttons['BUTTON_LISTNAV_FIRST.LIST2_1'];
+	if(ele) {
+		if(this._state.page == 1 || this._state.pageCount == 0) ele.setDisabled(true);
+		else ele.setDisabled(false);
+	}
+	ele = DLG1_DlgObj._buttons['BUTTON_LISTNAV_PREV.LIST2_1'];
+	if(ele) {
+		if(this._state.page == 1 || this._state.pageCount == 0 ) ele.setDisabled(true);
+		else ele.setDisabled(false);
+	}
+	ele = $('DLG1.V.R1.A5SYSTEM_LIST_PAGESELECTOR_LIST2_1');
 	if(ele) {
 		var data = this._recordNavigatorLinks;
 		if(data) {
@@ -4107,6 +5407,7 @@ if(this.multiple ) return;
 	_listGUID: 'd7626588-56d2-4986-bc14-3b849db02893'
 };
 DLG1_DlgObj._listViewData['LIST2'] = A5DataArrayToObject(['id','title','descr','photo','__a5crc'],[]); 
+DLG1_DlgObj._listViewData['LIST2_1'] = A5DataArrayToObject(['hairdresser','photo','salon','totpnt','__a5crc'],[]); 
 DLG1_DlgObj._listViewData['LIST1'] = [];
 ;
 DLG1_DlgObj.setStateInfo({ 	"__dialogGuid": "", 	"argumentsBoundToCotrols": "", 	"__sgr": "", 	"__dtfmt": "", 	"__tfmt": "" });;DLG1_DlgObj.setStateInfo({ 	"__dialogGuid": "f5660b6b-5cc8-44b9-8ba0-d8073ef23531", 	"argumentsBoundToCotrols": "MUSERNAME|Character={User_Name}\r\n", 	"__sgr": "", 	"__dtfmt": "dd/MM/yyyy", 	"__tfmt": "0h:0m AM" });//ssi13;
@@ -4144,6 +5445,40 @@ if(typeof this.__flagHasFixedColumnFooters != 'undefined') {
 	}
 }
 ; if(this.initializeVirtualizedColumns) this.initializeVirtualizedColumns(); if(this._setupAlphabetSearch) this._setupAlphabetSearch.call(this)},  settings: DLG1_DlgObj._listViewSettings['LIST2'] }
+DLG1_DlgObj._controls['LIST2_1'] =  { type: 'list',  data: DLG1_DlgObj._listViewData['LIST2_1'],  onInitialize: function() {
+		var pe = $(this.contId).parentElement;
+		if(typeof this.listVariableName != 'undefined') { 
+			var _cn = 'DLG1_' + this.listVariableName.toUpperCase() + '_2';
+			$acn(pe,_cn);
+		}
+var flagCordova = true;
+if (typeof window['cordova'] == 'undefined') {
+	var flagCordova = false;
+}
+if(flagCordova) { 
+	if(this.__flagPersist) { 
+		if(this.__persistWhere.toLowerCase() == 'indexdb') { 
+			alert('Error. App is running as a Cordova app. You cannot set the persist location to \'IndexedDB\' for Cordova applications. You must set the persist location to \'FileSystem\'');
+		}
+	}
+}
+;var that = this;
+try{
+	if(this._hasDetailView) { 
+		if(this._JSONForm) { 
+			setTimeout(function() { 
+			that.resize();
+			},10);
+		}
+	}
+}catch(e){};
+;this._host = DLG1_DlgObj.dialogId;
+if(typeof this.__flagHasFixedColumnFooters != 'undefined') { 
+	if(this.__flagHasFixedColumnFooters) { 
+		this.refresh();
+	}
+}
+; if(this.initializeVirtualizedColumns) this.initializeVirtualizedColumns(); if(this._setupAlphabetSearch) this._setupAlphabetSearch.call(this)},  settings: DLG1_DlgObj._listViewSettings['LIST2_1'] }
 DLG1_DlgObj._controls['LIST1'] =  { type: 'list',  data: DLG1_DlgObj._listViewData['LIST1'],  onInitialize: function() {;if (!this.allowNullSelection){ var that = this; setTimeout(function() {that._onSelect(); delete that; },10);};
 		var pe = $(this.contId).parentElement;
 		if(typeof this.listVariableName != 'undefined') { 
@@ -4197,6 +5532,21 @@ DLG1_DlgObj._functions.__fillContainer_LIST2 = function() {
 	}
 }
 DLG1_DlgObj._functions.__fillContainer_LIST2();
+DLG1_DlgObj._functions.__fillContainer_LIST2_1 = function() {
+	var rExp = new RegExp('^A5dlg[0-9]*\.BODY');
+	var cEle = $('DLG1.V.R1.CONTAINER_6');
+	//test to see if the container parent node is a window body. if so, then set the container to the window
+	if(rExp.test(cEle.parentNode.id)) {
+		var pEle = cEle.parentNode;
+		DLG1_DlgObj._listViewSettings['LIST2_1'].containerId = pEle.id;
+		pEle.innerHTML = '';
+	} else {
+		DLG1_DlgObj._listViewSettings['LIST2_1'].containerId = cEle.id;
+		//blow away any existing content in the container
+		cEle.innerHTML = '';
+	}
+}
+DLG1_DlgObj._functions.__fillContainer_LIST2_1();
 DLG1_DlgObj._hasPanels = true;
 DLG1_DlgObj._hasOnSynchronizeEvent = false;
 DLG1_DlgObj._functions.calcOrientation = function() {
@@ -14886,6 +16236,7 @@ CONTAINER_2: ['User_Name','Password'],
 PANELHEADER_4: ['userphoto','container:CONTAINER_4'],
 CONTAINER_4: ['hairdresser'],
 CONTAINER_5: ['LIST2'],
+CONTAINER_6: ['LIST2_1'],
 PANELFOOTER_1: ['container:CONTAINER_1'],
 CONTAINER_1: []
 }
@@ -19904,7 +21255,7 @@ var _dlgObj = window[options.componentAlias + '_DlgObj'];
 }
 )
 //End section - Add methods to List prototype
-DLG1_DlgObj._listControls = ['LIST2','LIST1']
+DLG1_DlgObj._listControls = ['LIST2','LIST2_1','LIST1']
 DLG1_DlgObj._formBoxControls = [];
 DLG1_DlgObj._localStorageSettings = {namespace: 'ALPHA_f5660b6b5cc844b98ba0d8073ef23531',friendlyName: '',description: '',persistVariableValues: false,__version: 1,persistComponentState: false,workingPreviewTestingFolder: '',restore: {variables: false,data: false,state: false},compressData: false,minify: false,variablesToNotPersist: '',workingPreviewTestingMode: 'Browser',compressListData: false}
 ;
@@ -19959,9 +21310,9 @@ DLG1_DlgObj.__info = {
 	"createdBy": "Paul",
 	"lastUpdatedBy": "",
 	"dateCreated": "2024-10-21",
-	"dateLastEdited": "2024-10-25",
+	"dateLastEdited": "2024-10-29",
 	"comments": "",
-	"revisionnumber": 18
+	"revisionnumber": 33
 }
 A5.__csdfmt = (obj) =>{ if(obj) return obj.stateInfo.__dtfmt};DLG1_DlgObj._workingPreview = false;
 $u.decimal = '.';
@@ -19969,46 +21320,29 @@ $u.comma = ',';
 ;
 ;
 
+$e.add('DLG1.V.R1.PASSWORD.CUSTOMBUTTON.0',A5.d.evnts.click,function(e) { var iEle = this.children[0];var icon = '';if($('DLG1.V.R1.PASSWORD').type == 'text') {	icon = 'svgIcon=#alpha-icon-eye:icon,24';$('DLG1.V.R1.PASSWORD').type = 'password';}else{$('DLG1.V.R1.PASSWORD').type = 'text'; icon = 'svgIcon=#alpha-icon-eyeOff:icon,24';}A5.u.icon.update(iEle,icon);});
+
+
+
 $e.add('DLG1.V.R1.BUTTON_4_1',A5.d.evnts.click,function(e) {
 var _disabled = this.disabled; if(typeof _disabled == 'undefined') _disabled = false; if(!_disabled) {;var flagLocked = false; if (typeof this._locked != 'undefined') flagLocked = this._locked;  if(!flagLocked) {DLG1_DlgObj.refreshListData('LIST1');
 
 setTimeout(function(){	
-	DLG1_DlgObj.panelSetActive('PANELCARD_1');
-	},750); } ; this._locked = true; flagLocked = true; var that = this; setTimeout(function() { that._locked = false; },300);}
+	mPass = DLG1_DlgObj.getValue('list::LIST1::password');
+	mentPass = DLG1_DlgObj.getValue('Password');
+
+		if ( mPass == mentPass)  {
+
+			DLG1_DlgObj.panelSetActive('PANELCARD_1');
+		
+		}
+	else {
+			alert('Wrong password');
+
+		 }
+
+	},2000); } ; this._locked = true; flagLocked = true; var that = this; setTimeout(function() { that._locked = false; },300);}
 },this,false,'DLG1.V.R1.BUTTON_4_1');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$e.add('DLG1.V.R1.BUTTON_2_2',A5.d.evnts.click,function(e) {
-var _disabled = this.disabled; if(typeof _disabled == 'undefined') _disabled = false; if(!_disabled) {;var flagLocked = false; if (typeof this._locked != 'undefined') flagLocked = this._locked;  if(!flagLocked) {DLG1_DlgObj.panelSetActive('PANELCARD_5'); } ; this._locked = true; flagLocked = true; var that = this; setTimeout(function() { that._locked = false; },300);}
-},this,false,'DLG1.V.R1.BUTTON_2_2');
 
 DLG1_DlgObj.prepare();DLG1_DlgObj.populate(DLG1_DlgObj.originalValues[0]);
 DLG1_DlgObj._fireWatches(1);
@@ -20098,6 +21432,36 @@ if(listObj._refreshStateMessages) listObj._refreshStateMessages();
 
 
 
+var listObj = DLG1_DlgObj.getControl('LIST2_1');
+if(listObj) listObj._state.recordCount = 4;
+if(listObj) listObj._state.recordCountFormatted = '4';
+if(listObj) listObj._state.lastBreakValue = '';
+if(listObj) listObj._state.pageCount = 1;
+if(listObj) listObj._state.pageSize = 20;
+if(listObj) {var ele = $('DLG1.LIST2_1.RECORDCOUNT'); if(ele) ele.innerHTML = listObj._state.recordCountFormatted;};
+if(listObj) listObj._state.paginated = false;
+if(listObj) listObj._state._optimizedJSON = false;
+if(listObj) listObj._state.highlight = {  };
+if(listObj) listObj._state.whereClause = '';
+if(listObj) listObj._state.whereParameters = '|||C|MUSERNAME\n';
+listObj._state.order = 'totpnt DESC';
+		
+		var flagPersist = false;
+		if(typeof listObj._flagPersistDataOK != 'undefined') { 
+			if(listObj._flagPersistDataOK) { 
+				var data = listObj._data;
+				listObj.persistToStorage({mode:'populate', data: data, submode: 'ListViewData'});
+			}
+		}
+		
+		
+;
+if(listObj) listObj._state.pageCount = 1;
+DLG1_DlgObj._list_executeEvent('LIST2_1','afterRenderComplete',{});
+
+if(listObj._refreshStateMessages) listObj._refreshStateMessages();
+
+
 
 
 
@@ -20115,8 +21479,8 @@ if(listObj._refreshStateMessages) listObj._refreshStateMessages();
 
 
 var listObj = DLG1_DlgObj.getControl('LIST1');
-if(listObj) listObj._state.recordCount = 3;
-if(listObj) listObj._state.recordCountFormatted = '3';
+if(listObj) listObj._state.recordCount = 2;
+if(listObj) listObj._state.recordCountFormatted = '2';
 if(listObj) listObj._state.lastBreakValue = '<None>';
 if(listObj) listObj._state.pageCount = 1;
 if(listObj) listObj._state.pageSize = 20;
@@ -20151,10 +21515,17 @@ var lObj = DLG1_DlgObj.getControl('LIST2');
 var __obj = {
 };
 if(lObj) $u.o.assign(lObj,__obj);;;
+var lObj = DLG1_DlgObj.getControl('LIST2_1');
+var __obj = {
+};
+if(lObj) $u.o.assign(lObj,__obj);;;
 var lObj = DLG1_DlgObj.getControl('LIST1');
 var __obj = {
 };
 if(lObj) $u.o.assign(lObj,__obj);;
+
+
+
 
 
 
@@ -20258,7 +21629,7 @@ if (ele) {
 		observer.observe(ele.contentDocument.documentElement);
 	}
 }
-;DLG1_DlgObj.refreshListData('LIST2');
+;DLG1_DlgObj.refreshListData('LIST2,LIST2_1');
 var options = {mode: 'incremental'};DLG1_DlgObj.refreshListData('LIST1',options);
 ;
 	DLG1_DlgObj.flagRenderComplete = true;

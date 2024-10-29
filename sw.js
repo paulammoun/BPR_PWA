@@ -1,7 +1,7 @@
 // **Template code last revised: 08/30/21
 
-const staticCacheName = 'Beauty Pro Rewards_pwa_cache-v-01.01';
-const dynamicCacheName = 'Beauty Pro Rewards_pwa_dynamic_cache-v-01.01';
+const staticCacheName = 'Beauty Pro Rewards_pwa_cache-v-01.02';
+const dynamicCacheName = 'Beauty Pro Rewards_pwa_dynamic_cache-v-01.02';
 const dynamicCacheSize = 10;
 const offlineFilename = './offline.html';
 const showDebugInfo = true;
@@ -104,6 +104,7 @@ var filesToCache = [
 './svg/AASVG.js',
 './manifest.json',
 './Morph Color Animations.gif',
+'./vivus.min.js',
 './index.html',
 
 ];
