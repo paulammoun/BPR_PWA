@@ -103,7 +103,6 @@ var filesToCache = [
 './javascript/a5_url.js',
 './svg/AASVG.js',
 './manifest.json',
-'./Morph Color Animations.gif',
 './vivus.min.js',
 './index.html',
 

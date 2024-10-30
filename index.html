@@ -396,7 +396,40 @@ if(!ele2) {
 <input type="hidden" value="" id="DLG1.PARAMETERBUCKET"/>
 <input type="file" style="position:absolute; top:-1000px;visibility:hidden;" capture accept="image/*" id="DLG1._GETPHOTO"/><input type="file" style="position:absolute; top:-1000px;visibility:hidden;" name="files[]" multiple = "" id="DLG1._GETFILEMULTI"/><input type="file" style="position:absolute; top:-1000px;visibility:hidden;" name="files[]" id="DLG1._GETFILE"/><input type="hidden" id="DLG1.V.R1.LIST2" name="V.R1.LIST2" />
 <input type="hidden" id="DLG1.V.R1.LIST2_1" name="V.R1.LIST2_1" />
+<input type="hidden" id="DLG1.V.R1.LIST4" name="V.R1.LIST4" />
 <input type="hidden" id="DLG1.V.R1.LIST1" name="V.R1.LIST1" />
+<div 	id="DLG1.V.R1.CONTAINER_7"   
+			A5-containerType="window"
+			class=""  style="; display: none;"  >
+<div class="A5CWLayout" style="width: " >
+	<div id="DLG1.V.R1.STATICTEXT_9" title=""  class="" style="box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   ><svg id="funny-graduation-cap-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+    
+    <path d="M10 80 L100 20 L190 80 L100 140 Z" fill="none" stroke="#FF5733" stroke-width="2" />
+    
+    <path d="M10 80 Q100 150 190 80" fill="none" stroke="#FF5733" stroke-width="2" />
+    
+    <path d="M100 140 L100 180" fill="none" stroke="#FF5733" stroke-width="2" />
+    <circle cx="100" cy="180" r="6" fill="#FF5733" />
+    
+    <circle cx="80" cy="60" r="5" fill="#000" />
+    <circle cx="120" cy="60" r="5" fill="#000" />
+    <path d="M80 70 Q100 90 120 70" fill="none" stroke="#000" stroke-width="2" />
+</svg>
+</div>
+</div><br  style="clear:both; " />
+<div class="A5CWLayout" style="width: 100%" >
+	<div id="DLG1.V.R1.STATICTEXT_8" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   >Congratulation!</div>
+</div><br  style="clear:both; " />
+<div class="A5CWLayout" style="width: 100%" >
+	<div id="DLG1.V.R1.STATICTEXT_8_1" title=""  class="" style="width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   >You Earned</div>
+</div><br  style="clear:both; " />
+<div class="A5CWLayout" style="width: 100%" >
+	<button type="button" id="DLG1.V.R1.BUTTON_6"    ></button>
+</div>
+<div style="display:none;font: 0pt arial;clear:both;"></div>
+		</div>
+	
+
 
 <script type="text/javascript" language="javascript">
 
@@ -716,7 +749,7 @@ if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj != null && typeof DLG1_DlgOb
 	body: {
 		content: {
 			type: 'html',
-			src: '<div class="A5CWLayout" style="width: " >\r\n <div id="DLG1.V.R1.STATICTEXT_2" title=""  class="" style="box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   >panel 2\r\n</div>\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: " >\r\n <div id="DLG1.V.R1.IMAGE_2" style="z-index:10000; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ; padding:0;margin:0;"    >\r\n  <img src="Morph Color Animations.gif" class="" style="box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" title=""  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  />\r\n </div>\r\n</div><br  style="clear:both; " />\r\n<div class="A5floatClear"></div>'
+			src: '<div class="A5CWLayout" style="width: 100%" >\r\n <label id="DLG1.LBL.R1.LIST4" for="DLG1.V.R1.LIST4" title="" class="label" style="display:block;">LIST4</label>\r\n\r\n \r\n<div   style="padding:0px; "  >\r\n <div id="DLG1.V.R1.LIST4.CONTROL"  class="DLG1_LIST4" style="overflow: auto; width: 100%; height: 3in; "></div>\r\n</div>\r\n\r\n</div>\r\n<div class="A5floatClear"></div>'
 		},
 		scroll: {
 			axis: 'both',
@@ -746,13 +779,24 @@ if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj != null && typeof DLG1_DlgOb
 		}
 	},
 	header: {
-		html: '<div style="display:none;"></div>'
+		html: '<div class="A5CWLayout" style="width: 2in" >  <label id="DLG1.LBL.R1.YOUR_POINTS" for="DLG1.V.R1.YOUR_POINTS" title="" class="label" style="color: #fff; display: block; ">Your Points</label>   <input type="text" id="DLG1.V.R1.YOUR_POINTS" title=""     class="editPrimary " style="text-align: right; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onchange="var tfunc = function() {onChange_Your_Points_b0051fab36de411789be2dde3d246b5b.call(this,DLG1_DlgObj);;}; var tscope = this; setTimeout(function() { if(tscope) { tfunc.call(tscope);} delete tscope;},1 );"   name="V.R1.YOUR_POINTS"    value=""    />  </div> <div style="display:none;"></div>',
+		show: true
 	},
 	footer: {
 	},
 	overlay: {
 	},
-	onSize: function() {if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj && DLG1_DlgObj._pdfViewerResizeToFitPanelCard) DLG1_DlgObj._pdfViewerResizeToFitPanelCard('PANELCARD_2',this);
+	onSize: function() {
+;
+if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj ) {var mObj = DLG1_DlgObj.getControl('LIST4'); if(mObj) {
+			if(mObj.resize) {
+				mObj.resize();
+			} else { 
+				if(typeof mObj.autoRefreshOnResize == 'undefined' || mObj.autoRefreshOnResize) mObj.refresh()
+			}
+		}
+	}
+if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj && DLG1_DlgObj._pdfViewerResizeToFitPanelCard) DLG1_DlgObj._pdfViewerResizeToFitPanelCard('PANELCARD_2',this);
 if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj != null && typeof DLG1_DlgObj._panelCardResize != 'undefined') { DLG1_DlgObj._panelCardResize('PANELCARD_2'); };;setTimeout(function() { 
 	if(DLG1_DlgObj && DLG1_DlgObj._turnResizeOnForListsOnPanel) DLG1_DlgObj._turnResizeOnForListsOnPanel('PANELCARD_2')
 },0);
@@ -774,7 +818,7 @@ if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj != null && typeof DLG1_DlgOb
 	body: {
 		content: {
 			type: 'html',
-			src: '<div class="A5CWLayout" style="width: " >\r\n <div id="DLG1.V.R1.STATICTEXT_2_1" title=""  class="" style="box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"   >panel 3\r\n</div>\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: " >\r\n <div id="DLG1.V.R1.IMAGE_2_1" style="z-index:10000; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ; padding:0;margin:0;"    >\r\n  <img src="Morph Color Animations.gif" class="" style="box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;" title=""  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  />\r\n </div>\r\n</div><br  style="clear:both; " />\r\n<div class="A5floatClear"></div>'
+			src: '<div class="A5CWLayout" style="width: 100%; position:relative;">\r\n \r\n<div style="width: 150px;height: 150px; border-radius: 75px; border: solid 5px #fff;  overflow:hidden; z-index: 2000;margin: auto;; box-shadow: 0px 0px 10px rgba(0,0,0,.5);; box-sizing: border-box;">\r\n<img src="" id="DLG1.V.R1.IMAGE1" class=" " title="" style="width: 100%; height: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; "  onerror="if(typeof DLG1_DlgObj != \'undefined\') DLG1_DlgObj._executeEvent(\'onImageError\',{element: this});"  />\r\n</div>\r\n<input type="hidden" id="DLG1.V.R1.IMAGE1_HIDDENA5FN" name="V.R1.IMAGE1_HIDDENA5FN" >\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: 100%" >\r\n <label id="DLG1.LBL.R1.NAME" for="DLG1.V.R1.NAME" title="" class="label" style="color: #fff; display: block; ">Name</label>\r\n\r\n <input type="text" id="DLG1.V.R1.NAME" title=""     class="edit " style="color: #000; background-color: #787878; width: 100%; border-radius: 10px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onchange="var tfunc = function() {onChange_Name_dc1f1526232e44f7b3c395a481e08a11.call(this,DLG1_DlgObj);;}; var tscope = this; setTimeout(function() { if(tscope) { tfunc.call(tscope);} delete tscope;},1 );"   name="V.R1.NAME"    value=""    />\r\n\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: 100%" >\r\n <label id="DLG1.LBL.R1.EMAIL" for="DLG1.V.R1.EMAIL" title="" class="label" style="color: #fff; display: block; ">Email</label>\r\n\r\n <input type="text" id="DLG1.V.R1.EMAIL" title=""     class="edit " style="color: #000; background-color: #787878; width: 100%; border-radius: 10px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onchange="var tfunc = function() {onChange_Email_8eded1f8e2dd465b882f88a784571112.call(this,DLG1_DlgObj);;}; var tscope = this; setTimeout(function() { if(tscope) { tfunc.call(tscope);} delete tscope;},1 );"   name="V.R1.EMAIL"    value=""    />\r\n\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: 100%" >\r\n <label id="DLG1.LBL.R1.PASSWORD1" for="DLG1.V.R1.PASSWORD1" title="" class="label" style="color: #fff; display: block; ">ID</label>\r\n\r\n <input type="text" id="DLG1.V.R1.PASSWORD1" title=""     class="edit " style="color: #000; background-color: #787878; width: 100%; border-radius: 10px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onchange="var tfunc = function() {onChange_password1_e4def69135b1439e9487e9b3431d2479.call(this,DLG1_DlgObj);;}; var tscope = this; setTimeout(function() { if(tscope) { tfunc.call(tscope);} delete tscope;},1 );"   name="V.R1.PASSWORD1"    value=""    />\r\n\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: 100%" >\r\n <label id="DLG1.LBL.R1.ID" for="DLG1.V.R1.ID" title="" class="label" style="color: #fff; display: block; ">ID</label>\r\n\r\n <input type="text" id="DLG1.V.R1.ID" title=""     class="edit " style="color: #000; background-color: #787878; width: 100%; border-radius: 10px; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;"  onchange="var tfunc = function() {onChange_ID_da6d552642c640f289015c87a0b3844c.call(this,DLG1_DlgObj);;}; var tscope = this; setTimeout(function() { if(tscope) { tfunc.call(tscope);} delete tscope;},1 );"   name="V.R1.ID"    value=""    />\r\n\r\n</div><br  style="clear:both; " />\r\n<div class="A5CWLayout" style="width: " >\r\n <button type="button" id="DLG1.V.R1.BUTTON_5"    ></button>\r\n</div><br  style="clear:both; " />\r\n<div class="A5floatClear"></div>'
 		},
 		scroll: {
 			axis: 'both',
@@ -815,7 +859,16 @@ if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj != null && typeof DLG1_DlgOb
 	if(DLG1_DlgObj && DLG1_DlgObj._turnResizeOnForListsOnPanel) DLG1_DlgObj._turnResizeOnForListsOnPanel('PANELCARD_3')
 },0);
 },
-	onView: function() {;
+	onView: function() {mimg = DLG1_DlgObj.getValue('userphoto');
+DLG1_DlgObj.setValue('image1',mimg);
+mName = DLG1_DlgObj.getValue('list::LIST1::hairdresser');
+DLG1_DlgObj.setValue('Name',mName);
+mEmail = DLG1_DlgObj.getValue('list::LIST1::email');
+DLG1_DlgObj.setValue('Email',mEmail);
+mPass = DLG1_DlgObj.getValue('list::LIST1::password');
+DLG1_DlgObj.setValue('password1',mPass);
+mId = DLG1_DlgObj.getValue('list::LIST1::idno');
+DLG1_DlgObj.setValue('ID',mId);;
 ;setTimeout(function() { 
 	if(DLG1_DlgObj && DLG1_DlgObj._turnResizeOnForListsOnPanel) DLG1_DlgObj._turnResizeOnForListsOnPanel('PANELCARD_3')
 },0);
@@ -832,7 +885,7 @@ if(typeof DLG1_DlgObj != 'undefined' && DLG1_DlgObj != null && typeof DLG1_DlgOb
 	body: {
 		content: {
 			type: 'html',
-			src: '<div class="A5CWLayout" style="width: 100%" >\r\n \r\n<div   style="padding:0px; "  >\r\n <div id="DLG1.V.R1.LIST1.CONTROL"  class="DLG1_LIST1" style="overflow: auto; width: 100%; height: 3in; "></div>\r\n</div>\r\n\r\n</div>\r\n<div class="A5floatClear"></div>'
+			src: '<div style="display:none;font: 0pt arial;clear:both;"></div>\r\n  </div>\r\n \r\n<div class="A5CWLayout" style="width: 100%" >\r\n \r\n<div   style="padding:0px; "  >\r\n <div id="DLG1.V.R1.LIST1.CONTROL"  class="DLG1_LIST1" style="overflow: auto; width: 100%; height: 3in; "></div>\r\n</div>\r\n\r\n</div>\r\n<div class="A5floatClear"></div>'
 		},
 		scroll: {
 			axis: 'both',
@@ -1073,7 +1126,7 @@ var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
 	_embeddedMode: false,
 	_livePreviewInBuilder: false,
 	componentGUID: 'f5660b6b-5cc8-44b9-8ba0-d8073ef23531',
-	columnInfo: {'USER_NAME': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PASSWORD': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'USERPHOTO': {info: {controlType: 'image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'HAIRDRESSER': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST2': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST2_1': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST1': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }},
+	columnInfo: {'USER_NAME': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PASSWORD': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'USERPHOTO': {info: {controlType: 'image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'HAIRDRESSER': {info: {controlType: 'Textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST2': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST2_1': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'YOUR_POINTS': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'N'  },'LIST4': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'IMAGE1': {info: {controlType: 'image'}, hiddenVal: false, type: 'img,img', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'NAME': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'EMAIL': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'PASSWORD1': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'ID': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  },'LIST1': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }},
 	originalValues: [{
 	"USER_NAME": "",
 	"PASSWORD": "",
@@ -1082,6 +1135,14 @@ var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
 	"HAIRDRESSER": "",
 	"LIST2": "",
 	"LIST2_1": "",
+	"YOUR_POINTS": "",
+	"LIST4": "",
+	"IMAGE1": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP4//8/AwAI/AL+eMSysAAAAABJRU5ErkJggg==",
+	"IMAGE1_HIDDENA5FN": "",
+	"NAME": "",
+	"EMAIL": "",
+	"PASSWORD1": "",
+	"ID": "",
 	"LIST1": ""
 }],
 	defaultValues: {
@@ -1092,6 +1153,14 @@ var DLG1_DlgObj = new A5.DialogComponentHelper('DLG1',{
 	"HAIRDRESSER": "",
 	"LIST2": "",
 	"LIST2_1": "",
+	"YOUR_POINTS": "",
+	"LIST4": "",
+	"IMAGE1": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP4//8/AwAI/AL+eMSysAAAAABJRU5ErkJggg==",
+	"IMAGE1_HIDDENA5FN": "",
+	"NAME": "",
+	"EMAIL": "",
+	"PASSWORD1": "",
+	"ID": "",
 	"LIST1": ""
 },
 	datePickerMonthNames: ['January','February','March','April','May','June','July','August','September','October','November','December'],
@@ -1157,10 +1226,30 @@ DLG1_DlgObj._findActiveLayoutRule();
 A5.__componentObj = DLG1_DlgObj;
 A5.map._fn='https://maps.googleapis.com/maps/api/js?key=&libraries=geometry,places&callback=A5.map.init';
 DLG1_DlgObj._tabObjects = [];
-A5.loadJavascript('\n\n;\nfunction onChange_User_Name_9c27779f2b3d4674b0d40a071670bfe9(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'USER_NAME\');};\n\nfunction onChange_Password_0635a179889343aeb43f6f965f7a8763(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'PASSWORD\');};\nfunction onChange_userphoto_1d7df1cd27914eef9507ad5c06ff731f(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'USERPHOTO\');};\nfunction onChange_hairdresser_5ce69b1006844b7d8d3cfcbd371e9975(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'HAIRDRESSER\');};\nfunction onChange_LIST2_f0f6570219d444bc90f1506d6109096c(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST2\');};\nfunction onChange_LIST2_1_27808ed4248a4a598b83367bb19bff65(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST2_1\');};\nfunction onChange_LIST1_5ddad97d6a7e43fe9bfcec8a285b8fd8(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST1\');};\n\n\n;\n');
+A5.loadJavascript('\n\n;\nfunction onChange_User_Name_9c27779f2b3d4674b0d40a071670bfe9(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'USER_NAME\');};\n\nfunction onChange_Password_0635a179889343aeb43f6f965f7a8763(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'PASSWORD\');};\nfunction onChange_userphoto_1d7df1cd27914eef9507ad5c06ff731f(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'USERPHOTO\');};\nfunction onChange_hairdresser_5ce69b1006844b7d8d3cfcbd371e9975(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'HAIRDRESSER\');};\nfunction onChange_LIST2_f0f6570219d444bc90f1506d6109096c(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST2\');};\nfunction onChange_LIST2_1_27808ed4248a4a598b83367bb19bff65(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST2_1\');};\nfunction onChange_Your_Points_b0051fab36de411789be2dde3d246b5b(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'YOUR_POINTS\');};\nfunction onChange_LIST4_03a095c288334e99b5c0dd3d9f78d154(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST4\');};\nfunction onChange_image1_88b6cee9b2314d66b0b4fc2f025aa959(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'IMAGE1\');};\nfunction onChange_Name_dc1f1526232e44f7b3c395a481e08a11(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'NAME\');};\nfunction onChange_Email_8eded1f8e2dd465b882f88a784571112(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'EMAIL\');};\nfunction onChange_password1_e4def69135b1439e9487e9b3431d2479(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'PASSWORD1\');};\nfunction onChange_ID_da6d552642c640f289015c87a0b3844c(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'ID\');};\nfunction onChange_LIST1_5ddad97d6a7e43fe9bfcec8a285b8fd8(_dlgObj){if(_dlgObj.executeWatchEventForControl) _dlgObj.executeWatchEventForControl(\'LIST1\');};\n\n\n;\n');
 DLG1_DlgObj.fieldHelpers['PASSWORD'] = new A5.EditButtonGroup({theme: 'Alpha-Dark-Green'});
 DLG1_DlgObj.lookups = {
 };
+DLG1_DlgObj.dialogWatches['ENABLE_YOUR_POINTS'] = {
+		watch: [],
+		variables: [],
+		onChange: function(data) {
+	var dialog = {};
+	var summary = {};;
+	;
+	var enable = (1 == 2);
+	var eles = $cetp($n('V.R' + data.rowNumber + '.YOUR_POINTS'),$('DLG1.R'+data.rowNumber));
+	if(typeof eles.length == 'undefined' || eles.length == 0) eles = [$('DLG1.'+'V.R' + data.rowNumber + '.YOUR_POINTS')];
+	var pObj = DLG1_DlgObj.getControl('Your_Points'); if(pObj) { if(typeof pObj.setDisabled != 'undefined') {  pObj.setDisabled(!enable,eles); return true;  } }
+	var obj = DLG1_DlgObj.getControl('Your_Points'); if(obj && typeof readOnly != 'undefined') {obj.readOnly = readOnly}
+	if(typeof DLG1_DlgObj._buttons['Your_Points'] != 'undefined') {
+		DLG1_DlgObj._buttons['Your_Points'].setDisabled(!enable,eles);
+	} else {
+		for(var i=0; i<eles.length;i++) eles[i].disabled = !enable;
+	}
+	;;
+	DLG1_DlgObj._executeEvent('onWatchEvent',{type: 'enable', control: 'Your_Points', flag: enable});}
+}
 DLG1_DlgObj.setStateInfo({
 	"__dialogGuid": "f5660b6b-5cc8-44b9-8ba0-d8073ef23531",
 	"argumentsBoundToCotrols": "MUSERNAME|Character={User_Name}\r\n",
@@ -1181,11 +1270,20 @@ USERPHOTO:'PANELCARD_1',
 HAIRDRESSER:'PANELCARD_1',
 LIST2:'PANELCARD_1',
 LIST2_1:'PANELCARD_1',
+YOUR_POINTS:'PANELCARD_2',
+LIST4:'PANELCARD_2',
+IMAGE1:'PANELCARD_3',
+NAME:'PANELCARD_3',
+EMAIL:'PANELCARD_3',
+PASSWORD1:'PANELCARD_3',
+ID:'PANELCARD_3',
 LIST1:'PANELCARD_5'
 }
 DLG1_DlgObj._controlsOnPanel = {
 	'PANELCARD_4' : {controls: ['USER_NAME','PASSWORD']},
 	'PANELCARD_1' : {controls: ['USERPHOTO','HAIRDRESSER','LIST2','LIST2_1']},
+	'PANELCARD_2' : {controls: ['YOUR_POINTS','LIST4']},
+	'PANELCARD_3' : {controls: ['IMAGE1','NAME','EMAIL','PASSWORD1','ID']},
 	'PANELCARD_5' : {controls: ['LIST1']}
 }
 DLG1_DlgObj._buttons = {};
@@ -1197,8 +1295,28 @@ DLG1_DlgObj._buttons['BUTTON_4_1'] = new A5.Button({
 },
 	theme: 'Alpha-Dark-Green:outlineConfirm'
 });
+DLG1_DlgObj._buttons['BUTTON_5'] = new A5.Button({
+	layout: 'text',
+	style: 'box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;',
+	html: 'Save',
+	onClick: function() { 
+},
+	theme: 'Alpha-Dark-Green:outlineConfirm'
+});
+DLG1_DlgObj._buttons['BUTTON_6'] = new A5.Button({
+	layout: 'text',
+	style: 'width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; ',
+	html: 'OK',
+	onClick: function() { 
+},
+	theme: 'Alpha-Dark-Green:outlineConfirm'
+});
 DLG1_DlgObj._buttons['BUTTON_4_1'].bind('DLG1.V.R1.BUTTON_4_1');
+DLG1_DlgObj._buttons['BUTTON_5'].bind('DLG1.V.R1.BUTTON_5');
+DLG1_DlgObj._buttons['BUTTON_6'].bind('DLG1.V.R1.BUTTON_6');
 DLG1_DlgObj._buttons['BUTTON_4_1'].bind('DLG1.V.R1.BUTTON_4_1');
+DLG1_DlgObj._buttons['BUTTON_5'].bind('DLG1.V.R1.BUTTON_5');
+DLG1_DlgObj._buttons['BUTTON_6'].bind('DLG1.V.R1.BUTTON_6');
 DLG1_DlgObj._listViewSettings['LIST2'] = {
 	__pkisguid: false,
 	_switchInfo: {
@@ -3656,6 +3774,1246 @@ if(this.multiple ) return;
 	_hasNavigationBar: false,
 	_listGUID: 'f2700b4e-ab6d-4160-afa2-58674cac97d2'
 };
+DLG1_DlgObj._listViewSettings['LIST4'] = {
+	__pkisguid: false,
+	_switchInfo: {
+},
+	_setupAlphabetSearch: function() { },
+	__parentWindowContainerId: '',
+	getMapObject: function() { 	return this.layouts[this.layout].map;
+}
+,
+	__applyIncrementRefreshUpdates: function(listId) { 	var _dlgObj = window[this._hostComponentId + '_DlgObj'];
+	var lObj = _dlgObj.getControl(listId);
+	var countU = 0;
+	var countA = 0;
+	var newData = lObj.__incrementalRefreshData;
+	var getRowState = function (listObj) {
+		var d = listObj._data;
+		var dObj = {};
+		for(var i = 0; i < d.length; i++) {
+			dObj[d[i].__primaryKey] = {};
+			if(typeof d[i]._isDirty == 'undefined') flag = false
+			else flag = d[i]._isDirty;
+			dObj[d[i].__primaryKey].dirty = flag;
+			//dObj[d[i].__primaryKey].__rowNumber= i;
+			//*renderIndex is not unique after a client side filter has been done
+			//dObj[d[i].__primaryKey].__rowNumber= d[i]['*renderIndex'];
+			dObj[d[i].__primaryKey].__rowNumber= d[i]['*value'];
+		}
+		return dObj;
+	}
+	var dObj = getRowState(lObj);
+	var _obj = {};
+	var __row;
+	var flagDirty;
+	function pkExists(d,pk) { 
+		for(var i = 0; i < d.length; i++) { 
+		if(d[i].__primaryKey == pk) return true;
+	}
+		return false;
+	}
+	for(var i = 0; i < newData.length; i++) {
+		_obj = dObj[newData[i].__primaryKey];
+		if(typeof _obj != 'undefined') {
+			__row = _obj['__rowNumber'];
+			if(typeof __row != 'undefined') {
+				flagDirty = _obj['dirty'];
+				if(!flagDirty) {
+					//clear out all child arrays since the new data has the child arrays in it.
+					var currentData = lObj.getData(__row);
+					for(var n in currentData) { 
+						if(n.indexOf('__LIST__') ==  0) { 
+							currentData[n] = [];
+						}
+					}
+					lObj.updateRow(__row,newData[i]);
+					countU++;
+				} else { 
+					//row is dirty
+					//lObj.appendRows([ newData[i]]);
+					//countA++;
+				}
+			} else {
+				//__row is undefined
+				//alert('__row is undefined');
+				//lObj.appendRows([ newData[i]]);
+				//countA++;
+			}
+		} else {
+			//check to see if the row is already in the list
+			if(!pkExists(lObj._data,newData[i].__primaryKey)) {
+				lObj.appendRows([ newData[i]]);
+				countA++;
+			}
+		}
+	}
+	//delete newData; //user might find this helpful. so keep it
+	var name = this.listVariableName;
+	var _dlgObj = window[this._hostComponentId + '_DlgObj'];
+	//put in timeout to give list time to refresh before the event fires
+	if(lObj._hasDetailView) { 
+		setTimeout(function() { 
+			_dlgObj._list_executeEvent(name,'detailView.afterRefreshListIncremental',{ rowsUpdated: countU, rowsInserted: countA, rowsDeleted: 0, listId: name});
+		},0);
+	} else { 
+		setTimeout(function() { 
+			_dlgObj._list_executeEvent(name,'afterRefreshListIncremental',{ rowsUpdated: countU, rowsInserted: countA, rowsDeleted: 0, listId: name});
+		},100);
+	}
+}
+,
+	_flagAutoFetchMore: false,
+	firestoreLogin: function(uid,pw) { alert('List is not configured to use Firestore as the data source') } ,
+	firestoreLogout: function() { alert('List is not configured to use Firestore as the data source') } ,
+	_persistListLayout: false,
+	_loadPersistedLayout: false,
+	saveLayoutSettings: function() {
+		var s = localStorage.listSettings;
+		if(typeof s == 'undefined' || s == null) s = {};
+		if(typeof s == 'string') {
+			try{s = JSON.parse(s);}catch(err) {return false;}
+		}
+		var sl = s[this._listGUID];
+		if(typeof sl == 'undefined') sl = {};
+		sl.listVariableName = this.listVariableName;
+		sl.layouts = this.layouts;
+		sl.layout = this.layout;
+		s[this._listGUID] = sl ;
+		var str = JSON.stringify(s,'','\t')
+		localStorage.listSettings = str;
+	}
+	,
+	onLayoutUpdate: function(type,args,layoutName) {if(this.saveLayoutSettings) this.saveLayoutSettings();},
+	restoreLayoutSettings: function(dlgObj,mode) { 
+		var str = localStorage.listSettings;
+		if(typeof str == 'undefined' || str == null) {return false;}
+		try{var s = JSON.parse(str);}catch(err) {return false;};
+		var sl = s[this._listGUID];
+		if(typeof sl == 'undefined') {return false;}
+		if(mode == 'delete') {
+			delete s[this._listGUID];
+			var str = JSON.stringify(s,'','\t')
+			localStorage.listSettings = str;
+			return;
+		}
+		if(mode == 'get') {
+			return JSON.stringify(sl);
+		}
+		this.layouts = sl.layouts;
+		this.layout = sl.layout;
+		var listSelector = 'listSelector_' + sl.listVariableName ;
+		var that = this;
+		setTimeout(function() {
+			dlgObj.setValue(listSelector,that.layout);
+			delete that;
+		},0);
+		this.refresh();
+		this._flagRestoringLayoutSettings = true;
+	}
+,
+	_childListsAjax: [],
+	_hasDependentLists: false,
+	_dataSourceType: 'SQL',
+	_listFields: [
+{
+	name: 'id',
+	defaultValue: 'return this._controlDefaultValueForListField(\'id\');'
+},
+{
+	name: 'gifttitle',
+	defaultValue: 'return this._controlDefaultValueForListField(\'gifttitle\');'
+},
+{
+	name: 'giftphoto',
+	defaultValue: 'return this._controlDefaultValueForListField(\'giftphoto\');',
+	image: {
+		embedded: false,
+		type: 'JPG'
+	}
+},
+{
+	name: 'nbofpoints',
+	defaultValue: 'return this._controlDefaultValueForListField(\'nbofpoints\');'
+},
+{
+	name: 'giftdesc',
+	defaultValue: 'return this._controlDefaultValueForListField(\'giftdesc\');'
+},
+{
+	name: 'giftgroupid',
+	defaultValue: 'return this._controlDefaultValueForListField(\'giftgroupid\');'
+}],
+	_delayRenderTillRefresh: false,
+	_searchPartHas: false,
+	_mediaFields: [],
+	_mediaTypes: {
+},
+	_mediaFieldReadOnly: [],
+	_ignoreMediaFieldsInWWWSubFolder: false,
+	_mediaFieldFolderInWWW: '',
+	_phoneGap: {
+		mediaFiles: {
+			mediaFileUploadBatchSize: '-1',
+			fireMediaFileCleanup: false,
+			protectedRead: false,
+			template: '',
+			target: 'server',
+			targetFilenameFunction: 'return \'<DeviceId>_\' +e.object.listFieldName + \'_\' + A5.ts() + \'_\' +e.name',
+			showProgress: false,
+			download: {
+				autodownloadFilesOnPullSynch: false,
+				deleteOrphansAfterSync: false,
+				targetFolder: '_AAFiles',
+				showProgress: false,
+				targetFileSystem: 'persistent'
+			},
+			onErrorFunction: function(e) { }
+		}
+	},
+	_incrementalRefreshAfterLoad: function() { },
+	_dvmode: 'enter',
+	_hasDetailView: false,
+	_optimizeSync: false,
+	deselectAll: function() { 
+	var _dlgObj = window[this._hostComponentId + '_DlgObj'];
+	_dlgObj.setValue(this.listVariableName,'',true);
+	this._deselectAll();
+	if(this.nullOutDetailViewRecord) {
+		this.nullOutDetailViewRecord();
+		for(var i = 0; i < this.childLists.length; i++) {
+			var lname = this.childLists[i];
+			var lobjC = DLG1_DlgObj.getControl(lname);
+			lobjC.nullOutDetailViewRecord();
+		}
+		if(this._noRecordInListIsSelectedSettingForDetailView ==  'disabledetailview') {
+			this.disableDetailView()
+			for(var i = 0; i < this.childLists.length; i++) {
+				var lname = this.childLists[i];
+				var lobjC = DLG1_DlgObj.getControl(lname);
+				lobjC.disableDetailView();
+			}
+		}
+	}
+}
+,
+	showHideColumn: function(columnNumber,flagShow,layoutName,flagSetShowState) { 	if(typeof flagSetShowState == 'undefined') flagSetShowState  = false; //set when this function called from listColumnSelector()
+	if(typeof layoutName == 'undefined') layoutName = this.layout;
+	if(this.layouts[layoutName].columns[columnNumber].show != flagShow) {
+		this.layouts[layoutName].columns[columnNumber].show = flagShow;
+		if(flagSetShowState) this.layouts[layoutName].columns[columnNumber]._showState = flagShow;
+		this.refresh();
+	}
+}
+,
+	showAllColumns: function() { 
+	var l = this.layouts
+	var c = '';
+	var flagRefresh = false;
+	for(var n in l) {
+		c = l[n].columns;
+		if(typeof c != 'undefined') {
+			for(var i = 0; i < c.length; i++) {
+				if(!c[i].initialStateHidden) {
+					var flag = true
+					if(typeof c[i]._showState != 'undefined') {
+						if(!c[i]._showState) flag = false;
+					}
+					if(flag && !c[i].show) {
+						c[i].show = true;
+						flagRefresh = true;
+					}
+				}
+			}
+		}
+	}
+	if(flagRefresh) {
+		this.refresh();
+	}
+}
+,
+	_hideColumns: function() { 
+}
+,
+	theme: 'Alpha-Dark-Green',
+	scroll: {
+		axis: 'both',
+		indicator: {
+			show: true,
+			h: {
+				show: true,
+				location: 'top',
+				offset: '0px',
+				left: '0px',
+				right: '0px'
+			},
+			v: {
+				show: true,
+				location: 'right',
+				offset: '0px',
+				top: '0px',
+				bottom: '0px'
+			}
+		},
+		momentum: {
+			allow: true,
+			friction: 4,
+			duration: 1000
+		},
+		pull: {
+			y: 'auto',
+			x: 'auto'
+		}
+	},
+	layout: 'Default',
+	calculateValue: '',
+	dirtyControlClassName: '',
+	listVariableName: 'LIST4',
+	listVariableNameTrueCase: 'LIST4',
+	_hostComponentId: 'DLG1',
+	_includeCRC: true,
+	parentList: '',
+	allParentLists: [],
+	_inplaceEditing: {
+		allow: false
+	},
+	__hasEmbeddedDetailView: false,
+	onBeforeListClear: function() {},
+	__flagPersist: false,
+	__flagIncrementalRefreshAfterLoad: false,
+	onBeforePopulate: function(data) {this.__onPopulateHasFired = false;
+},
+	onPopulate: function(data) {if(!this._isInit) {if (typeof window['cordova'] == 'undefined') {
+	DLG1_DlgObj._list_executeEvent(this.listVariableName,'detailView.listReadyToPersist',{listSyncMode: 'fullRefresh' });
+}
+;this._executeEvent('onListReady',{});};},
+	onBeforeUpdateRow: function(index,data){;},
+	onUpdateRow: function(index,data){;},
+	onBeforeAddRows: function(data,info){;},
+	onAddRows: function(data,info){;},
+	onBeforeRemoveRows: function(rows){;},
+	onRemoveRows: function(rows){;},
+	onResize: function(){var l = this.layout;
+if(this.layouts[l].type == 'column') {
+	var flagRefresh = false; //prevent multiple refreshes from being done
+	if(this.layouts[l]._hasRCW) {
+		var w = $(this.contId).offsetWidth;
+		if(typeof this._w == 'undefined') {
+			flagRefresh = true;
+			this._w = w;
+		} else {
+			if(this._w != w) flagRefresh = true;
+			this._w = w;
+		}
+		var _c = this.layouts[l].columns;
+		for(var i = 0; i < _c.length; i++) {
+			if(_c[i].rcw) {
+				if(_c[i].rcw != '' && Number(_c[i].rcw) > 0) {
+					if(typeof _c[i]._show == 'undefined') _c[i]._show = _c[i].show;
+					if(_c[i]._show == _c[i].show) {
+						if(Number(_c[i].rcw) >= w) {
+							_c[i].show = false;
+						} else {
+							_c[i].show = true;
+						}
+						_c[i]._show = _c[i].show;
+					}
+				}
+			}
+		}
+		var that = this;
+		setTimeout(function() {
+			if(flagRefresh) that.refresh();
+			console.log('refresh');
+		},0);
+	}
+}
+;},
+	childLists: [],
+	childListEndpoints: ['LIST4'],
+	_populateAllChildLists: function() { },
+	onSelect: function() {DLG1_DlgObj._listRowSelect('LIST4',this);
+ this._selectedRow = this.selection[0];if(typeof this._selectedRow != 'undefined') { var that = this; setTimeout(function() { if(typeof DLG1_DlgObj.__listsWithChildLWL != 'undefined') { 
+	if(typeof DLG1_DlgObj.__listsWithChildLWL['LIST4'] != 'undefined') {
+		var obj = DLG1_DlgObj.__listsWithChildLWL['LIST4'];
+		var lObj = DLG1_DlgObj.getControl('LIST4');
+		var r = lObj.selection[0];
+		var _d = lObj._data[r];
+		var linkValue = _d[obj.listPrimaryKey];
+		var id = obj.lwlName;
+		var linkField = obj.listPrimaryKey
+		DLG1_DlgObj.refreshLinkedSpreadsheet(id,linkValue,linkField)
+	}
+}
+},50);};;
+this._selectedRow = this.selection[0];
+;},
+	onFirestoreAuthStatechanged: function(e) {if(e.isLoggedIn) { 
+	var lObj = this.dialogObject.getControl(this.listName)
+	lObj.onFirestoreLogin(e)
+}
+},
+	group: {
+		continued: {
+			wrap: false
+		}
+	},
+	layouts: {
+		Default: {
+			group: {
+				auto: false
+			},
+			type: 'template',
+			item: {
+				height: '',
+				className: '',
+				hoverClassName: '',
+				selectedClassName: '',
+				style: '',
+				titleClassName: '',
+				separatorClassName: ''
+			},
+			template: [
+			'<div style="display: table; width: 100%;">',
+			'\t<div style="display: table-cell; width: 60px; text-align: left; vertical-align: top;">',
+			'\t\t<span id="DLG1.LIST4.GIFTPHOTO.I.{*dataRow}"><img   id="DLG1.LIST4.GIFTPHOTO.IMG.{*dataRow}"  style="width: 120px; height: 120px; padding-top: 5px; padding-left: 5px; padding-right: 15px; padding-bottom: 5px;" src="{DLG1_DlgObj.addCustomSchemeForAlphaWkWebView(giftphoto)}" /></span>',
+			'\t</div>',
+			'\t<div style="display: table-cell;padding-top: 10px">',
+			'\t\t<div class="listItemPartMain"><span id="DLG1.LIST4.GIFTTITLE.I.{*dataRow}">{gifttitle}</span></div>',
+			'\t\t<div class="listItemPartSub"><span class="" style="white-space:normal;"><span id="DLG1.LIST4.GIFTDESC.I.{*dataRow}">{giftdesc}</span></span></div>',
+			'\t\t<div class="listItemPartContent">',
+			'\t\t\t<span id="DLG1.LIST4.NBOFPOINTS.I.{*dataRow}">{nbofpoints}</span><br/>',
+			'\t\t\t',
+			'\t\t</div>',
+			'\t</div>',
+			'\t',
+			'\t<div style="display: table-cell; width: 40px; text-align: right; vertical-align: middle;">',
+			'\t\t<svg     class="icon"><use x="0" y="0" width="100%" height="100%" xlink:href="#alpha-icon-chevronRight"  pointer-events="none" /></svg>',
+			'\t</div>',
+			'</div>']
+		}
+	},
+	__checkedImage: 'svgIcon=#alpha-icon-checkCircle:icon,24',
+	__uncheckedImage: 'svgIcon=#alpha-icon-circle:icon,24',
+	onListDraw: function(data,startIndex) {
+this._allrowschecked = true;
+var d = this._rData;
+for(var i = 0; i < d.length; i++) {
+	if(!d[i].__selected) {
+		this._allrowschecked = false;
+		break;
+	}
+}
+if (d.length == 0) this._allrowschecked = false;
+var h ;
+if(this._allrowschecked) {
+	h = A5.u.icon.html(this.__checkedImage);
+} else {
+	h = A5.u.icon.html(this.__uncheckedImage);
+}
+var _id = 'DLG1.' + this.listVariableName + '.CHECKBOXALL';
+var ele = $(_id)
+ele.innerHTML = h
+},
+	captureFocus: true,
+	content: {
+		header: {
+			show: false
+		},
+		footer: {
+			show: false
+		}
+	},
+	systemEvents: {
+		onBeforeDestroy: function(e) {},
+		onTap: function(e) {},
+		afterAjaxCallback: function(e) {},
+		afterClientSideFilter: function(e) {},
+		beforeServerSideSort: function(e) {},
+		afterServerSideSort: function(e) {},
+		onSwipe: function(e) {},
+		onScroll: function(e) {},
+		onPullRelease: function(e) {},
+		onPull: function(e) {},
+		onPullEnd: function(e) {},
+		afterSearchComplete: function(e) {},
+		beforeSearch: function(e) {},
+		onSearchResultTooLarge: function(e) {},
+		onSearchResultTooLargeForLocalStorage: function(e) {},
+		onBeforePersistToLocalStorage: function(e) {},
+		onPersistToLocalStorage: function(e) {},
+		onRestoreFromLocalStorage: function(e) {},
+		onListReady: function(e) {},
+		afterRenderComplete: function(e) {},
+		beforeFetchMore: function(e) {},
+		afterFetchMore: function(e) {},
+		beforePageNavigate: function(e) {},
+		afterPageNavigate: function(e) {},
+		beforeRefreshRow: function(e) {},
+		afterRefreshRow: function(e) {},
+		afterRefreshData: function(e) {},
+		afterServerSideSummaryCompute: function(summary) {},
+		afterRefreshListIncremental: function(e) {},
+		onNamedQuerySelect: function(e) {},
+		onFirestoreLoaded: function(e) {},
+		onFirestoreAuthStateChanged: function(e) {},
+		onFirestoreLogin: function(e) {},
+		onFirestoreLogout: function(e) {},
+		detailView: {
+			_afterRefreshListIncremental: function() { 
+if (typeof window['cordova'] == 'undefined') {
+	DLG1_DlgObj._list_executeEvent(this.listVariableName,'detailView.listReadyToPersist',{listSyncMode: 'incrementalRefresh' });
+}
+}
+		},
+		_afterRenderComplete: function(e) {
+},
+		_afterAjaxCallback: function() {this._refreshStateMessages();}
+	},
+	onBeforeDestroy: function() {if(this._transient) { 
+	this._transient.destroy()
+	delete this._transient;
+}
+},
+	_clientsideSummary: [],
+	computeClientSideSummaryValues: function(e) {},
+	_executeEvent: function(event,obj) { 
+	return DLG1_DlgObj._list_executeEvent('LIST4',event,obj);
+}
+,
+	_selectAll: function() {
+	var v = this._values;
+	var v2 = [].concat(v);
+	this.setValue(v2,false);
+}
+,
+	searchList: function() { 
+	if(this._searchPartStyle == 'querybyform') {
+		if(this._dvmode != 'search') return false;
+	}
+	if(typeof this.detailViewIsDirty == 'function') {
+		if(this.detailViewIsDirty()) {
+				if(this._autoCommitDetailView) {
+					//this.updateListFromUXControls(); ?why was this on? it saves the qbf def as a new record
+				}
+		}
+	}
+	var obj = typeof arguments[0] != 'undefined' ? arguments[0] : {};
+	var mode = 'serverSide';
+	if(typeof obj.searchMode != 'undefined') mode = obj.searchMode;
+	mode = mode.toLowerCase();
+	if(mode.indexOf('auto') == 0) {
+		var flagCS = false;
+		if(typeof this.detailViewIsDirty == 'function') {
+			if(this.listIsDirty() || this.detailViewIsDirty()) flagCS = true;
+		} else {
+			if(this.listIsDirty()) flagCS = true;
+		}
+		if(flagCS) mode = 'clientside';
+		else {
+			if(this._dataSourceType.toLowerCase() == 'sql' || this._dataSourceType.toLowerCase() == 'dbf' || this._dataSourceType.toLowerCase() == 'firestore' || this._dataSourceType.toLowerCase() == 'mongodb' ) {
+				mode = 'serverside';
+			} else {
+				mode = 'clientside';
+			}
+		}
+	}
+	if(this._dataSourceType.toLowerCase() == 'static') mode = 'clientside';
+	var parentList = this.parentList;
+	if(typeof parentList != 'undefined') {
+		if(parentList != '') mode = 'clientside';
+	}
+	var flagDirty = false;
+	if(this.listIsDirty) flagDirty = this.listIsDirty();
+	var flagResult = DLG1_DlgObj._list_executeEvent(this.listVariableName,'beforeSearch',{searchMode: 'search', searchWhere: mode, listIsDirty: flagDirty});
+	if(!flagResult) return false;
+	if(mode == 'serverside') {
+		this._searchListServerSide(obj);
+	} else if(mode == 'clientside') {
+		this._searchPartSubmit_clientSideFilter();
+		var rowCount = this._rData.length;
+		DLG1_DlgObj._list_executeEvent(this.listVariableName,'afterSearchComplete',{searchMode: 'search', searchWhere: mode, recordsInQuery: rowCount});
+	}
+}
+,
+	_searchListServerSide: function() { 
+	var obj = typeof arguments[0] != 'undefined' ? arguments[0] : {};
+	var _d={};
+	var flagDirty = false;
+	if(this.listIsDirty) flagDirty = this.listIsDirty();
+	if(flagDirty) {
+		alert('Can\'t execute server-side search because List has edits that have not yet been synchronized.');
+		return false;
+	}
+	_d.listId = this.listVariableName
+	var _data = A5.ajax.buildURLParam('__searchInfo',JSON.stringify(_d));
+	_data = _data + '&' + A5.ajax.buildURLParam('__searchOptions',JSON.stringify(obj));
+	this.filter = false;
+	DLG1_DlgObj.ajaxCallback('','','system:ListSearchPart','',_data);
+}
+,
+	setListSize: function(height,width) {
+	var l = $(this.contId);
+	if(typeof height != 'undefined') l.style.height = ''+ height;
+	if(typeof width != 'undefined') l.style.width = '' + width;
+	this.resize();
+}
+,
+	clearSearchList: function() { 
+	var obj = typeof arguments[0] != 'undefined' ? arguments[0] : {};
+	var mode = 'serverSide';
+	if(typeof obj.searchMode != 'undefined') mode = obj.searchMode;
+	mode = mode.toLowerCase();
+	if(mode.indexOf('auto') == 0) {
+		if(this.listIsDirty()) mode = 'clientside';
+		else mode = 'serverside';
+	}
+	if(this._dataSourceType.toLowerCase() == 'static') mode = 'clientside';
+	var parentList = this.parentList;
+	if(typeof parentList != 'undefined') {
+		if(parentList != '') mode = 'clientside';
+	}
+	var flagResult = DLG1_DlgObj._list_executeEvent(this.listVariableName,'beforeSearch',{searchMode: 'clear', searchWhere: mode});
+	if(!flagResult) return false;
+	if(mode == 'serverside') {
+		this._clearSearchListServerSide();
+	} else if(mode == 'clientside') {
+		this._searchPartSubmit_clientSideFilterClear();
+		var rowCount = this._rData.length;
+		DLG1_DlgObj._list_executeEvent(this.listVariableName,'afterSearchComplete',{searchMode: 'clear', searchWhere: mode, recordsInQuery: rowCount});
+	}
+}
+,
+	_clearSearchListServerSide: function() { 
+	var _d={};
+	_d.listId = this.listVariableName
+	var _data = A5.ajax.buildURLParam('__searchInfo',JSON.stringify(_d));
+	DLG1_DlgObj.ajaxCallback('','','system:ListSearchPartClear','',_data);
+}
+,
+	_str: function(txt) {
+	txt = txt.replace("'","\\'");
+	txt = '\'' + txt + '\'';
+	return txt;
+}
+,
+	_QBF: function(txt) { 
+	var o = {};
+	o.v2 = '';
+	o.v1 = txt;
+	o.flag = false;
+	if(txt.indexOf('>=') >= 0) {
+		o.op = '>=';
+		o.v1 = txt.substr(2);
+		o.flag = true;
+	} else if (txt.indexOf('<=') >= 0 ) {
+		o.op = '<=';
+		o.v1 = txt.substr(2);
+		o.flag = true;
+	} else if (txt.indexOf('>') >= 0 ) {
+		o.op = '>';
+		o.v1 = txt.substr(1);
+		o.flag = true;
+	} else if (txt.indexOf('<') >= 0)  {
+		o.op = '<';
+		o.v1 = txt.substr(1);
+		o.flag = true;
+	} else if (txt.indexOf('..') == 0)  {
+		o.op = '<=';
+		o.v1 = txt.substr(2);
+		o.flag = true;
+	} else if ( txt.indexOf('..', txt.length - '..'.length) !== -1 ) {
+		//ends with ..
+		o.op = '>=';
+		txt = txt.split('..')
+		o.v1 = txt[0];
+		o.flag = true;
+	} else if (txt.indexOf('..') > 0 ) {
+		o.op = 'between'
+		txt = txt.split('..');
+		o.v1 = txt[0];
+		o.v2 = txt[1];
+		o.flag = true;
+	}
+	return o;
+}
+,
+	_match: function(data,field,val,obj) { 
+	if(obj.qbf && obj.type == 'c') val = $u.s.rTrim(val,',');
+	var flagKeyword = false;
+	if(typeof obj.flagKeyword != 'undefined') flagKeyword = obj.flagKeyword;
+	if(flagKeyword) {
+		var _field = field
+		//if(_field.indexOf('.') > -1) _field = _field.split('.')[1]
+		_field = _field.toUpperCase()
+		var obj_i = this._searchFieldOptions[_field];
+		this._setSearchOps(obj,obj_i);
+		field = obj_i.searchField
+		console.log(field)
+	}
+	var _d = '';
+	var _v = val;
+	var flagC = false;
+	if(obj.type == 'c') {
+		flagC = true;
+		if(!obj.caseSensitive) _v = _v.toLowerCase();
+	} else {
+		//non mumeric searches are only mode 1 or -1
+		if(obj.mode > 1) obj.mode = 1;
+		if(obj.mode < -1) obj.mode = -1;
+	}
+	var flag = false;
+	obj.usesQBFOperator = false;
+	if(obj.qbf) {
+		_v = _v.split(',');
+	} else {
+		_v = [_v];
+	}
+	var o = {}
+	var r = '';
+	var _vals = [];
+	for(var i = 0; i < _v.length; i++) {
+		if(obj.qbf) {
+			o = this._QBF(_v[i]);
+		} else {
+			o.flag = false;
+			o.v1 = _v[i];
+			o.v2 = '';
+		}
+		if(typeof data[field] != 'undefined') {
+			if(data[field] != null) {
+				_d = '' + data[field];
+				if(obj.type == 'n') {
+					o.v1 = Number(o.v1);
+					o.v2 = Number(o.v2);
+					_d = Number(_d);
+				} else if (obj.type == 'l') {
+					o.v1 = $u.s.toBool(o.v1);
+					o.v2 = $u.s.toBool(o.v2);
+					_d = $u.s.toBool(_d);
+				} else if (obj.type == 'd') {
+					o.v1 = A5.stringToDate(o.v1,obj.dateFormat);
+					o.v2 = A5.stringToDate(o.v2,obj.dateFormat);
+					if(typeof _d == 'string') _d = A5.stringToDate(_d,obj.dateFormat);
+					if(o.v1 != '' && o.v1 != null ) o.v1 = o.v1.getTime();
+					if(o.v2 != '' && o.v2 != null ) o.v2 = o.v2.getTime();
+					if(_d != '' && _d != null ) _d = _d.getTime();
+				}
+				if(flagC) {if(!obj.caseSensitive && typeof _d == 'string') _d = _d.toLowerCase();}
+				if(o.flag) {
+					//has qbf operators
+					if(o.op == 'between') {
+						if(flagC) {
+							if(_d.substr(0,o.v1.length) >= o.v1 && _d.substr(0,o.v2.length) <= o.v2 ) flag = true;
+						} else {
+							if(_d >= o.v1 && _d <= o.v2 && (typeof _d == typeof o.v1)  ) flag = true;
+						}
+					} else {
+						if(flagC) _d = _d.substr(0,o.v1.length)
+						if(o.op == '>=') if( _d >= o.v1) flag = true;
+						if(o.op == '<=') if( _d <= o.v1) flag = true;
+						if(o.op == '>') if(_d > o.v1) flag = true;
+						if(o.op == '<') if(_d < o.v1) flag = true;
+					}
+				} else {
+					if(obj.mode == 1 || obj.mode == -1 ) {
+						if(obj.mode == 1) if(_d == o.v1) flag = true;; //match
+						if(obj.mode == -1) if(!(_d == o.v1)) flag = true;; //match
+					} else if (obj.mode == 2 || obj.mode == -2) {
+						if(obj.mode == 2) if(_d.indexOf(o.v1) > -1) flag = true; //contains
+						if(obj.mode == -2) if(!(_d.indexOf(o.v1) > -1)) flag = true;
+					} else if (obj.mode == 3 || obj.mode == -3) {
+						if(obj.mode == 3) if(_d.indexOf(o.v1) == 0) flag = true; //starts with
+						if(obj.mode == -3) if(!(_d.indexOf(o.v1) == 0)) flag = true; //starts with
+					}
+				}
+				if(o.v1 != '') {
+					if(_vals.indexOf(o.v1) == -1) {
+						_vals.push(o.v1);
+					}
+				}
+				if(o.v2 != '') {
+					if(_vals.indexOf(o.v2) == -1) {
+						_vals.push(o.v2);
+					}
+				}
+			}
+		}
+	}
+	if(flag) {
+		if(typeof this._state.highlight == 'undefined') this._state.highlight = {};
+		this._state.highlight[field.toUpperCase()] = _vals;
+	} else {
+		//this._state.highlight[field.toUpperCase()] = [];
+	}
+	return flag;
+}
+,
+	_setSearchOps: function(obj,obj_i) { 
+	obj.mode = obj_i.option;
+	obj.qbf = obj_i.qbf;
+	obj.type = obj_i.type;
+	//obj.treatAs = obj_i.treatAs;
+}
+,
+	_searchPartOperator: '&&',
+	_searchPartSubmit_clientSideFilter: function() { 
+	if(!this._searchPartHas) return true;
+	//_searchPartStyle: 'individualcontrols'
+	this._state.highlight = {};
+	if(this._searchPartStyle == 'singlekeywordcontrol') {
+		var searchFor = DLG1_DlgObj.getValue(this._keywordSearchControl);
+		var arr = this._keywordSearchFields;
+		var expn = [];
+		var expn_i = '';
+		var obj = {};
+		//obj.caseSensitive = false;
+		//obj.qbf = true;
+		//obj.mode = 1;
+		obj.flagKeyword = true;
+		var objStr = JSON.stringify(obj)
+		for(var i = 0; i < arr.length; i++) {
+			expn_i = 'this._match(data,' +this._str(arr[i]) + ',' + this._str(searchFor) + ','+objStr+')';
+			expn.push(expn_i);
+		}
+		expn = expn.join('||');
+		//alert(expn);
+	} else if ( this._searchPartStyle == 'individualcontrols' || this._searchPartStyle == 'querybyform'  ) {
+		var map = this._searchPart.fieldMap;
+		var val = '';
+		var expn = [];
+		var expn_i = '';
+		var obj = {};
+		obj.caseSensitive = false;
+		//obj.qbf = true;
+		//obj.mode = 2;
+		//var objStr = JSON.stringify(obj)
+		var ac = [];
+		var aco = {};
+		var _highlight = {};
+		if(this._searchPartStyle == 'individualcontrols') {
+			for(var i = 0; i < map.length; i++) {
+				val = DLG1_DlgObj.getValue(map[i].control);
+				if(val != '') {
+					obj_i = this._searchFieldOptions[map[i].field.toUpperCase()];
+					this._setSearchOps(obj,obj_i);
+					expn_i = 'this._match(data,' +this._str(map[i].field) + ',' + this._str(val) + ','+JSON.stringify(obj)+')';
+					expn.push(expn_i);
+				}
+			}
+		} else if (this._searchPartStyle == 'querybyform' ) {
+			var controlName = '';
+			for(var i = 0; i < this._listFields.length; i++) {
+				controlName = this._getUXDetailViewControlName(this._listFields[i].name);
+				if(controlName != '') {
+					val = DLG1_DlgObj.getValue(controlName);
+					if(val != '') {
+						//obj_i = this._searchFieldOptions[map[i].field.toUpperCase()];
+						obj_i = this._searchFieldOptions[this._listFields[i].name.toUpperCase()];
+						this._setSearchOps(obj,obj_i);
+						expn_i = 'this._match(data,' +this._str(this._listFields[i].name) + ',' + this._str(val) + ','+JSON.stringify(obj)+')';
+						expn.push(expn_i);
+						aco.control = controlName;
+						aco.value = val;
+						ac.push(aco);
+					}
+				}
+			}
+			this.__queryByFormValues = ac;
+			DLG1_DlgObj._setDVClean(this);
+		}
+		var operator = '&&';
+		if(typeof this._searchPartOperator != 'undefined') operator = this._searchPartOperator;
+		expn = expn.join(' '+operator+' ');
+	}
+	if (this._showSearchDebugInfo) {
+		var ele = $('DLG1.V.R1.' + this._searchDebugPH);
+		if(ele) ele.innerHTML = expn;
+	}
+	//user did not fill in any search fields
+	if(expn == '') return true;
+	var fnTxt = 'if(' + expn + ') {return true;} else { return false;}'
+	var searchFunction = new Function('data',fnTxt);
+	this.setFilter(searchFunction);
+	if(this._rData.length > 0) this.setValue(0);
+}
+,
+	_searchPartSubmit_clientSideFilterClear: function() { 
+if(!this._searchPartHas) return true;
+	this._state.highlight = {};
+	this.setFilter(false);
+	var map = this._searchPart.fieldMap;
+	var val = '';
+	var od = DLG1_DlgObj.originalValues[0];
+	for(var i = 0; i < map.length; i++) {
+		var val = od[map[i].control.toUpperCase()];
+		//selwyn 8/6/20 -- used to be false, but then the floating label is not resotred to its initial position when the form is cleared
+		if(typeof val != 'undefined') DLG1_DlgObj.setValue(map[i].control,val,false);
+	}
+	this.setFilter(false);
+	delete this.__queryByFormValues;
+	DLG1_DlgObj._setDVClean(this);
+	if(this._data.length > 0) this.setValue(0);
+	if (this._showSearchDebugInfo) {
+		var ele = $('DLG1.V.R1.' + this._searchDebugPH);
+		if(ele) ele.innerHTML = '';
+	}
+}
+,
+	detailViewIsDirty: function() { return false; },
+	populateUXControls: function() { return true; },
+	listIsDirty: function() { return false; },
+	lookupValue: function(key,name,keyValue) {
+	var _d = this._data;
+	var indx = A5FindPropInArray(_d,key,keyValue);
+	var rv = '';
+	if(indx >=0) {
+		if(name == '__rowData__') return _d[indx];
+		rv =  _d[indx][name];
+	} else {
+		//null out all properties in row
+		var _d2 = {};
+		if(typeof _d[0] == 'undefined') { return {}} ;
+		for(var n in _d[0]) {
+			_d2[n] = '&nbsp;';
+		}
+		rv = _d2;
+	}
+	return rv;
+}
+,
+	allowNullSelection: true,
+	allowTextSelection: false,
+	allowAnyValue: false,
+	allowNullDeselection: false,
+	loopNavigate: false,
+	loopNavigateNullSelection: false,
+	refreshChildLists: function() {DLG1_DlgObj._listRefreshCascadingLists('LIST4'); },
+	rowExpander: function(rowNumber) { 
+	var mode = typeof arguments[2] != 'undefined' ? arguments[2] : 'toggle';
+	if(typeof rowNumber === 'undefined' || rowNumber === '' ) {
+		rowNumber = this.selection[0];
+		if(typeof rowNumber == 'undefined') return false;
+	}
+	var animObj = typeof arguments[1] != 'undefined' ? arguments[1] : {};
+	var ele = $(this._hostComponentId + '.' + this.listVariableName + '.ROWEXPANDER.' + rowNumber);
+	if(ele) {
+		if(mode == 'toggle') A5.u.element.toggle(ele,animObj);
+		if(mode == 'show') A5.u.element.show(ele,animObj);
+		if(mode == 'hide') A5.u.element.hide(ele,animObj);
+	}
+}
+,
+	afterClientSideSummaryCompute: function(csSummary) { },
+	selectCurrentLayout: function(name) {
+if(this._flagRestoringLayoutSettings) {
+	this._flagRestoringLayoutSettings = false;
+	return;
+}
+var pl = this.layouts[name];
+if(typeof pl == 'undefined') return false;
+this.setLayout(name);
+if(pl.type == 'column') {
+	this.columnLayout.header.show = this.layouts[name].showColumnTitles;
+	this.refresh();
+}
+var flagPersist = this._persistListLayout;
+if(flagPersist && this.saveLayoutSettings ) this.saveLayoutSettings()
+},
+	onFilter: function() { 	var e = {};
+	e.rowCount = this._values.length;
+	var ele = $('DLG1.__listId__.RECORDCOUNT');
+	if(ele) {ele.innerHTML = e.rowCount;};
+	if(this.persistToStorage) { this.persistToStorage({});}
+	(function(e) {   })(e);
+}
+,
+	serverSideSort: function(column,initialDirection) {
+var e = {};
+this.setOrder(false);
+e.column = column;
+var result = this.systemEvents.beforeServerSideSort(e);
+if(result == false) return false;
+var obj = {};
+obj.cmd = 'sort';
+obj.column = column;
+obj.layoutName = this.layout;
+obj.listState = this._state;
+obj.initialDirection = initialDirection;
+var data = '_listId=LIST4&' + A5.ajax.buildURLParam('_cmdObj',$u.o.toJSON(obj));
+DLG1_DlgObj.ajaxCallback('','','system:listServerSideSort','',data);
+},
+	filterListClientSide: function(searchFor) {
+searchFor =  searchFor.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+//var result = this.systemEvents.beforeClientSideFilter();
+//if(result == false) return false;
+if(searchFor != '') {
+	//fixes bug in Chrome when searching on dates strings that use forward slashes
+	searchFor = searchFor.replace(/\//g,'\\/');
+	this.setFilter({'id': RegExp('' + searchFor,'i'), 'gifttitle': RegExp('' + searchFor,'i'), 'nbofpoints': RegExp('' + searchFor,'i'), 'giftdesc': RegExp('' + searchFor,'i'), 'giftgroupid': RegExp('' + searchFor,'i')});
+} else this.setFilter(false);
+var rowCount = this._values.length;
+//var e = {};
+//e.rowCount = rowCount;
+//this.systemEvents.afterClientSideFilter(e);
+var ele = $('DLG1.LIST4.RECORDCOUNT');
+if(ele) ele.innerHTML = rowCount;
+if(this._showHideFetchMoreSpinner) this._showHideFetchMoreSpinner();
+}
+,
+	scrollToClosestValue: function(val) { 
+	if(typeof val != 'string') val = val.join('');
+	var flagCI = typeof arguments[1] != 'undefined' ? arguments[1] : false;
+	var pos = typeof arguments[2] != 'undefined' ? arguments[2] : 'top';
+	var anim = typeof arguments[3] != 'undefined' ? arguments[3] : {}
+	var _d = this._rData;
+	var len = val.length;
+	var _d2;
+	var i2 = -1;
+	if(flagCI) val = val.toLowerCase();
+	for(var i = 0 ; i < _d.length; i++) {
+		i2 = i;
+		_d2 = String(_d[i]['*value']);
+		_d2 = _d2.substr(0,len);
+		_d2 = $u.s.pad(_d2,len,' ','l');
+		if(flagCI) _d2 = _d2.toLowerCase();
+		if(val <= _d2){
+			 break;
+		}
+	}
+	if(i2 > -1) {
+		this.scrollToItem(i2,{mode: pos, animation: anim});
+	}
+}
+,
+	_setPageSize: function(pageSize) {
+	this._state.pageSize = pageSize;
+	var options = {
+		keepFocusOnCurrentSelection: true,
+		preserveCurrentFilterOrder: true,
+	};
+	DLG1_DlgObj._refreshListData(this.listVariableName,options);
+}
+,
+	_refreshStateMessages: function() {
+	if(DLG1_DlgObj._listStateChange) DLG1_DlgObj._listStateChange(this.listVariableName);
+	var ele = '';
+	ele = $('DLG1.LIST4.PAGENUMBER');
+	if(ele) ele.innerHTML = this._state.page;
+	ele = $('DLG1.LIST4.PAGECOUNT');
+	if(ele) ele.innerHTML = this._state.pageCount;
+	ele = $('DLG1.LIST4.PAGECOUNT.PAGESELECTOR');
+	if(ele) ele.innerHTML = this._state.pageCount;
+	ele = $('DLG1.LIST4.LISTSTATE');
+	if(ele) {
+		var listState = $u.o.toJSON(this._state);
+		ele.innerHTML = listState;
+	}
+	if(this._hasNavigationBar) {
+		var nObj = this._listNavigator;
+		if(!nObj) {
+			this._listNavigator = DLG1_DlgObj._navigationBar(this._navBarId);
+		}
+		if(nObj) {
+			var obj = nObj.data;
+			obj.settings = this._navigationBar;
+			obj.pageNumber = this._state.page;
+			obj.totalPages = this._state.pageCount;
+			obj.totalRecords = this._state.recordCount;
+			obj.listName = this.listVariableName;
+			nObj.populate(obj);
+			this.refresh();
+			this.resize(); //needed if the list has a fixed size and the style is gr*
+		}
+	}
+	//navigation buttons
+	ele = DLG1_DlgObj._buttons['BUTTON_LISTNAV_NEXT.LIST4'];
+	if(ele) {
+		if(this._state.page == this._state.pageCount || this._state.pageCount == 0) ele.setDisabled(true);
+		else ele.setDisabled(false);
+	}
+	ele = DLG1_DlgObj._buttons['BUTTON_LISTNAV_LAST.LIST4'];
+	if(ele) {
+		if(this._state.page == this._state.pageCount || this._state.pageCount == 0) ele.setDisabled(true);
+		else ele.setDisabled(false);
+	}
+	ele = DLG1_DlgObj._buttons['BUTTON_LISTNAV_FIRST.LIST4'];
+	if(ele) {
+		if(this._state.page == 1 || this._state.pageCount == 0) ele.setDisabled(true);
+		else ele.setDisabled(false);
+	}
+	ele = DLG1_DlgObj._buttons['BUTTON_LISTNAV_PREV.LIST4'];
+	if(ele) {
+		if(this._state.page == 1 || this._state.pageCount == 0 ) ele.setDisabled(true);
+		else ele.setDisabled(false);
+	}
+	ele = $('DLG1.V.R1.A5SYSTEM_LIST_PAGESELECTOR_LIST4');
+	if(ele) {
+		var data = this._recordNavigatorLinks;
+		if(data) {
+			A5.form.populateSelect(ele,'' + this._state.page,data,true);
+			//alert('page: ' + this._state.page);
+			//ele.value = this._state.page;
+		}
+	}
+}
+,
+	header: {
+		html: ''
+	},
+	__flagHasFixedColumnFooters: false,
+	_getRoute: function() { 
+	var mode = typeof arguments[0] != 'undefined' ? arguments[0] : 'rowNumber'; //
+	var obj  = typeof arguments[1] != 'undefined' ? arguments[1] : [];
+	if(typeof this.selection == 'undefined') return false;
+	if(typeof this.selection[0] == 'undefined') return false;
+	if(typeof this.getData(this.selection[0]) == 'undefined') return false;
+	if(mode == '*key') {
+		//leave as *key
+	} else {
+		if(mode != 'rowNumber') {
+			var _d = this.getData(this.selection[0]);
+			if(typeof _d.__primaryKey == 'undefined') {
+				mode = 'rowNumber';
+			}
+		}
+	}
+	var endPoint = typeof arguments[2] != 'undefined' ? arguments[2]: '';
+	if(endPoint != '') {
+		//if you have sibling children _getRoute() is returning wrong route -- it is including the siblings in the route.
+		//route should only include parents
+		//by passing in the listName to the function we get the route from the top parent to the 'endPoint' list (ignoring siblings)
+		var _dlgObj = window[this._hostComponentId + '_DlgObj'];
+		var ra2 = [];
+		var lObj = _dlgObj.getControl(endPoint);
+		var parentList = lObj.parentList;
+		while(typeof parentList != 'undefined' && parentList != '') {
+			var l2 = _dlgObj.getControl(parentList);
+			var row = '';
+			if(mode == 'rowNumber') {
+				row = l2.selection[0]
+			} else {row = l2.getData(l2.selection[0])['*key'] }
+			ra2.push({list: parentList.toUpperCase(), row: row});
+			parentList = l2.parentList;
+		}
+		return ra2.reverse();
+	}
+	if(mode == 'rowNumber' || mode == '*key') {
+		obj.push({list: this.listVariableName.toUpperCase(), row: this.getData(this.selection[0])['*key'], mode: mode});
+	} else {
+		var _d = this.getData(this.selection[0]);
+		var _pk = _d.__primaryKey;
+		if(typeof _d.__primaryKey == 'undefined') {
+			_pk = _d['*rowGUID'];
+		}
+		obj.push({list: this.listVariableName.toUpperCase(), row: _pk, mode: mode});
+	}
+	for(var i = 0; i < this.childLists.length; i++) {
+		var lname = this.childLists[i];
+		var lObj = window[this._hostComponentId + '_DlgObj'].getControl(lname);
+		if(lObj) lObj._getRoute(mode,obj);
+	}
+	return obj;
+}
+,
+	_getRouteOLD: function() { 
+	var obj  = typeof arguments[1] != 'undefined' ? arguments[1] : [];
+	var mode = typeof arguments[0] != 'undefined' ? arguments[0] : 'rowNumber'; //
+	if(typeof this.selection == 'undefined') return false;
+	if(typeof this.selection[0] == 'undefined') return false;
+	if(typeof this.getData(this.selection[0]) == 'undefined') return false;
+	if(mode == 'rowNumber') obj.push({list: this.listVariableName, row: this.getData(this.selection[0])['*key']});
+	else obj.push({list: this.listVariableName, row: this.getData(this.selection[0]).__primaryKey});
+	for(var i = 0; i < this.childLists.length; i++) {
+		var lname = this.childLists[i];
+		var lObj = window[this._hostComponentId + '_DlgObj'].getControl(lname);
+		if(lObj) lObj._getRoute(mode,obj);
+	}
+	return obj;
+}
+,
+	_setRoute: function(route) { 
+if(this.multiple ) return;
+	if(typeof route == 'undefined') {
+		route = this.__currentRoute;
+		if(typeof route == 'undefined') return false;
+	}
+	var mode = typeof arguments[1] != 'undefined' ? arguments[1] : 'rowNumber'; //
+	if(mode == 'primaryKey') {
+		if(typeof this._data != 'undefined') {
+			var _d = this._data;
+			if(typeof _d[0] != 'undefined') {
+				if(typeof _d[0].__primaryKey == 'undefined') {
+					mode = 'rowNumber';
+				}
+			}
+		}
+	}
+	var lObj = '';
+	var row = '';
+	var _pk = '';
+	for(var i = 0; i < route.length; i++) {
+		lObj = window[this._hostComponentId + '_DlgObj'].getControl(route[i].list);
+		row = route[i].row;
+		if(typeof route[i].mode != 'undefined') {
+			mode = route[i].mode
+		}
+		if(mode == 'primaryKey') _pk = row;
+		/*
+		if(mode != 'rowNumber') {
+			var _d = lObj._rData;
+			var _i2 = -1;
+			for(var j = 0; j < _d.length; j++) {
+				if(_d[j].__primaryKey == row) {
+					_i2 = j;
+					break;
+				}
+			}
+			row = _i2
+		}
+		*/
+		var flag = typeof this._restoringList != 'undefined' ? !this._restoringList : true;
+		if(mode == 'rowNumber') {
+			if(typeof row != 'undefined') {
+				var rowFixed = '';
+				if(typeof lObj._dataMap == 'undefined') return false;
+				if(mode != 'rowNumber')  {
+					rowFixed = row;
+					} else {
+				rowFixed = lObj._dataMap.indexOf(route[i].row);
+				}
+				lObj.setValue(rowFixed,flag);
+				if(this._clearServerSideErrors) this._clearServerSideErrors();
+				if(this._showServerSideErrors) this._showServerSideErrors();
+				if(this._showWriteConflictErrors) this._showWriteConflictErrors();
+			}
+		} else {
+			lObj.setValue(''+_pk,flag);
+			if(this._clearServerSideErrors) this._clearServerSideErrors();
+			if(this._showServerSideErrors) this._showServerSideErrors();
+			if(this._showWriteConflictErrors) this._showWriteConflictErrors();
+		}
+	}
+}
+,
+	_useServerSideSyncLog: false,
+	items: {
+},
+	_searchHighlighting: false,
+	view: {
+		navigation: {
+			next: {
+				className: 'listNavButtonNext'
+			},
+			prev: {
+				className: 'listNavButtonPrev'
+			}
+		}
+	},
+	_incrementalRefreshTimestampField: '',
+	_hasNavigationBar: false,
+	_listGUID: 'ac6db46c-ec49-426e-9470-3b274d2793c6'
+};
 DLG1_DlgObj._listViewSettings['LIST1'] = {
 	__pkisguid: false,
 	_switchInfo: {
@@ -5408,6 +6766,7 @@ if(this.multiple ) return;
 };
 DLG1_DlgObj._listViewData['LIST2'] = A5DataArrayToObject(['id','title','descr','photo','__a5crc'],[]); 
 DLG1_DlgObj._listViewData['LIST2_1'] = A5DataArrayToObject(['hairdresser','photo','salon','totpnt','__a5crc'],[]); 
+DLG1_DlgObj._listViewData['LIST4'] = A5DataArrayToObject(['id','gifttitle','giftphoto','nbofpoints','giftdesc','giftgroupid','__a5crc'],[]); 
 DLG1_DlgObj._listViewData['LIST1'] = [];
 ;
 DLG1_DlgObj.setStateInfo({ 	"__dialogGuid": "", 	"argumentsBoundToCotrols": "", 	"__sgr": "", 	"__dtfmt": "", 	"__tfmt": "" });;DLG1_DlgObj.setStateInfo({ 	"__dialogGuid": "f5660b6b-5cc8-44b9-8ba0-d8073ef23531", 	"argumentsBoundToCotrols": "MUSERNAME|Character={User_Name}\r\n", 	"__sgr": "", 	"__dtfmt": "dd/MM/yyyy", 	"__tfmt": "0h:0m AM" });//ssi13;
@@ -5479,6 +6838,40 @@ if(typeof this.__flagHasFixedColumnFooters != 'undefined') {
 	}
 }
 ; if(this.initializeVirtualizedColumns) this.initializeVirtualizedColumns(); if(this._setupAlphabetSearch) this._setupAlphabetSearch.call(this)},  settings: DLG1_DlgObj._listViewSettings['LIST2_1'] }
+DLG1_DlgObj._controls['LIST4'] =  { type: 'list',  data: DLG1_DlgObj._listViewData['LIST4'],  onInitialize: function() {
+		var pe = $(this.contId).parentElement;
+		if(typeof this.listVariableName != 'undefined') { 
+			var _cn = 'DLG1_' + this.listVariableName.toUpperCase() + '_2';
+			$acn(pe,_cn);
+		}
+var flagCordova = true;
+if (typeof window['cordova'] == 'undefined') {
+	var flagCordova = false;
+}
+if(flagCordova) { 
+	if(this.__flagPersist) { 
+		if(this.__persistWhere.toLowerCase() == 'indexdb') { 
+			alert('Error. App is running as a Cordova app. You cannot set the persist location to \'IndexedDB\' for Cordova applications. You must set the persist location to \'FileSystem\'');
+		}
+	}
+}
+;var that = this;
+try{
+	if(this._hasDetailView) { 
+		if(this._JSONForm) { 
+			setTimeout(function() { 
+			that.resize();
+			},10);
+		}
+	}
+}catch(e){};
+;this._host = DLG1_DlgObj.dialogId;
+if(typeof this.__flagHasFixedColumnFooters != 'undefined') { 
+	if(this.__flagHasFixedColumnFooters) { 
+		this.refresh();
+	}
+}
+; if(this.initializeVirtualizedColumns) this.initializeVirtualizedColumns(); if(this._setupAlphabetSearch) this._setupAlphabetSearch.call(this)},  settings: DLG1_DlgObj._listViewSettings['LIST4'] }
 DLG1_DlgObj._controls['LIST1'] =  { type: 'list',  data: DLG1_DlgObj._listViewData['LIST1'],  onInitialize: function() {;if (!this.allowNullSelection){ var that = this; setTimeout(function() {that._onSelect(); delete that; },10);};
 		var pe = $(this.contId).parentElement;
 		if(typeof this.listVariableName != 'undefined') { 
@@ -5517,6 +6910,64 @@ DLG1_DlgObj.setVariables({});
 DLG1_DlgObj._dataBoundControls = [];
 DLG1_DlgObj._primaryTableAlias = '';
 DLG1_DlgObj._listControlsInfo = {};
+DLG1_DlgObj.createWindow('DLG1_CONTAINERWINDOW_CONTAINER_7','modal-resizable',
+	{
+	body: {
+		content: {
+			type: 'element',
+			elementId: 'DLG1.V.R1.CONTAINER_7'
+		},
+		scroll: {
+			axis: 'both',
+			stopPropogation: false,
+			pull: {
+				duration: 1000,
+				y: 'auto',
+				x: 'auto'
+			},
+			indicator: {
+				show: true,
+				h: {
+					show: true,
+					location: 'top',
+					offset: '0px',
+					left: '0px',
+					right: '0px'
+				},
+				v: {
+					show: true,
+					location: 'right',
+					offset: '0px',
+					top: '0px',
+					bottom: '0px'
+				}
+			}
+		},
+		style: ''
+	},
+	height: '350px',
+	width: '80%',
+	title: {
+		html: 'Window',
+		show: false,
+		location: 'top',
+		direction: 'ltr'
+	},
+	disableMove: false,
+	theme: 'Alpha-Dark-Green',
+	onShow: function() {new Vivus('funny-graduation-cap-svg', {
+	    type: 'delayed',
+	    duration: 300,
+	    animTimingFunction: Vivus.EASE
+	  });}
+}
+	);
+DLG1_DlgObj._functions._showContainerWindow_CONTAINER_7 = function(objEle) {
+	var currWindow = DLG1_DlgObj.getWindow('DLG1_CONTAINERWINDOW_CONTAINER_7');
+	if(typeof DLG1_DlgObj._openWindows == 'undefined') DLG1_DlgObj._openWindows = {};
+	DLG1_DlgObj._openWindows['CONTAINER_7'] = currWindow;
+	currWindow.show();
+	}
 DLG1_DlgObj._functions.__fillContainer_LIST2 = function() {
 	var rExp = new RegExp('^A5dlg[0-9]*\.BODY');
 	var cEle = $('DLG1.V.R1.CONTAINER_5');
@@ -5547,6 +6998,24 @@ DLG1_DlgObj._functions.__fillContainer_LIST2_1 = function() {
 	}
 }
 DLG1_DlgObj._functions.__fillContainer_LIST2_1();
+DLG1_DlgObj._functions.__fillContainer_LIST4 = function() {
+	var path = DLG1_PanelObj._panelPath['PANELCARD_2'];
+	if(typeof path != 'undefined') {
+		var panel = DLG1_PanelObj.getPanel(path);
+		var id = panel.src.getPanelId('body');
+	} else {
+		var id = DLG1_PanelObj.getPanelId('body');
+	}
+	//removing scrolling from the PanelBody since we will be obliterating the Panel with a control that fills the body
+	if($(id + '.SCROLLWRAPPER')) {
+		A5.u.drag.remove(id,'scroll');
+	}
+	DLG1_DlgObj._listViewSettings['LIST4'].containerId = id;
+	DLG1_DlgObj._listViewSettings['LIST4'].className = '<Default>';
+	//blow away any existing content in the panel
+	$(id).innerHTML = '';
+}
+DLG1_DlgObj._functions.__fillContainer_LIST4();
 DLG1_DlgObj._hasPanels = true;
 DLG1_DlgObj._hasOnSynchronizeEvent = false;
 DLG1_DlgObj._functions.calcOrientation = function() {
@@ -16237,8 +17706,10 @@ PANELHEADER_4: ['userphoto','container:CONTAINER_4'],
 CONTAINER_4: ['hairdresser'],
 CONTAINER_5: ['LIST2'],
 CONTAINER_6: ['LIST2_1'],
+PANELHEADER_5: ['Your_Points'],
 PANELFOOTER_1: ['container:CONTAINER_1'],
-CONTAINER_1: []
+CONTAINER_1: [],
+CONTAINER_7: []
 }
 DLG1_DlgObj._listsDV = ['LIST1'];
 //Add methods to the List prototype for Lists with Detail Views
@@ -21255,7 +22726,7 @@ var _dlgObj = window[options.componentAlias + '_DlgObj'];
 }
 )
 //End section - Add methods to List prototype
-DLG1_DlgObj._listControls = ['LIST2','LIST2_1','LIST1']
+DLG1_DlgObj._listControls = ['LIST2','LIST2_1','LIST4','LIST1']
 DLG1_DlgObj._formBoxControls = [];
 DLG1_DlgObj._localStorageSettings = {namespace: 'ALPHA_f5660b6b5cc844b98ba0d8073ef23531',friendlyName: '',description: '',persistVariableValues: false,__version: 1,persistComponentState: false,workingPreviewTestingFolder: '',restore: {variables: false,data: false,state: false},compressData: false,minify: false,variablesToNotPersist: '',workingPreviewTestingMode: 'Browser',compressListData: false}
 ;
@@ -21310,9 +22781,9 @@ DLG1_DlgObj.__info = {
 	"createdBy": "Paul",
 	"lastUpdatedBy": "",
 	"dateCreated": "2024-10-21",
-	"dateLastEdited": "2024-10-29",
+	"dateLastEdited": "2024-10-30",
 	"comments": "",
-	"revisionnumber": 33
+	"revisionnumber": 37
 }
 A5.__csdfmt = (obj) =>{ if(obj) return obj.stateInfo.__dtfmt};DLG1_DlgObj._workingPreview = false;
 $u.decimal = '.';
@@ -21334,7 +22805,7 @@ setTimeout(function(){
 		if ( mPass == mentPass)  {
 
 			DLG1_DlgObj.panelSetActive('PANELCARD_1');
-		
+			DLG1_DlgObj.showContainerWindow(this,'CONTAINER_7')
 		}
 	else {
 			alert('Wrong password');
@@ -21343,6 +22814,61 @@ setTimeout(function(){
 
 	},2000); } ; this._locked = true; flagLocked = true; var that = this; setTimeout(function() { that._locked = false; },300);}
 },this,false,'DLG1.V.R1.BUTTON_4_1');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$e.add('DLG1.V.R1.BUTTON_5',A5.d.evnts.click,function(e) {
+var _disabled = this.disabled; if(typeof _disabled == 'undefined') _disabled = false; if(!_disabled) {;var flagLocked = false; if (typeof this._locked != 'undefined') flagLocked = this._locked;  if(!flagLocked) {mimg = DLG1_DlgObj.getValue('userphoto');
+alert(mimg);
+DLG1_DlgObj.setValue('image1',mimg); } ; this._locked = true; flagLocked = true; var that = this; setTimeout(function() { that._locked = false; },300);}
+},this,false,'DLG1.V.R1.BUTTON_5');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$e.add('DLG1.V.R1.BUTTON_6',A5.d.evnts.click,function(e) {
+var _disabled = this.disabled; if(typeof _disabled == 'undefined') _disabled = false; if(!_disabled) {;var flagLocked = false; if (typeof this._locked != 'undefined') flagLocked = this._locked;  if(!flagLocked) {DLG1_DlgObj.hideContainerWindow('CONTAINER_7'); } ; this._locked = true; flagLocked = true; var that = this; setTimeout(function() { that._locked = false; },300);}
+},this,false,'DLG1.V.R1.BUTTON_6');
 
 DLG1_DlgObj.prepare();DLG1_DlgObj.populate(DLG1_DlgObj.originalValues[0]);
 DLG1_DlgObj._fireWatches(1);
@@ -21466,6 +22992,45 @@ if(listObj._refreshStateMessages) listObj._refreshStateMessages();
 
 
 
+var listObj = DLG1_DlgObj.getControl('LIST4');
+if(listObj) listObj._state.recordCount = 4;
+if(listObj) listObj._state.recordCountFormatted = '4';
+if(listObj) listObj._state.lastBreakValue = '';
+if(listObj) listObj._state.pageCount = 1;
+if(listObj) listObj._state.pageSize = 20;
+if(listObj) {var ele = $('DLG1.LIST4.RECORDCOUNT'); if(ele) ele.innerHTML = listObj._state.recordCountFormatted;};
+if(listObj) listObj._state.paginated = false;
+if(listObj) listObj._state._optimizedJSON = false;
+if(listObj) listObj._state.highlight = {  };
+if(listObj) listObj._state.whereClause = '';
+if(listObj) listObj._state.whereParameters = '|||C|MUSERNAME\n';
+listObj._state.order = '';
+		
+		var flagPersist = false;
+		if(typeof listObj._flagPersistDataOK != 'undefined') { 
+			if(listObj._flagPersistDataOK) { 
+				var data = listObj._data;
+				listObj.persistToStorage({mode:'populate', data: data, submode: 'ListViewData'});
+			}
+		}
+		
+		
+;
+if(listObj) listObj._state.pageCount = 1;
+DLG1_DlgObj._list_executeEvent('LIST4','afterRenderComplete',{});
+
+if(listObj._refreshStateMessages) listObj._refreshStateMessages();
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -21519,10 +23084,17 @@ var lObj = DLG1_DlgObj.getControl('LIST2_1');
 var __obj = {
 };
 if(lObj) $u.o.assign(lObj,__obj);;;
+var lObj = DLG1_DlgObj.getControl('LIST4');
+var __obj = {
+};
+if(lObj) $u.o.assign(lObj,__obj);;;
 var lObj = DLG1_DlgObj.getControl('LIST1');
 var __obj = {
 };
 if(lObj) $u.o.assign(lObj,__obj);;
+
+
+
 
 
 
@@ -21629,7 +23201,7 @@ if (ele) {
 		observer.observe(ele.contentDocument.documentElement);
 	}
 }
-;DLG1_DlgObj.refreshListData('LIST2,LIST2_1');
+;DLG1_DlgObj.refreshListData('LIST2,LIST2_1,LIST4');
 var options = {mode: 'incremental'};DLG1_DlgObj.refreshListData('LIST1',options);
 ;
 	DLG1_DlgObj.flagRenderComplete = true;
